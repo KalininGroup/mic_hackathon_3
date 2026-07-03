@@ -43,7 +43,7 @@ menu_icon: house-door
   <p style="font-size:1.05rem; color:#475467; margin-bottom:0;">
     <strong>Dates: TBA</strong> · Hybrid (In-person + Virtual)
   </p>
-  <p style="margin-top:6px;"><a href="https://kaliningroup.github.io/mic-hackathon/">See the 2024 edition</a></p>
+  <p style="margin-top:6px;"><a href="https://kaliningroup.github.io/mic-hackathon/">See the 2024 edition</a> · <a href="https://kaliningroup.github.io/mic_hackathon_2/">See the 2025 edition</a></p>
 </div>
 
 <div class="section-card">
@@ -60,9 +60,9 @@ menu_icon: house-door
   <h2>Multi-Site Participation</h2>
   <p>
     Attend in person or join remotely — teams will collaborate across sites and time zones.
-    Confirmed 2025 host sites include:
+    Confirmed 2026 host sites include:
   </p>
-  To be decided
+  <i>To be decided</i>
 <!--  <div class="grid-2" style="margin-top:10px;">
     <div>University of Tennessee, Knoxville (UTK)</div>
     <div>North Carolina State University (NCSU)</div>
