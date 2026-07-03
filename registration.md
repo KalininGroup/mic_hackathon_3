@@ -8,30 +8,41 @@ published: true
 ---
 
 <div style="
-  background:#fdecea;
+  background: #e9faed;
+  border:1px solid #c0f5cc;
+  color: #0a4e1a;
+  padding:1rem 1.2rem;
+  border-radius:10px;
+  font-size:1.05rem;
+  font-weight:600;
+  margin-bottom:1.5rem;
+  text-align: center;
+">
+  Registration will be open soon. Stay tuned!
+</div>
+
+<!-- <div style="
+  background: #fdecea;
   border:1px solid #f5c2c0;
-  color:#b71c1c;
+  color: #b71c1c;
   padding:1rem 1.2rem;
   border-radius:10px;
   font-size:1.05rem;
   font-weight:600;
   margin-bottom:1.5rem;
 ">
-  Registration will be open soon.  
-
-  Stay tuned!
-<!--  If you still wish to participate, please email Aditya
-  <a href="mailto:araghav4@vols.utk.edu" style="color:#b71c1c; text-decoration:underline;">
-    (araghav4@vols.utk.edu)
+  Registration is now closed. If you still wish to participate, please email Alla Slautina
+  <a href="mailto:aslautin@utk.edu" style="color:#b71c1c; text-decoration:underline;">
+    (aslautin@utk.edu)
   </a>
-  to request access for online attendance. -->
-</div>
+  to request access for online attendance.
+</div> -->
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const form = document.getElementById("onsite-registration-form");
+  const form = document.getElementById("reg-card");
   if (form) {
-    form.style.display = "none"; // hide entire form
+    form.style.display = "none"; // block - show entire form | none - hide entire form
   }
 });
 </script>
@@ -97,101 +108,81 @@ document.addEventListener("DOMContentLoaded", function () {
 .btn-primary:hover{ box-shadow: 0 8px 18px rgba(58,123,213,.25); }
 .btn-primary:active{ transform: translateY(1px); }
 .hint{ font-size:.9rem; color:#666; margin-top:.3rem; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 </style>
 
 {% raw %}
 <iframe name="gform_target" id="gform_target" style="display:none;"></iframe>
 
-<form class="reg-form"
-      action="https://docs.google.com/forms/d/e/1FAIpQLScDGl0L5HVDjOKBpGQMLPIFekOiFywDBH_Kut02T9I-DwqpbQ/formResponse"
-      method="POST"
-      target="gform_target"
-      id="onsite-registration-form">
+<div class="reg-card" id="reg-card">
+  <form class="reg-form"
+        action="https://docs.google.com/forms/d/e/1FAIpQLSdi2pCwZvjEdZDKpJhn4xhAve89AXFtOqG60CwQmVFla1ryJg/formResponse"
+        method="POST"
+        target="gform_target"
+        id="active-reg-form">
+    <p>
+      <label>Name <span class="required">*</span><br>
+        <input type="text" name="entry.2092238618" required placeholder="Your full name">
+      </label>
+    </p>
+    <p>
+      <label>Email <span class="required">*</span><br>
+        <input type="email" 
+               name="entry.1556369182" 
+               required 
+               placeholder="you@university.edu"
+               pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+               title="Please enter a complete email address (e.g., you@university.edu)">
+      </label>
+    </p>
+    <p>
+      <label>Organization <span class="required">*</span><br>
+        <input type="text" name="entry.479301265" required placeholder="e.g., University of Tennessee">
+      </label>
+    </p>
+    <fieldset>
+      <legend>Role in your Organization <span class="required">*</span></legend>
+      <label><input type="radio" name="entry.1617455898" value="Undergraduate Student" required> Undergraduate Student</label>
+      <label><input type="radio" name="entry.1617455898" value="Graduate Student"> Graduate Student</label>
+      <label><input type="radio" name="entry.1617455898" value="Postdoctoral Associates"> Postdoctoral Associates</label>
+      <label><input type="radio" name="entry.1617455898" value="Faculty"> Faculty</label>
+      <label><input type="radio" name="entry.1617455898" value="__other_option__"> Other</label>      
+      <!-- Notice the ID and the default hidden state we added here -->
+      <div id="other-role-container" style="display: none; margin-top: 0.5rem; animation: fadeIn 0.2s ease;">
+        <input type="text" name="entry.1617455898.other_option_response" placeholder="Please specify your role...">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Where do you want to attend the hackathon? <span class="required">*</span></legend>
+      <div class="checkgrid">
+        <label><input type="checkbox" name="entry.1753222212" value="Online"> Online</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Tennessee, Knoxville"> University of Tennessee, Knoxville</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Italian Institute of Technology - Genoa, Italy"> Italian Institute of Technology - Genoa, Italy</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Site 4"> Site 4</label>
+      </div>
+    </fieldset>
+    <p>
+      <label>What is your area of research?<br>
+        <textarea name="entry.2109138769" rows="4" placeholder="e.g., electron microscopy, optimization, active learning"></textarea>
+      </label>
+    </p>
+    <p><button class="btn-primary" type="submit" id="reg-submit">Submit registration</button></p>
+  </form>
 
-  <!-- ↓↓↓ keep ALL your existing fields exactly as you have them ↓↓↓ -->
-
-  <p>
-    <label>Name <span class="required">*</span><br>
-      <input type="text" name="entry.2092238618" required placeholder="Your full name">
-    </label>
-  </p>
-
-  <p>
-    <label>Email <span class="required">*</span><br>
-      <input type="email" name="entry.1556369182" required placeholder="you@university.edu">
-    </label>
-  </p>
-
-  <p>
-    <label>Organization <span class="required">*</span><br>
-      <input type="text" name="entry.479301265" required placeholder="e.g., University of Tennessee">
-    </label>
-  </p>
-
-  <fieldset>
-    <legend>Role in your Organization <span class="required">*</span></legend>
-    <label><input type="radio" name="entry.2064945275" value="Undergraduate Student" required> Undergraduate Student</label>
-    <label><input type="radio" name="entry.2064945275" value="Graduate Student"> Graduate Student</label>
-    <label><input type="radio" name="entry.2064945275" value="Postdoctoral Associates"> Postdoctoral Associates</label>
-    <label><input type="radio" name="entry.2064945275" value="Faculty"> Faculty</label>
-    <label><input type="radio" name="entry.2064945275" value="Other"> Other</label>
-    <div class="hint"><input type="text" name="entry.2064945275.other_option_response" placeholder="If Other, specify"></div>
-  </fieldset>
-
-  <fieldset>
-    <legend>Where do you want to attend the hackathon? <span class="required">*</span></legend>
-    <div class="checkgrid">
-
-      <!-- ACTIVE OPTIONS (put these first so they appear together) -->
-      <label><input type="checkbox" name="entry.1753222212" value="Online"> Online</label>
-      <label><input type="checkbox" name="entry.1753222212" value="Sungkyunkwan University (SKKU), Republic of Korea"> Sungkyunkwan University (SKKU), Republic of Korea</label>
-      <label><input type="checkbox" name="entry.1753222212" value="University of Michigan, Ann Arbor"> University of Michigan, Ann Arbor </label>
-    
-      <!-- ALL OTHER SITES (greyed out by your JS) -->
-      <label><input type="checkbox" name="entry.1753222212" value="University of Tennessee, Knoxville"> University of Tennessee, Knoxville</label>
-      <label><input type="checkbox" name="entry.1753222212" value="North Carolina State University"> North Carolina State University</label>
-      <label><input type="checkbox" name="entry.1753222212" value="Northwestern University"> Northwestern University</label>
-      <label><input type="checkbox" name="entry.1753222212" value="University of Illinois at Chicago"> University of Illinois at Chicago</label>
-      <label><input type="checkbox" name="entry.1753222212" value="Institut Català de Nanociència i Nanotecnologia (ICN2), Barcelona"> Institut Català de Nanociència i Nanotecnologia (ICN2) - ALBA Synchrotron, Barcelona</label>
-      <label><input type="checkbox" name="entry.1753222212" value="University of Toronto"> University of Toronto</label>
-      <label><input type="checkbox" name="entry.1753222212" value="University of Wisconsin"> University of Wisconsin</label>
-      <label><input type="checkbox" name="entry.1753222212" value="University of Colorado"> University of Colorado</label>
-      <label><input type="checkbox" name="entry.1753222212" value="Colorado School of Mines"> Colorado School of Mines</label>
-      <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Technology Delhi (IIT Delhi)"> Indian Institute of Technology Delhi (IIT Delhi)</label>
-      <label><input type="checkbox" name="entry.1753222212" value="Thermo Fisher Scientific – Eindhoven"> Thermo Fisher Scientific – Eindhoven</label>
-      <label><input type="checkbox" name="entry.1753222212" value="Johns Hopkins University"> Johns Hopkins University</label>
-      <label><input type="checkbox" name="entry.1753222212" value="AISCIA Informatics – Doha, Qatar"> AISCIA Informatics – Doha, Qatar </label>
-      <label><input type="checkbox" name="entry.1753222212" value="Pennsylvania State University"> Pennsylvania State University </label>
-      <label><input type="checkbox" name="entry.1753222212" value="University of Pennsylvania"> University of Pennsylvania </label>
-      <label><input type="checkbox" name="entry.1753222212" value="University of Cambridge">University of Cambridge</label>
-      <label><input type="checkbox" name="entry.1753222212" value="Nanyang Technological University (NTU), Singapore">Nanyang Technological University (NTU), Singapore </label>
-      <label><input type="checkbox" name="entry.1753222212" value="Texas A&M University">Texas A&M University</label>
-      <label><input type="checkbox" name="entry.1753222212" value="University of Cincinnati">University of Cincinnati</label>
-      <label><input type="checkbox" name="entry.1753222212" value="University College Dublin, Ireland">University College Dublin, Ireland</label>
-      <label><input type="checkbox" name="entry.1753222212" value="Oklahoma State University">Oklahoma State University</label>
-      <label><input type="checkbox" name="entry.1753222212" value="Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea">Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea</label>
-      <label><input type="checkbox" name="entry.1753222212" value="University of Illinois Urbana–Champaign (UIUC)">University of Illinois Urbana–Champaign (UIUC)</label>
-    
-    </div>
-  </fieldset>
-
-  <p>
-    <label>What is your area of research?<br>
-      <textarea name="entry.2109138769" rows="4" placeholder="e.g., electron microscopy, optimization, active learning"></textarea>
-    </label>
-  </p>
-
-  <p><button class="btn-primary" type="submit" id="reg-submit">Submit registration</button></p>
-</form>
-
-<!-- success alert -->
-<div id="reg-success" style="display:none; margin-top:.8rem; padding:.75rem 1rem; border:1px solid #c8e6c9; background:#e8f5e9; border-radius:10px; color:#256029;">
-  ✅ Thanks! Your registration was received.
+  <!-- success alert -->
+  <div id="reg-success" style="display:none; margin-top:.8rem; padding:.75rem 1rem; border:1px solid #c8e6c9; background:#e8f5e9; border-radius:10px; color:#256029; line-height: 1.5;">
+    ✅ <strong>Thank you! Your registration was submitted.</strong><br><br>
+    You will receive a confirmation email within the next <strong>5 working days</strong>. If you have not received your confirmation after this period, please submit your registration again or contact Alla Slautina at <a href="mailto:aslautin@utk.edu" style="color:#256029; text-decoration:underline;">aslautin@utk.edu</a>.
+  </div>
 </div>
 
 <script>
 (function() {
-  const form   = document.getElementById('onsite-registration-form');
+  const form   = document.getElementById('active-reg-form');
   const btn    = document.getElementById('reg-submit');
   const ok     = document.getElementById('reg-success');
   const iframe = document.getElementById('gform_target');
@@ -221,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const site = params.get('site');
   if(!site) return;
 
-  // Find the checkbox group (entry.1753222212) and tick the one that matches
+  // Find the checkbox group and tick the one that matches
   const boxes = document.querySelectorAll('input[type="checkbox"][name="entry.1753222212"]');
   let matched = false;
   boxes.forEach(b => {
@@ -231,22 +222,35 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
   if (matched) {
-    // Optionally scroll into view to show it's preselected
     const fieldset = boxes[0].closest('fieldset') || boxes[0].parentElement;
     fieldset && fieldset.scrollIntoView({behavior:'smooth', block:'start'});
   }
 })();
 </script>
 
-<!-- LOCK ALL SITES EXCEPT ONLINE + CAMBRIDGE -->
+<!-- LOCK SPECIFIC SITES -->
 <script>
 (function(){
   const boxes = document.querySelectorAll('input[type="checkbox"][name="entry.1753222212"]');
-  const MESSAGE = 'Registration is now closed.';
+  const MESSAGE = 'In-person registration for this site is now closed. Please select Online attendance.';
+
+  // 1. THE APPROVED LIST
+  // Add exact site names here.
+  // Comment specific site out with // to lock it.
+  // If a site is COMMENTED OUT in this list, it will be greyed out and locked.
+  const openSites = [
+    'Online',
+    'University of Tennessee, Knoxville',
+    'Italian Institute of Technology - Genoa, Italy',
+//    'Site 4'
+  ];
 
   boxes.forEach(box => {
     const val = box.value.trim();
-    const isOpen = ();
+    
+    // 2. CHECK THE LIST
+    // This checks if the current checkbox is included in your openSites array
+    const isOpen = openSites.includes(val); 
 
     if (!isOpen) {
       // mark visual state
@@ -275,4 +279,22 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 })();
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const roleRadios = document.querySelectorAll('input[name="entry.1617455898"]');
+  const otherContainer = document.getElementById('other-role-container');
+
+  roleRadios.forEach(radio => {
+    radio.addEventListener('change', function() {
+      // If 'Other' is selected, show the box. Otherwise, hide it.
+      if (this.value === '__other_option__') {
+        otherContainer.style.display = 'block';
+      } else {
+        otherContainer.style.display = 'none';
+      }
+    });
+  });
+});
 </script>

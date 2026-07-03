@@ -23,12 +23,12 @@ theme: minima
 # and registration_status flags below
 header_pages:
   - registration.md
-  - summary.md
-  - agenda.md
+  # - summary.md
+  # - agenda.md
   - beyond_hackathon.md
-  - awards.md
-   - projects.md
-  - submission.md
+  # - awards.md
+  # - projects.md
+  # - submission.md
   - resources.md
   - sites.md
   - about.md

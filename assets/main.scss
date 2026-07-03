@@ -2,7 +2,7 @@
 ---
 
 $content-width: 1200px;
-$header-brand-color: #fd7e14;// Orange
+$header-brand-color: #FF8200;// Orange
 @import "minima";
 
 .site-header {
@@ -323,3 +323,77 @@ ul.grid {
 }
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.ring-wrapper {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* Back to Top Button */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+    
+  background: #1d1d1dbf;
+  backdrop-filter: blur(8px);         /* frosted glass */
+  -webkit-backdrop-filter: blur(8px);
+    
+  color: #c3c3c3;
+  border: 1px solid rgba(255,255,255,0.08);
+    
+  cursor: pointer;
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.2s ease, background 0.3s ease;
+  z-index: 999;
+}
+
+#backToTop:hover {
+  background: rgba(29, 29, 29, 0.9);
+  transform: translateY(-2px);
+}
+
+#progressRing {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  transform-origin: center center;
+  pointer-events: none;
+}
+
+/* The ring itself */
+#backToTop circle {
+  fill: none;
+  stroke: #ff8200; /* UTK orange */
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-dasharray: 126;
+  stroke-dashoffset: 126;
+  transition: stroke-dashoffset 0.1s linear;
+}
+
+#arrowIcon {
+  width: 64px;
+  height: 64px;
+  z-index: 2;
+  pointer-events: none;
+}
+
