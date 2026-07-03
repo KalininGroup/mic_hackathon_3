@@ -1,0 +1,78 @@
+title: Microscopy Hackathon
+nav_title: Microscopy Hackathon
+
+event_date: TBA
+registration_opens_date: Now
+registration_closes_date: TBA for in-person
+
+author:
+mailbox_address:
+
+description: >-
+  A global multi-site hackathon focused on AI, machine learning, digital twins,
+  and autonomous microscopy. Participants collaborate across universities,
+  national labs, and industry partners to build data-driven solutions for
+  microscopy and materials science.
+
+url: "https://kaliningroup.github.io/mic_hackathon_3/"
+github_repo: kaliningroup
+
+theme: minima
+
+# The actual visibility of the nav bar links is influenced by the event_status
+# and registration_status flags below
+header_pages:
+  - registration.md
+  - summary.md
+  - agenda.md
+  - beyond_hackathon.md
+  - awards.md
+   - projects.md
+  - submission.md
+  - resources.md
+  - sites.md
+  - about.md
+
+
+# Event status
+#   soon = event is yet to happen
+#    now = event is currently happening
+#   over = event has happened
+#  (demo = show all pages to demonstrate the template)
+event_status: soon
+
+# Open and close the registration form
+#   soon = Registration has not yet opened
+#   open = Registration form is open
+# closed = Registration form is now closed
+#  (demo = show all pages to demonstrate the template)
+registration_status: open
+
+# Remove ".html" from default permalinks
+permalink: pretty
+
+# (See default layout below)
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Social media links
+# (See default layout below)
+twitter:
+  card: summary_large_image
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/advert.png
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Simplify tables of contents
+kramdown:
+  toc_levels: "2,3"
