@@ -59,6 +59,7 @@ published: true
   const sites = [
     { id:"site-utk",  name:"University of Tennessee, Knoxville (UTK)", city:"Knoxville, TN, USA", lat:35.954,   lon:-83.929,  icon:utkIcon },
     { id:"site-iit",  name:"Italian Institute of Technology (IIT)",   city:"Genoa, Italy",   lat:44.4749,  lon:8.9062 },
+    { id:"site-ncsu",  name:"North Carolina State University (NCSU)",   city:"Raleigh, NC, USA",   lat:35.7847,  lon:-78.6821 },
   ];
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -155,7 +156,8 @@ published: true
       <img class="site-logo" src="{{ '/assets/UTK.jpg' | relative_url }}" alt="UTK logo">
       <div class="site-meta">
         Knoxville, TN • Building/Room: <em>TBA</em><br>
-        Local lead: <a href="mailto:sergei2@utk.edu">sergei2@utk.edu</a>
+        Local lead: Sergei V. Kalinin<br>
+        <a href="mailto:sergei2@utk.edu">sergei2@utk.edu</a>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University+of+Tennessee+Knoxville" target="_blank" rel="noopener">Map</a>
@@ -174,6 +176,20 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Istituto+Italiano+di+Tecnologia+Center+for+Convergent+Technologies" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=Italian%20Institute%20of%20Technology%20-%20Genoa,%20Italy" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- NCSU -->
+    <div class="site-card" id="site-ncsu">
+      <span class="badge">North Carolina, USA</span>
+      <h3>North Carolina State University (NCSU)</h3>
+      <img class="site-logo" src="{{ '/assets/ncsu.png' | relative_url }}" alt="NCSU logo">
+      <div class="site-meta">
+        Raleigh, NC • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=North%20Carolina%20State%20University" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=North%20Carolina%20State%20University" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- Online (no pin) -->

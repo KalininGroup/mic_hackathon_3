@@ -184,7 +184,7 @@ published: true
     The <strong>2025</strong> edition marked a major milestone, evolving into a massive 3-day <em>multi-site hybrid event</em>. As highlighted in our <a href="https://kaliningroup.github.io/mic_hackathon_2/summary/" target="_blank" rel="noopener">2025 Event Summary</a>, it connected over 250 participants across 12+ global sites and generated more than 70 innovative projects, proving the power of real-time collaboration across worldwide research centers.
   </p>
   <p>
-    Now, the upcoming <strong>2026</strong> edition aims to push these boundaries even further, bringing new challenges and expanding our global community of AI and microscopy innovators.
+    Now, the upcoming <strong>2026</strong> edition aims to push these boundaries even further, bringing new challenges and expanding our global community of AI/ML and microscopy innovators.
   </p>
 </div>
 
@@ -217,7 +217,7 @@ published: true
             </a>
           </span>
         </div>
-        <div class="affil">University of Tennessee, Knoxville; Pacific Northwest National Laboratory</div>        
+        <div class="affil">University of Tennessee, Knoxville</div>        
       </div>
     </div>
     <!-- Gerd -->

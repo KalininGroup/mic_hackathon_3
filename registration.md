@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Online"> Online</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Tennessee, Knoxville"> University of Tennessee, Knoxville</label>
         <label><input type="checkbox" name="entry.1753222212" value="Italian Institute of Technology - Genoa, Italy"> Italian Institute of Technology - Genoa, Italy</label>
-        <label><input type="checkbox" name="entry.1753222212" value="Site 4"> Site 4</label>
+        <label><input type="checkbox" name="entry.1753222212" value="North Carolina State University"> North Carolina State University</label>
       </div>
     </fieldset>
     <p>
@@ -242,7 +242,7 @@ document.addEventListener("DOMContentLoaded", function () {
     'Online',
     'University of Tennessee, Knoxville',
     'Italian Institute of Technology - Genoa, Italy',
-//    'Site 4'
+    'North Carolina State University'
   ];
 
   boxes.forEach(box => {

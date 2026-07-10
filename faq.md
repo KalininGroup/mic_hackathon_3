@@ -276,7 +276,7 @@ details.section-card {
 <details class="section-card faq-item">
   <summary>Who supports the awards, and how will they be paid?</summary>
 
-  <p>Awards are provided by sponsors such as Renaissance Philanthropy, Covalent Metrology, Thermo Fisher Scientific, Theia Scientific, MSA Student Council, Toyota Research Institute, Waviks, Polaron and others.</p>
+  <p>Awards are provided by sponsors such as Renaissance Philanthropy, Nanosurf, Thermo Fisher Scientific, Zurich Instruments, and others.</p>
 
   <p>Awards may be paid directly by the sponsor in cognizance of possible political and other restrictions. Some sponsors may choose winners independently, while others committed to follow jury recommendations.</p>
 </details>

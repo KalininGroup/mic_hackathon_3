@@ -57,9 +57,8 @@ published: true
     Please give a try to our 
     <a href="https://github.com/pycroscopy/DTMicroscope"
        target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
-       Microscope simulator
+       Microscope simulator.
     </a>
-    (in development).  
     Head to the 
     <a href="https://github.com/pycroscopy/DTMicroscope/tree/main/notebooks"
        target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
@@ -81,7 +80,7 @@ published: true
 
 
 
-<div class="section-card">
+<!-- <div class="section-card">
   <h2>Hackathon Launch Meeting (Nov 21, 2025)</h2>
   <p>
     Recording of the official launch session, covering team formation using Slack and Miro,
@@ -93,11 +92,11 @@ published: true
   </iframe>
 
   <p><em>Video credits: Hackathon Organizing Team</em></p>
-</div>
+</div> -->
 
 
 
-<div class="section-card">
+<!-- <div class="section-card">
   <h2>Using Slack & Miro for Collaboration</h2>
   <p>
   This short video introduces how participants can use <strong>Slack</strong> and <strong>Miro</strong> effectively before and during the hackathon — to form teams, discuss ideas, interact with the organizers and collaborate with members even if they’re at different locations.  
@@ -114,7 +113,7 @@ published: true
   <p style="font-size:0.9rem; color:#475467; text-align:right; margin-top:6px;">
   🎬 <em>Video credits: Utkarsh Pratiush</em>
   </p>
-</div>
+</div> -->
 
 <div class="section-card">
   <h2>Understanding Digital Twins in Microscopy</h2>
@@ -135,7 +134,7 @@ published: true
   </p>
 </div>
 
-<div class="section-card">
+<!-- <div class="section-card">
   <h2>Hackathon Data Access & Submission Guide</h2>
   <p>
     This tutorial explains where to find the datasets provided for the Hackathon,  
@@ -152,6 +151,6 @@ published: true
 
   <p style="font-size:0.9rem; color:#475467; text-align:right; margin-top:6px;">
     🎬 <em>Video credits: Rama Vasudevan and Aditya Raghavan</em>
-  </p>
+  </p> 
 
-</div>
+</div> -->
