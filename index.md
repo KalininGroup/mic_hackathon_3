@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AI and ML for Microscopy, Hackathon
+title: Machine Learning for Microscopy Hackathon 3
 menu_title: Home
 menu_icon: house-door
 ---
@@ -39,7 +39,7 @@ menu_icon: house-door
 </style>
 
 <div style="text-align:center; margin-top:10px;">
-  <h1 style="font-size:1.7rem; color:#1f2d4f; margin-bottom:8px;">Machine Learning for Microscopy Hackathon 3</h1>
+  <!-- <h1 style="font-size:1.7rem; color:#1f2d4f; margin-bottom:8px;">Machine Learning for Microscopy Hackathon 3</h1> -->
   <p style="font-size:1.05rem; color:#475467; margin-bottom:0;">
     <strong>December 15-17, 2026</strong> · Hybrid (In-person + Virtual)
   </p>
@@ -93,7 +93,7 @@ menu_icon: house-door
   </div>
   <p style="margin-top:20px;"><i>More sites will be added soon. Stay tuned!</i></p>
   <p style="margin-top:10px;">
-    <strong>Interested in hosting a site? Contact Sergei Kalinin:<a href="mailto:sergei2@utk.edu">sergei2@utk.edu</a>.</strong>
+    <strong>Interested in hosting a site? Contact Sergei Kalinin: <a href="mailto:sergei2@utk.edu">sergei2@utk.edu</a>.</strong>
   </p>
 </div>
 
@@ -114,12 +114,12 @@ menu_icon: house-door
     <tbody>
       <tr>
         <td>Registration & Team Formation</td>
-        <td>TBA</td> <!-- Now - Dec 13 -->
-        <td>Register to attend online or in-person at one of our sites. Registration for attending in-person closes December 9</td>
+        <td>Now - Dec 13</td>
+        <td>Register to attend online or in-person at one of our sites. Registration for attending in-person closes December 6</td>
       </tr>
       <tr>
         <td>Team Formation</td>
-        <td>TBA</td> <!-- Now - Dec 15 -->
+        <td>Now - Dec 15</td>
         <td>Join Slack, and find collaborators.</td>
       </tr>      
       <tr>

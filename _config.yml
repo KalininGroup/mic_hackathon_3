@@ -1,5 +1,5 @@
-title: Microscopy Hackathon
-nav_title: Microscopy Hackathon
+title: Microscopy Hackathon 3
+nav_title: Microscopy Hackathon 3
 
 event_date: TBA
 registration_opens_date: Now
@@ -23,15 +23,16 @@ theme: minima
 # and registration_status flags below
 header_pages:
   - registration.md
+  - sponsors.md
+  - sites.md
+  - resources.md
+  - beyond_hackathon.md
+  - about.md
   # - summary.md
   # - agenda.md
-  - beyond_hackathon.md
   # - awards.md
   # - projects.md
   # - submission.md
-  - resources.md
-  - sites.md
-  - about.md
 
 
 # Event status

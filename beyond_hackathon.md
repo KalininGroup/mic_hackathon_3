@@ -26,9 +26,7 @@ permalink: /beyond-hackathon/
     please reach out. We are delighted to collaborate on <strong>joint research projects</strong> and help you deploy your workflows on physical instruments.
   </p>
   <p>
-    Our partners in automation include <strong>Rama Vasudevan</strong> and <strong>Yongtao Liu</strong> at ORNL,
-    <strong>Steven R. Spurgeon</strong> at the University of Colorado Boulder, and
-    <strong>Marcos Penedo García</strong> and his group at EPFL.
+    Our partners in automation include <strong>Rama Vasudevan</strong> and <strong>Yongtao Liu</strong> at ORNL, and <strong>Marcos Penedo García</strong> and his group at EPFL.
   </p>
 </section>
 

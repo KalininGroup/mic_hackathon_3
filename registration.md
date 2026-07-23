@@ -7,7 +7,7 @@ permalink: /registration/
 published: true
 ---
 
-<div style="
+<!-- <div style="
   background: #e9faed;
   border:1px solid #c0f5cc;
   color: #0a4e1a;
@@ -19,7 +19,7 @@ published: true
   text-align: center;
 ">
   Registration will be open soon. Stay tuned!
-</div>
+</div> -->
 
 <!-- <div style="
   background: #fdecea;
@@ -42,7 +42,7 @@ published: true
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("reg-card");
   if (form) {
-    form.style.display = "none"; // block - show entire form | none - hide entire form
+    form.style.display = "block"; // block - show entire form | none - hide entire form
   }
 });
 </script>
@@ -115,6 +115,13 @@ document.addEventListener("DOMContentLoaded", function () {
 }
 </style>
 
+<p class="hint">
+  Pick the site that’s closest to you (or choose <strong><a href="{{ '/registration/' | relative_url }}?site=Online" class="btn-primary;" style="color: #3a7bd5; text-decoration: underline; cursor: pointer;">Online</a></strong>). 
+  <br><br>
+  <em><strong>Note:</strong> We are actively adding more hosting sites! We recommend registering now to get early access to Slack and Miro for team building. If a location closer to you is announced later, you can easily change your site selection by replying to your confirmation email.</em><br><br>
+</p>
+
+
 {% raw %}
 <iframe name="gform_target" id="gform_target" style="display:none;"></iframe>
 
@@ -134,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <input type="email" 
                name="entry.1556369182" 
                required 
-               placeholder="you@university.edu"
+               placeholder="e.g., you@university.edu"
                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                title="Please enter a complete email address (e.g., you@university.edu)">
       </label>

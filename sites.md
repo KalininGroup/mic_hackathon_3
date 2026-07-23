@@ -29,7 +29,35 @@ published: true
   padding:2px;
   border:1px solid #e6e6e6;
 }
+
+.notice-box {
+  background: #fff4e6; 
+  border-left: 5px solid #ff8200; 
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.notice-box h3 {
+  color: #ff8200;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.notice-box p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #444;
+}
 </style>
+
+<div class="notice-box">
+  <h3><i class="bi bi-geo-alt"></i> More Locations Coming Soon!</h3>
+  <p>Our list of co-hosting universities is continually expanding. We encourage you to register Online or at your nearest available site <strong>today</strong> to get early access to our Slack and Miro workspaces. Joining early gives you a head start on meeting collaborators and forming your team! If a new physical location opens closer to you before the event, you will be able to easily switch your registration.</p>
+</div>
 
 <div id="worldmap"></div>
 
