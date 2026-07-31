@@ -46,7 +46,7 @@ nav_exclude: false
 
 <h2>Hackathon Submissions</h2>
 
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th>Project</th>
@@ -107,7 +107,7 @@ nav_exclude: false
       {% endif %}
     {% endfor %}
   </tbody>
-</table>
+</table> -->
 
 
 

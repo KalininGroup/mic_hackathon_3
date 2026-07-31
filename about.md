@@ -396,6 +396,7 @@ published: true
     <img src="{{ '/assets/renaissance.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/nanosurf.svg' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/zhinst.svg' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/parksystems.svg' | relative_url }}"  style="max-height:64px;">
   </div>
     <!-- <img src="{{ '/assets/ONR.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/TheiaScientific.png' | relative_url }}"  style="max-height:64px;">

@@ -15,7 +15,7 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
 
 ---
 
-## Pennsylvania State University, Pennsylvania, USA
+<!-- ## Pennsylvania State University, Pennsylvania, USA
 
 <div class="poster-gallery">
   <figure class="poster-card"
@@ -28,9 +28,9 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
   </figure>
 </div>
 
----
+--- -->
 
-## ICN2 — Institut Català de Nanociència i Nanotecnologia, Barcelona, Spain
+<!-- ## ICN2 — Institut Català de Nanociència i Nanotecnologia, Barcelona, Spain
 
 <div class="poster-gallery">
   <figure class="poster-card"
@@ -43,9 +43,9 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
   </figure>
 </div>
 
----
+--- -->
 
-## University of Toronto, Ontario, Canada
+<!-- ## University of Toronto, Ontario, Canada
 
 <div class="poster-gallery">
 
@@ -87,9 +87,9 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
 
 </div>
 
----
+--- -->
 
-## AISCIA, Qatar
+<!-- ## AISCIA, Qatar
 
 <div class="poster-gallery">
 
@@ -104,34 +104,16 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
 
 </div>
 
----
+--- -->
 
 ## University of Tennessee, Knoxville
 
 <div class="poster-gallery">
 
   <figure class="poster-card"
-          data-vote-value="University of Tennessee - Poster 1">
-    <img src="{{ '/posters/UTK_1.jpg' | relative_url }}" alt="University of Tennessee poster 1">
-    <figcaption>University of Tennessee — Poster 1</figcaption>
-    <button type="button" class="select-btn">
-      Select this poster
-    </button>
-  </figure>
-
-  <figure class="poster-card"
-          data-vote-value="University of Tennessee - Poster 2">
-    <img src="{{ '/posters/UTK_2.jpg' | relative_url }}" alt="University of Tennessee poster 2">
-    <figcaption>University of Tennessee — Poster 2</figcaption>
-    <button type="button" class="select-btn">
-      Select this poster
-    </button>
-  </figure>
-
-  <figure class="poster-card"
-          data-vote-value="University of Tennessee - Poster 3">
-    <img src="{{ '/posters/UTK_3.jpg' | relative_url }}" alt="University of Tennessee poster 3">
-    <figcaption>University of Tennessee — Poster 3</figcaption>
+          data-vote-value="University of Tennessee">
+    <img src="{{ '/posters/UTK.png' | relative_url }}" alt="University of Tennessee">
+    <figcaption>University of Tennessee</figcaption>
     <button type="button" class="select-btn">
       Select this poster
     </button>
@@ -145,7 +127,9 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
 
 ## Submit Your Popular Opinion Vote
 
-<div id="vote-controls">
+<i>Voting will be available soon.</i>
+
+<!-- <div id="vote-controls">
   <p class="vote-note">
     Selected poster: <strong><span id="selected-label">None</span></strong>
   </p>
@@ -163,7 +147,7 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
   <button id="submit-vote-btn" type="button" class="submit-vote-btn">
     Submit Vote
   </button>
-</div>
+</div> -->
 
 
 <p style="margin-top: 1.5rem; font-size: 0.9rem; opacity: 0.8;">

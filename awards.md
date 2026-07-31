@@ -57,6 +57,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
     </tr>
   </thead>
 
+<template> <!-- template hides the whole block -->
   <tbody>
     <!-- Renaissance Philanthropy (2 rows) -->
     <tr>
@@ -82,7 +83,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — Autonomous Identification of Metal Microstructural Features via Latent Space Mapping-Based Microscope Control
       </td>
     </tr>
-
     <!-- Covalent Metrology (2 rows) -->
     <tr>
       <td rowspan="2" style="text-align:center; vertical-align:middle;">
@@ -107,7 +107,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — RONIN - Ronchigram based Optical Neural Inference for aberration detection
       </td>
     </tr>
-
     <!-- Theia Scientific -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -123,7 +122,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — Automated particle detection and quantitative analysis from electron microscopy images
       </td>
     </tr>
-
     <!-- Toyota Research Institute -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -139,7 +137,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — DeepScan Pro: Intelligent Microscopy Agent
       </td>
     </tr>
-
     <!-- Oxford Instruments - Asylum Research -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -155,7 +152,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — Angle-Dependent Morphologies of Ferroelectric Domain Walls
       </td>
     </tr>
-
     <!-- Polaron (2 rows) -->
     <tr>
       <td rowspan="2" style="text-align:center; vertical-align:middle;">
@@ -180,7 +176,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — EM-Caddie
       </td>
     </tr>
-
     <!-- JEOL -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -196,7 +191,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — Machine Learning Denoising of Reciprocal Space Maps for realistic center-of-mass evaluation
       </td>
     </tr>
-
     <!-- MSA Student Council -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -212,7 +206,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology
       </td>
     </tr>
-
     <!-- Waviks -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -228,7 +221,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — EM-Caddie
       </td>
     </tr>
-
     <!-- Hugging Face -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -244,7 +236,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — Contrastive Micrograph-Metadata Pre-Training
       </td>
     </tr>
-
     <!-- Mat3ra -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -260,7 +251,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — Interpretable Digital Twins for Autonomous STEM Aberration Correction
       </td>
     </tr>
-
     <!-- DENS Solutions -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -276,7 +266,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — Automated particle detection and quantitative analysis from electron microscopy images
       </td>
     </tr>
-
     <!-- COMMAT -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -292,7 +281,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology
       </td>
     </tr>
-
     <!-- Hitachi -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -308,7 +296,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         — ANCHOR: Registration by Alignment
       </td>
     </tr>
-
     <!-- AISCIA -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -325,6 +312,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       </td>
     </tr>
   </tbody>
+</template>
 </table>
 
 </div>
@@ -338,7 +326,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
 <div style="border:1px solid rgba(0,0,0,0.12); border-radius:12px; padding:14px 16px; background:rgba(255,255,255,0.75);">
   <h3 style="margin:0 0 6px 0;">Popular Opinion Poster Voting</h3>
   <p style="margin:0;">
-    <strong>Winner:</strong> AISCIA Qatar<br>
-    Voted as the <strong>Popular Opinion Poster</strong> winner by the community.
+    <strong>Winner:</strong> TBA<br>
+    <!-- Voted as the <strong>Popular Opinion Poster</strong> winner by the community. -->
   </p>
 </div>

@@ -56,7 +56,7 @@ published: true
 
 <div class="notice-box">
   <h3><i class="bi bi-geo-alt"></i> More Locations Coming Soon!</h3>
-  <p>Our list of co-hosting universities is continually expanding. We encourage you to register Online or at your nearest available site <strong>today</strong> to get early access to our Slack and Miro workspaces. Joining early gives you a head start on meeting collaborators and forming your team! If a new physical location opens closer to you before the event, you will be able to easily switch your registration.</p>
+  <p>Our list of co-hosting universities is continually expanding. We encourage you to register Online or at your nearest available site <strong>today</strong> to get early access to our Slack and Miro workspaces. Joining early gives you a head start on meeting collaborators and forming your team! If a new physical location opens closer to you before the event, you will be able to easily switch your registration before the deadline.</p>
 </div>
 
 <div id="worldmap"></div>
@@ -88,6 +88,11 @@ published: true
     { id:"site-utk",  name:"University of Tennessee, Knoxville (UTK)", city:"Knoxville, TN, USA", lat:35.954,   lon:-83.929,  icon:utkIcon },
     { id:"site-iit",  name:"Italian Institute of Technology (IIT)",   city:"Genoa, Italy",   lat:44.4749,  lon:8.9062 },
     { id:"site-ncsu",  name:"North Carolina State University (NCSU)",   city:"Raleigh, NC, USA",   lat:35.7847,  lon:-78.6821 },
+    { id:"site-mpi-fkf",  name:"Max Planck Institute for Solid State Research",   city:"Stuttgart, Germany",   lat:48.746562,  lon:9.082313 },
+    { id:"site-skku",  name:"School of Advanced Materials Science and Engineering, Sungkyunkwan University",   city:"Seoul, South Korea",   lat:37.294688,  lon:126.976812 },
+    { id:"site-hu-berlin",  name:"Department of Physics, Humboldt University of Berlin",   city:"Berlin, Germany",   lat:52.432812,  lon:13.529687 },
+    { id:"site-manchester-uni",  name:"The University of Manchester",   city:"Manchester, UK",   lat:53.465688,  lon:-2.232687 },
+    { id:"site-kanazawa-uni",  name:"Kanazawa University",   city:"Kanazawa, Japan",   lat:36.545938,  lon:136.707562 },
   ];
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -180,12 +185,12 @@ published: true
     <!-- UTK -->
     <div class="site-card" id="site-utk">
       <span class="badge">Tennessee, USA</span>
-      <h3>University of Tennessee, Knoxville (UTK)</h3>
-      <img class="site-logo" src="{{ '/assets/UTK.jpg' | relative_url }}" alt="UTK logo">
+      <h3>University of Tennessee, Knoxville</h3>
+      <img class="site-logo" src="{{ '/assets/UTK.svg' | relative_url }}" alt="UTK logo" style="max-height:64px;">
       <div class="site-meta">
         Knoxville, TN • Building/Room: <em>TBA</em><br>
-        Local lead: Sergei V. Kalinin<br>
-        <a href="mailto:sergei2@utk.edu">sergei2@utk.edu</a>
+        Contact: Alla Slautina<br>
+        <a href="mailto:aslautin@utk.edu">aslautin@utk.edu</a>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University+of+Tennessee+Knoxville" target="_blank" rel="noopener">Map</a>
@@ -195,29 +200,99 @@ published: true
     <!-- IIT -->
     <div class="site-card" id="site-iit">
       <span class="badge">Genoa, Italy</span>
-      <h3>Italian Institute of Technology (IIT)</h3>
-      <img class="site-logo" src="{{ '/assets/IIT.png' | relative_url }}" alt="IIT logo">
+      <h3>Italian Institute of Technology</h3>
+      <img class="site-logo" src="{{ '/assets/IIT.png' | relative_url }}" alt="IIT logo" style="max-height:64px;">
       <div class="site-meta">
         Genoa, Italy • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=Istituto+Italiano+di+Tecnologia+Center+for+Convergent+Technologies" target="_blank" rel="noopener">Map</a>
+        <a href="https://maps.google.com/?q=Istituto%20Italiano%20di%20Tecnologia%20Center%20for%20Convergent%20Technologies" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=Italian%20Institute%20of%20Technology%20-%20Genoa,%20Italy" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- NCSU -->
     <div class="site-card" id="site-ncsu">
       <span class="badge">North Carolina, USA</span>
-      <h3>North Carolina State University (NCSU)</h3>
-      <img class="site-logo" src="{{ '/assets/ncsu.png' | relative_url }}" alt="NCSU logo">
+      <h3>North Carolina State University</h3>
+      <img class="site-logo" src="{{ '/assets/ncsu.png' | relative_url }}" alt="NCSU logo" style="max-height:64px;">
       <div class="site-meta">
-        Raleigh, NC • Building/Room: <em>TBD</em><br>
-        Contact: <em>TBD</em>
+        Raleigh, NC • Building/Room: <em>TBA</em><br>
+        Contact: <em>TBA</em>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=North%20Carolina%20State%20University" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=North%20Carolina%20State%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- MPI-FKF -->
+    <div class="site-card" id="site-mpi-fkf">
+      <span class="badge">Stuttgart, Germany</span>
+      <h3>Max Planck Institute for Solid State Research</h3>
+      <img class="site-logo" src="{{ '/assets/mpi-fkf.png' | relative_url }}" alt="MPI-FKF logo" style="max-height:64px;">
+      <div class="site-meta">
+        Stuttgart, Germany • Building/Room: <em>TBA</em><br>
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Max%20Planck%20Institute%20for%20Solid%20State%20Research" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Max%20Planck%20Institute%20for%20Solid%20State%20Research%20-%20Stuttgart,%20Germany" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- SKKU -->
+    <div class="site-card" id="site-skku">
+      <span class="badge">Seoul, South Korea</span>
+      <h3>School of Advanced Materials Science and Engineering, Sungkyunkwan University</h3>
+      <img class="site-logo" src="{{ '/assets/skku.png' | relative_url }}" alt="SKKU logo" style="max-height:64px;">
+      <div class="site-meta">
+        Seoul, South Korea • Building/Room: <em>TBA</em><br>
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=School%20of%20Advanced%20Materials%20Science%20and%20Engineering%20SKKU" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Sungkyunkwan%20University%20-%20Seoul,%20South%20Korea" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Humboldt Uni -->
+    <div class="site-card" id="site-hu-berlin">
+      <span class="badge">Berlin, Germany</span>
+      <h3>Department of Physics, Humboldt University of Berlin</h3>
+      <img class="site-logo" src="{{ '/assets/hu-berlin.svg' | relative_url }}" alt="Humboldt University logo" style="max-height:64px;">
+      <div class="site-meta">
+        Berlin, Germany • Building/Room: <em>TBA</em><br>
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Institut%20für%20Physik%20der%20Humboldt-Universität%20Berlin" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Humboldt%20University%20of%20Berlin%20-%20Berlin,%20Germany" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Manchester Uni -->
+    <div class="site-card" id="site-manchester-uni">
+      <span class="badge">Manchester, UK</span>
+      <h3>The University of Manchester</h3>
+      <img class="site-logo" src="{{ '/assets/manchester-uni.png' | relative_url }}" alt="Manchester University logo" style="max-height:64px;">
+      <div class="site-meta">
+        Manchester, UK • Building/Room: <em>TBA</em><br>
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=The%20University%20of%20Manchester" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=The%20University%20of%20Manchester%20-%20Manchester,%20UK" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Kanazawa Uni -->
+    <div class="site-card" id="site-kanazawa-uni">
+      <span class="badge">Kanazawa, Japan</span>
+      <h3>Kanazawa University</h3>
+      <img class="site-logo" src="{{ '/assets/kanazawa_uni.png' | relative_url }}" alt="Kanazawa University logo" style="max-height:64px;">
+      <div class="site-meta">
+        Kanazawa, Japan • Building/Room: <em>TBA</em><br>
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Kanazawa%20University" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Kanazawa%20University%20-%20Kanazawa,%20Japan" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- Online (no pin) -->

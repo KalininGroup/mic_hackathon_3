@@ -79,19 +79,19 @@ permalink: /event/
 }
 </style>
 
-## Hackathon Participation Overview
+## Hackathon 3 Participation Overview
 
-Registration for the 2025 AI/ML Microscopy Hackathon is now closed.
+Registration for the AI/ML Microscopy Hackathon 3 is now open.
 
-We received **689 registrations** in total, with participants joining from universities, national laboratories, and industry worldwide.
+Currently we received **21 registrations** in total, with participants joining from universities, national laboratories, and industry worldwide.
 
-- **Online participation:** 468 registered participants  
-- **Local site participation:** 221 participants across multiple host institutions  
+- **Online participation:** 13 registered participants  
+- **Local site participation:** 7 participants across multiple host institutions
 
-This page shares live snapshots from the ongoing hackathon, including online sessions and local site activities, and will continue to be updated throughout the event.
+This page will share live snapshots from the ongoing hackathon, including online sessions and local site activities, and will continue to be updated throughout the event.
 
 ## Zoom Kick-off Sessions
-<div class="photo-grid">
+<!-- <div class="photo-grid">
   <img class="lightboxable"
        src="{{ '/assets/event_photos/Online/Zoom1.png' | relative_url }}"
        alt="Hackathon Zoom session 1">
@@ -103,7 +103,7 @@ This page shares live snapshots from the ongoing hackathon, including online ses
   <img class="lightboxable"
        src="{{ '/assets/event_photos/Online/Zoom3.png' | relative_url }}"
        alt="Hackathon Zoom session 3">
-</div>
+</div> -->
 
 <!-- Global Lightbox Modal (one-time) -->
 <div id="lightbox" class="lb" aria-hidden="true">

@@ -169,6 +169,11 @@ permalink: /sponsors/
   <a href="https://www.zhinst.com" class="sponsor-logo-card" target="_blank" rel="noopener" title="Zurich Instruments">
     <img src="{{ '/assets/zhinst.svg' | relative_url }}" alt="Zurich Instruments Logo">
   </a>
+
+  <!-- Park Systems -->
+  <a href="https://www.parksystems.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Zurich Instruments">
+    <img src="{{ '/assets/parksystems.svg' | relative_url }}" alt="Park Systems Logo">
+  </a>
 </div>
 
 <div class="cta-banner">
