@@ -175,6 +175,15 @@
     { id:"site-hu-berlin",  name:"Department of Physics, Humboldt University of Berlin",   city:"Berlin, Germany",   lat:52.432812,  lon:13.529687 },
     { id:"site-manchester-uni",  name:"The University of Manchester",   city:"Manchester, UK",   lat:53.465688,  lon:-2.232687 },
     { id:"site-kanazawa-uni",  name:"Kanazawa University",   city:"Kanazawa, Japan",   lat:36.545938,  lon:136.707562 },
+    { id:"site-tu-darmstadt",  name:"Technical University of Darmstadt",   city:"Darmstadt, German",   lat:49.874813,  lon:8.656313 },
+    { id:"site-leeds-uni",  name:"University of Leeds",   city:"Leeds, United Kingdom",   lat:53.807938,  lon:-1.553313 },
+    { id:"site-tcd",  name:"Trinity College Dublin",   city:"Dublin, Ireland",   lat:53.343812,  lon:-6.254563 },
+    { id:"site-tcd",  name:"Ulster University",   city:"Belfast, UK",   lat:54.604687,  lon:-5.929063 },
+    { id:"site-iis",  name:"Institute of Industrial Science",   city:"The University of Tokyo, Japan",   lat:35.661938,  lon:139.678187 },
+    { id:"site-icmab",  name:"Institute of Materials Science of Barcelona (ICMAB-CSIC)",   city:"Barcelona, Spain",   lat:41.502063,  lon:2.110313 },
+    { id:"site-kaist", name:"Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea", city:"Daejeon, Republic of Korea", lat:36.3723, lon:127.3622},
+    { id:"site-aiscia", name:"AISCIA Informatics – Doha, Qatar", city:"Qatar Science and Technology Park, Doha", lat:25.325, lon:51.435 },
+    // { id:"site-ucl",  name:"University College London",   city:"London, UK",   lat:51.524563,  lon:-0.134063 },
   ];
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -269,7 +278,7 @@
       <h3>University of Tennessee, Knoxville</h3>
       <img class="site-logo" src="/assets/UTK.svg" alt="UTK logo" style="max-height:64px;" />
       <div class="site-meta">
-        Knoxville, TN • Building/Room: <em>TBA</em><br />
+        Knoxville, TN • Building/Room: <em>IAMM 147</em><br />
         Contact: Alla Slautina<br />
         <a href="mailto:aslautin@utk.edu">aslautin@utk.edu</a>
       </div>
@@ -280,7 +289,7 @@
     </div>
     <!-- IIT -->
     <div class="site-card" id="site-iit">
-      <span class="badge">Genoa, Italy</span>
+      <span class="badge">Italy</span>
       <h3>Italian Institute of Technology</h3>
       <img class="site-logo" src="/assets/IIT.png" alt="IIT logo" style="max-height:64px;" />
       <div class="site-meta">
@@ -308,7 +317,7 @@
     </div>
     <!-- MPI-FKF -->
     <div class="site-card" id="site-mpi-fkf">
-      <span class="badge">Stuttgart, Germany</span>
+      <span class="badge">Germany</span>
       <h3>Max Planck Institute for Solid State Research</h3>
       <img class="site-logo" src="/assets/mpi-fkf.png" alt="MPI-FKF logo" style="max-height:64px;" />
       <div class="site-meta">
@@ -322,21 +331,21 @@
     </div>
     <!-- SKKU -->
     <div class="site-card" id="site-skku">
-      <span class="badge">Seoul, South Korea</span>
+      <span class="badge">Republic of Korea</span>
       <h3>School of Advanced Materials Science and Engineering, Sungkyunkwan University</h3>
-      <img class="site-logo" src="/assets/skku.png" alt="SKKU logo" style="max-height:64px;" />
+      <img class="site-logo" src="/assets/skku.jpg" alt="SKKU logo" style="max-height:64px;" />
       <div class="site-meta">
-        Seoul, South Korea • Building/Room: <em>TBA</em><br />
+        Suwon, Republic of Korea • Building/Room: <em>TBA</em><br />
         Contact: <em>TBA</em>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=School%20of%20Advanced%20Materials%20Science%20and%20Engineering%20SKKU" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Sungkyunkwan%20University%20-%20Seoul,%20South%20Korea" class="btn-primary">Register</a>
+        <a href="/registration/?site=Sungkyunkwan%20University%20-%20Suwon,%20Republic%20of%20Korea" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- Humboldt Uni -->
     <div class="site-card" id="site-hu-berlin">
-      <span class="badge">Berlin, Germany</span>
+      <span class="badge">Germany</span>
       <h3>Department of Physics, Humboldt University of Berlin</h3>
       <img class="site-logo" src="/assets/hu-berlin.svg" alt="Humboldt University logo" style="max-height:64px;" />
       <div class="site-meta">
@@ -350,7 +359,7 @@
     </div>
     <!-- Manchester Uni -->
     <div class="site-card" id="site-manchester-uni">
-      <span class="badge">Manchester, UK</span>
+      <span class="badge">United Kingdom</span>
       <h3>The University of Manchester</h3>
       <img class="site-logo" src="/assets/manchester-uni.png" alt="Manchester University logo" style="max-height:64px;" />
       <div class="site-meta">
@@ -364,7 +373,7 @@
     </div>
     <!-- Kanazawa Uni -->
     <div class="site-card" id="site-kanazawa-uni">
-      <span class="badge">Kanazawa, Japan</span>
+      <span class="badge">Japan</span>
       <h3>Kanazawa University</h3>
       <img class="site-logo" src="/assets/kanazawa_uni.png" alt="Kanazawa University logo" style="max-height:64px;" />
       <div class="site-meta">
@@ -376,6 +385,132 @@
         <a href="/registration/?site=Kanazawa%20University%20-%20Kanazawa,%20Japan" class="btn-primary">Register</a>
       </div>
     </div>
+    <!-- Technical Uni Darmstadt -->
+    <div class="site-card" id="site-tu-darmstadt">
+      <span class="badge">Germany</span>
+      <h3>Technical University of Darmstadt</h3>
+      <img class="site-logo" src="/assets/tu-darmstadt.svg" alt="TU Darmstadt logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Darmstadt, Germany • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Technical%20University%20of%20Darmstadt" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Technical%20University%20of%20Darmstadt%20-%20Darmstadt,%20Germany" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Leeds -->
+    <div class="site-card" id="site-leeds-uni">
+      <span class="badge">United Kingdom</span>
+      <h3>University of Leeds</h3>
+      <img class="site-logo" src="/assets/leeds.svg" alt="Leeds University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Leeds, United Kingdom • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Leeds" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Leeds%20-%20Leeds,%20UK" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Trinity College Dublin-->
+    <div class="site-card" id="site-tcd">
+      <span class="badge">Ireland</span>
+      <h3>Trinity College Dublin</h3>
+      <img class="site-logo" src="/assets/tcd.png" alt="Trinity College Dublin logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Dublin, Ireland • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Trinity%20College%20Dublin" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Trinity%20College%20Dublin%20-%20Dublin,%20Ireland" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Ulster Uni-->
+    <div class="site-card" id="site-ulster">
+      <span class="badge">United Kingdom</span>
+      <h3>Ulster University</h3>
+      <img class="site-logo" src="/assets/ulster.svg" alt="Ulster University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Belfast, UK • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Ulster%20University%20Belfast" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Ulster%20University%20-%20Belfast,%20UK" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Institute of Industrial Science, The University of Tokyo, Japan -->
+    <div class="site-card" id="site-iis">
+      <span class="badge">Japan</span>
+      <h3>Institute of Industrial Science</h3>
+      <img class="site-logo" src="/assets/iis.png" alt="Institute of Industrial Science logo" style="max-height:64px;" />
+      <div class="site-meta">
+        The University of Tokyo, Japan • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Institute%20of%20Industrial%20Science%20Tokyo" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Institute%20of%20Industrial%20Science,%20The%20University%20of%20Tokyo%20-%20Japan" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- ICMAB-->
+    <div class="site-card" id="site-icmab">
+      <span class="badge">Spain</span>
+      <h3>Institute of Materials Science of Barcelona (ICMAB-CSIC)</h3>
+      <img class="site-logo" src="/assets/icmab.png" alt="ICMAB-CSIC logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Barcelona, Spain • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=ICMAB%20Barcelona" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Institute%20of%20Materials%20Science%20of%20Barcelona%20-%20Barcelona,%20Spain" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Korea Advanced Institute of Science & Technology (KAIST), Daejeon -->
+    <div class="site-card" id="site-kaist">
+      <span class="badge">Republic of Korea</span>
+      <h3>Korea Advanced Institute of Science &amp; Technology (KAIST), Republic of Korea</h3>
+      <img class="site-logo" src="/assets/KAIST.png" alt="KAIST logo" />
+      <div class="site-meta">
+        Daejeon, Republic of Korea • Building/Room: <em>TBD</em><br />
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=KAIST%20Daejeon" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Korea%20Advanced%20Institute%20of%20Science%20%26%20Technology%20(KAIST)%20-%20Republic%20of%20Korea" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- AISCIA Informatics - Doha -->
+    <div class="site-card" id="site-aiscia">
+      <span class="badge">Qatar</span>
+      <h3>AISCIA Informatics</h3>
+      <img class="site-logo" src="/assets/AISCIA.png" alt="AISCIA Informatics logo" />
+      <div class="site-meta">
+        Qatar Science and Technology Park, Doha • Building/Room: <em>TBD</em><br />
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Qatar%20Science%20and%20Technology%20Park%20Doha" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=AISCIA%20Informatics%20-%20Doha,%20Qatar" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University College London-->
+    <!-- <div class="site-card" id="site-ucl">
+      <span class="badge">United Kingdom</span>
+      <h3>University College London</h3>
+      <img class="site-logo" src="/assets/ucl.svg" alt="University College London logo" style="max-height:64px;">
+      <div class="site-meta">
+        London, UK • Building/Room: <em>TBA</em><br>
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20College%20London" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20College%20London%20-%20London,%20UK" class="btn-primary">Register</a>
+      </div>
+    </div> -->
     <!-- Online (no pin) -->
     <div class="site-card" id="site-online">
       <span class="badge">Global</span>

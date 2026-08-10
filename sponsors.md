@@ -174,6 +174,16 @@ permalink: /sponsors/
   <a href="https://www.parksystems.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Zurich Instruments">
     <img src="{{ '/assets/parksystems.svg' | relative_url }}" alt="Park Systems Logo">
   </a>
+
+  <!-- Waviks -->
+  <a href="https://waviks.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Waviks">
+    <img src="{{ '/assets/waviks.png' | relative_url }}" alt="Waviks Logo">
+  </a>
+
+  <!-- DENS solutions -->
+  <a href="https://denssolutions.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="DENS solutions">
+    <img src="{{ '/assets/dens.png' | relative_url }}" alt="DENS solutions Logo">
+  </a>
 </div>
 
 <div class="cta-banner">

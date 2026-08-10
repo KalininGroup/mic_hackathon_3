@@ -177,7 +177,7 @@ menu_icon: house-door
 <div class="section-card">
   <h2>Sponsors & Partners</h2>
 <p>
-    Supported by <strong>Nanosurf</strong>, <strong>Thermo Fisher Scientific</strong>, <strong>Renaissance Philanthropy</strong>, <strong>Zurich Instruments</strong>, <strong>Park Systems</strong><!--the <strong>Office of Naval Research (ONR)</strong>, <strong>Mat3ra – Materials R&D Cloud</strong>, <strong>Covalent Metrology</strong>, <strong>Toyota Research Institute</strong>, <strong>Waviks</strong>, <strong>Microscopy Society of Ameriica, Student Council</strong>, <strong>Hugging Face</strong>, <strong>DENS solutions</strong>, <strong>Polaron</strong>, <strong>Theia Scientific</strong> and <strong>Computational Materials Science (COMMAT), Elsevier</strong>-->.
+    Supported by <strong>Nanosurf</strong>, <strong>Thermo Fisher Scientific</strong>, <strong>Renaissance Philanthropy</strong>, <strong>Zurich Instruments</strong>, <strong>Park Systems</strong>, <strong>Waviks</strong>, <strong>DENS solutions</strong><!--the <strong>Office of Naval Research (ONR)</strong>, <strong>Mat3ra – Materials R&D Cloud</strong>, <strong>Covalent Metrology</strong>, <strong>Toyota Research Institute</strong>, <strong>Microscopy Society of Ameriica, Student Council</strong>, <strong>Hugging Face</strong>, <strong>Polaron</strong>, <strong>Theia Scientific</strong> and <strong>Computational Materials Science (COMMAT), Elsevier</strong>-->.
     <!-- Learn more about our partners on the <a href="{{ '/awards/' | relative_url }}">Awards page</a>.-->
     <p style="margin-top:10px;"><i>Our list of sponsors is growing! Check back closer to the event for the most up-to-date list of our supporters.</i></p>
     <p style="margin-top:10px;">    
