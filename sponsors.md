@@ -182,7 +182,7 @@ permalink: /sponsors/
 
   <!-- DENS solutions -->
   <a href="https://denssolutions.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="DENS solutions">
-    <img src="{{ '/assets/dens.png' | relative_url }}" alt="DENS solutions Logo">
+    <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENS solutions Logo">
   </a>
 </div>
 
