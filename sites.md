@@ -195,7 +195,7 @@ published: true
     <div class="site-card" id="site-utk">
       <span class="badge">Tennessee, USA</span>
       <h3>University of Tennessee, Knoxville</h3>
-      <img class="site-logo" src="{{ '/assets/UTK.svg' | relative_url }}" alt="UTK logo" style="max-height:64px;">
+      <img class="site-logo" src="{{ '/assets/utk.svg' | relative_url }}" alt="UTK logo" style="max-height:64px;">
       <div class="site-meta">
         Knoxville, TN • Building/Room: <em>IAMM 147</em><br>
         Contact: Alla Slautina<br>
@@ -252,7 +252,7 @@ published: true
     <div class="site-card" id="site-skku">
       <span class="badge">Republic of Korea</span>
       <h3>School of Advanced Materials Science and Engineering, Sungkyunkwan University</h3>
-      <img class="site-logo" src="{{ '/assets/skku.jpg' | relative_url }}" alt="SKKU logo" style="max-height:64px;">
+      <img class="site-logo" src="{{ '/assets/SKKU.jpg' | relative_url }}" alt="SKKU logo" style="max-height:64px;">
       <div class="site-meta">
         Suwon, Republic of Korea • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
