@@ -183,6 +183,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Institute of Materials Science of Barcelona - Barcelona, Spain"> Institute of Materials Science of Barcelona - Barcelona, Spain</label>
         <label><input type="checkbox" name="entry.1753222212" value="Korea Advanced Institute of Science & Technology (KAIST) - Republic of Korea"> Korea Advanced Institute of Science & Technology (KAIST) - Republic of Korea</label>
         <label><input type="checkbox" name="entry.1753222212" value="AISCIA Informatics - Doha, Qatar"> AISCIA Informatics - Doha, Qatar</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Sheffield - Sheffield, UK"> University of Sheffield - Sheffield, UK</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons - Jülich, Germany"> Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons - Jülich, Germany</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Institute for Bioengineering of Catalonia (IBEC) - Barcelona, Spain"> Institute for Bioengineering of Catalonia (IBEC) - Barcelona, Spain</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Department of Materials, University of Oxford - Oxford, UK"> Department of Materials, University of Oxford - Oxford, UK</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Institut Català de Nanociència i Nanotecnologia (ICN2) - Barcelona, Spain"> Institut Català de Nanociència i Nanotecnologia (ICN2) - Barcelona, Spain</label>
         <!-- <label><input type="checkbox" name="entry.1753222212" value="University College London - London, UK"> University College London - London, UK</label> -->
       </div>
     </fieldset>
@@ -277,6 +282,11 @@ document.addEventListener("DOMContentLoaded", function () {
     'Institute of Materials Science of Barcelona - Barcelona, Spain',
     'Korea Advanced Institute of Science & Technology (KAIST) - Republic of Korea',
     'AISCIA Informatics - Doha, Qatar',
+    'University of Sheffield - Sheffield, UK',
+    'Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons - Jülich, Germany',
+    'Institute for Bioengineering of Catalonia (IBEC) - Barcelona, Spain',
+    'Department of Materials, University of Oxford - Oxford, UK',
+    'Institut Català de Nanociència i Nanotecnologia (ICN2) - Barcelona, Spain',
   //  'University College London - London, UK',
   ];
 

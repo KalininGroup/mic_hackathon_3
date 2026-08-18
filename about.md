@@ -375,10 +375,10 @@ published: true
 <div class="section-card">
   <h2>Partners &amp; Support</h2>
 
-<p>
+<p style="text-align:justify;">
   The hackathon is supported by the <strong>AI Tennessee Initiative</strong> and the 
   <strong>Center for Advanced Materials &amp; Manufacturing (CAMM)</strong>, with participation from 
-  <strong>University of Tennessee Knoxville, North Carolina State University, and Italian Institute of Technology (Genoa, Italy)<!-- , Northwestern University, 
+  <strong>University of Tennessee Knoxville, North Carolina State University, Italian Institute of Technology (Italy), Max Planck Institute for Solid State Research (Germany), Sungkyunkwan University (Republic of Korea), Humboldt University of Berlin (Germany), The University of Manchester (United Kingdom), Kanazawa University (Japan), Technical University of Darmstadt (Germany), University of Leeds (United Kingdom), Trinity College Dublin (Ireland), Ulster University (United Kingdom), The University of Tokyo (Japan), Institute of Materials Science of Barcelona (Spain), Korea Advanced Institute of Science & Technology (Republic of Korea), Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons (Germany), AISCIA Informatics (Qatar), University of Sheffield (United Kingdom), Institute for Bioengineering of Catalonia (Spain), University of Oxford (United Kingdom), and Institut Català de Nanociència i Nanotecnologia (Spain)<!-- , Northwestern University, 
   University of Illinois Chicago, ICN2-ALBA Synchrotron Barcelona, University of Toronto, University of Wisconsin–Madison, 
   University of Colorado Boulder, Colorado School of Mines, Indian Institute of Technology Delhi, 
   Thermo Fisher Scientific (Eindhoven), AISCIA Informatics (Doha, Qatar), Pennsylvania State University, 
@@ -397,12 +397,12 @@ published: true
     <img src="{{ '/assets/nanosurf.svg' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/zhinst.svg' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/parksystems.svg' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/waviks.png' | relative_url }}"  style="max-height:48px;">
+    <img src="{{ '/assets/DENS.png' | relative_url }}"  style="max-height:64px;">
   </div>
     <!-- <img src="{{ '/assets/ONR.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/TheiaScientific.png' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/DENS.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/covalent.png' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/waviks.png' | relative_url }}"  style="max-height:48px;">
     <img src="{{ '/assets/polaron.png' | relative_url }}"  style="max-height:48px;">
     <img src="{{ '/assets/TRI.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/msa_stc.png' | relative_url }}"  style="max-height:64px;"> -->

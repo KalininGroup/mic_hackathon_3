@@ -183,7 +183,12 @@
     { id:"site-icmab",  name:"Institute of Materials Science of Barcelona (ICMAB-CSIC)",   city:"Barcelona, Spain",   lat:41.502063,  lon:2.110313 },
     { id:"site-kaist", name:"Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea", city:"Daejeon, Republic of Korea", lat:36.3723, lon:127.3622},
     { id:"site-aiscia", name:"AISCIA Informatics – Doha, Qatar", city:"Qatar Science and Technology Park, Doha", lat:25.325, lon:51.435 },
-    // { id:"site-ucl",  name:"University College London",   city:"London, UK",   lat:51.524563,  lon:-0.134063 },
+    { id:"site-uos", name:"University of Sheffield", city:"Sheffield, United Kingdom", lat:53.381312, lon:-1.488437 },
+    { id:"site-erc", name:"Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons", city:"Jülich, Germany", lat:50.908187, lon:6.413937 },
+    { id:"site-ibec", name:"Institute for Bioengineering of Catalonia (IBEC)", city:"Barcelona, Spain", lat:41.382188, lon:2.118062 },
+    { id:"site-dom-oxford", name:"Department of Materials, University of Oxford", city:"Oxford, United Kingdom", lat:51.760438, lon:-1.259187 },
+    { id:"site-icn2",  name:"Institut Català de Nanociència i Nanotecnologia (ICN2) - Barcelona, Spain", city:" Cerdanyola del Vallès, Spain", lat:41.4915, lon:2.1834 },
+    // { id:"site-ucl",  name:"University College London",   city:"London, United Kingdom",   lat:51.524563,  lon:-0.134063 },
   ];
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -377,7 +382,7 @@
       <h3>Kanazawa University</h3>
       <img class="site-logo" src="/assets/kanazawa_uni.png" alt="Kanazawa University logo" style="max-height:64px;" />
       <div class="site-meta">
-        Kanazawa, Japan • Building/Room: <em>TBA</em><br />
+        Kanazawa, Japan • Building/Room: <em>：Nano Life Science Institute, 4F Main Conference Room</em><br />
         Contact: <em>TBA</em>
       </div>
       <div class="site-actions">
@@ -473,7 +478,7 @@
     <div class="site-card" id="site-kaist">
       <span class="badge">Republic of Korea</span>
       <h3>Korea Advanced Institute of Science &amp; Technology (KAIST), Republic of Korea</h3>
-      <img class="site-logo" src="/assets/KAIST.png" alt="KAIST logo" />
+      <img class="site-logo" src="/assets/KAIST.png" alt="KAIST logo" style="max-height:64px;" />
       <div class="site-meta">
         Daejeon, Republic of Korea • Building/Room: <em>TBD</em><br />
         Contact: <em>TBD</em>
@@ -487,7 +492,7 @@
     <div class="site-card" id="site-aiscia">
       <span class="badge">Qatar</span>
       <h3>AISCIA Informatics</h3>
-      <img class="site-logo" src="/assets/AISCIA.png" alt="AISCIA Informatics logo" />
+      <img class="site-logo" src="/assets/AISCIA.png" alt="AISCIA Informatics logo" style="max-height:64px;" />
       <div class="site-meta">
         Qatar Science and Technology Park, Doha • Building/Room: <em>TBD</em><br />
         Contact: <em>TBD</em>
@@ -495,6 +500,76 @@
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Qatar%20Science%20and%20Technology%20Park%20Doha" target="_blank" rel="noopener">Map</a>
         <a href="/registration/?site=AISCIA%20Informatics%20-%20Doha,%20Qatar" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Sheffield  -->
+    <div class="site-card" id="site-uos">
+      <span class="badge">United Kingdom</span>
+      <h3>University of Sheffield</h3>
+      <img class="site-logo" src="/assets/uos.svg" alt="University of Sheffield logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Sheffield, UK • Building/Room: <em>TBD</em><br />
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Sheffield" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Sheffield%20-%20Sheffield,%20UK" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons - Jülich, Germany  -->
+    <div class="site-card" id="site-erc">
+      <span class="badge">Germany</span>
+      <h3>Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons</h3>
+      <img class="site-logo" src="/assets/erc.png" alt="Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Jülich, Germany • Building/Room: <em>TBD</em><br />
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Ernst%20Ruska-Centre" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Ernst%20Ruska-Centre%20for%20Microscopy%20and%20Spectroscopy%20with%20Electrons%20-%20Jülich,%20Germany" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Institute for Bioengineering of Catalonia (IBEC) - Barcelona, Spain  -->
+    <div class="site-card" id="site-ibec">
+      <span class="badge">Spain</span>
+      <h3>Institute for Bioengineering of Catalonia (IBEC)</h3>
+      <img class="site-logo" src="/assets/ibec.png" alt="IBEC logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Barcelona, Spain • Building/Room: <em>TBD</em><br />
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=IBEC%20Spain" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Institute%20for%20Bioengineering%20of%20Catalonia%20(IBEC)%20-%20Barcelona,%20Spain" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Department of Materials, University of Oxford - Oxford, UK  -->
+    <div class="site-card" id="site-dom-oxford">
+      <span class="badge">United Kingdom</span>
+      <h3>Department of Materials, University of Oxford</h3>
+      <img class="site-logo" src="/assets/dom-oxford.svg" alt="Department of Materials, University of Oxford logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Oxford, UK • Building/Room: <em>TBD</em><br />
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Department%20of%20Materials%20Parks%20Road" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Department%20of%20Materials,%20University%20of%20Oxford%20-%20Oxford,%20UK " class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Institut Català de Nanociència i Nanotecnologia (ICN2) - Barcelona, Spain -->
+    <div class="site-card" id="site-icn2">
+      <span class="badge">Spain</span>
+      <h3>Institut Català de Nanociència i Nanotecnologia - ICN2</h3>
+      <img class="site-logo" src="/assets/ICN2.png" alt="ICN2 logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Barcelona, Spain • Building/Room: <em>Campus UAB, ICN2</em><br />
+        Contact: <em>TBD</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=ICN2%20Barcelona" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Institut%20Catal%C3%A0%20de%20Nanoci%C3%A8ncia%20i%20Nanotecnologia%20(ICN2)%20-%20Barcelona,%20Spain" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- University College London-->
