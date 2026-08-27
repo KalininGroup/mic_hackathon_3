@@ -101,21 +101,20 @@ menu_icon: house-door
     <div>Rice University, Texas</div>
     <div>University of Houston, Texas</div>
     <div>Indiana University Bloomington</div>
-    <!-- 
-    <div>University of Illinois at Chicago (UIC)</div>
-    <div>University of Toronto</div>
-    <div>University of Wisconsin</div>
-    <div>University of Colorado Boulder</div>
+    <div>University of Arizona</div>
     <div>Colorado School of Mines</div>
-    <div>Indian Institute of Technology Delhi (IITD)</div>
-    <div>Thermo Fisher Scientific – Eindhoven</div>
-    <div>University of Pennsylvania</div>
-    <div>University of Michigan, Ann Arbor</div>
-    <div>Nanyang Technological University (NTU), Singapore</div>
-    <div>University of Cincinnati</div>
-    <div>University of Cambridge</div>
-    <div>University College Dublin</div>
-    <div>University of Illinois Urbana–Champaign</div> -->
+    <div>University of Texas at Arlington</div>
+    <div>Center for Integrated Nanotechnologies (CINT)</div>
+    <div>University of Colorado</div>
+    <div>University of Washington</div>
+    <div>University of Southern California</div>
+    <div>University of Florida</div>
+    <div>California Institute of Technology</div>
+    <div>University of California</div>
+    <div>Yale University</div>
+    <div>Purdue University</div>
+    <div>Duke University</div>
+    <div>Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE), Austria</div>
     <div>Online (Global)</div>    
   </div>
   <p style="margin-top:20px;"><i>More sites will be added soon. Stay tuned!</i></p>
