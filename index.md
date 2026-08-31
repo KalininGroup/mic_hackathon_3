@@ -114,12 +114,19 @@ menu_icon: house-door
     <div>Yale University</div>
     <div>Purdue University</div>
     <div>Duke University</div>
+    <div>University of Wyoming</div>
     <div>Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE), Austria</div>
+    <div>University of Illinois Urbana-Champaign (UIUC)</div>
     <div>Online (Global)</div>    
   </div>
   <p style="margin-top:20px;"><i>More sites will be added soon. Stay tuned!</i></p>
   <p style="margin-top:10px;">
     <strong>Interested in hosting a site? Contact Sergei Kalinin: <a href="mailto:sergei2@utk.edu">sergei2@utk.edu</a>.</strong>
+  </p>
+  <p>
+    <a href="{{ '/organizer-qa/' | relative_url }}" style="font-weight:600; color:#1d4ed8;">
+      → Go to Organizers Q&A
+    </a>
   </p>
 </div>
 
@@ -146,12 +153,17 @@ menu_icon: house-door
       <tr>
         <td>Team Formation</td>
         <td>Now - Dec 15</td>
-        <td>Join Slack, and find collaborators.</td>
-      </tr>      
+        <td><a href="https://join.slack.com/t/mic-hackathon/shared_invite/zt-3oia7ip6q-ZNUG9qrzmvz8OkWs2HgEzw">Join Slack</a>, and find collaborators.</td>
+      </tr>
+      <tr>
+        <td>Challenges release</td>
+        <td>Dec 14</td>
+        <td>Access to Miro Board and team formation.</td>
+      </tr>
       <tr>
         <td>Hackathon Start</td>
         <td>Dec 15</td>
-        <td>Opening session and challenge release.</td>
+        <td>Opening session.</td>
       </tr>
       <tr>
         <td>Mentorship & Collaboration</td>
@@ -189,11 +201,11 @@ menu_icon: house-door
     The hackathon will take place in <strong>hybrid format</strong> using Zoom for talks and
     <strong>Slack + Miro</strong> for collaboration.
   </p>
-  <p style="margin-top:5px;"><i>Access links coming soon!</i></p>
-<!--  <ul>
+  <!-- <p style="margin-top:5px;"><i>Access links coming soon!</i></p> -->
+  <ul>
     <li><a href="https://join.slack.com/t/mic-hackathon/shared_invite/zt-3oia7ip6q-ZNUG9qrzmvz8OkWs2HgEzw">Join the Slack workspace</a></li>
-    <li><a href="https://miro.com/app/board/uXjVJTYNLw4=/?share_link_id=534372708492">Access the Miro Board to create teams/projects</a></li>
-  </ul> -->
+    <li>Access to the Miro Board to overview challenges and create teams will be provided on December 14, 2026</li>
+  </ul>
 </div>
 
 <div class="section-card">

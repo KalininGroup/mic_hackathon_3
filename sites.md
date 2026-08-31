@@ -54,9 +54,14 @@ published: true
 }
 </style>
 
-<div class="notice-box">
+<!-- <div class="notice-box">
   <h3><i class="bi bi-geo-alt"></i> More Locations Coming Soon!</h3>
   <p>Our list of co-hosting universities is continually expanding. We encourage you to register Online or at your nearest available site <strong>today</strong> to get early access to our Slack and Miro workspaces. Joining early gives you a head start on meeting collaborators and forming your team! If a new physical location opens closer to you before the event, you will be able to easily switch your registration before the deadline.</p>
+</div> -->
+
+<div class="notice-box">
+  <h3><i class="bi bi-info-circle"></i> Important Note on Site Access</h3>
+  <p>If you'd like to participate at a physical site that is not your primary institution, please reach out to the local site organizer to confirm campus visitor rules before registering. We want to ensure a smooth arrival for everyone!</p>
 </div>
 
 <div id="worldmap"></div>
@@ -137,6 +142,8 @@ published: true
     { id:"site-purdue", name:"Birck Nanotechnology Center, Purdue University", city:"West Lafayette, IN, USA", lat:40.422687, lon:-86.924563 },
     { id:"site-duke", name:"Duke University", city:"Durham, NC, USA", lat:36.001438, lon:-78.938187 },
     { id:"site-felmi-zfe", name:"Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE)", city:"Graz, Austria", lat:47.063938, lon:15.453312 },
+    { id:"site-uw", name:"University of Wyoming", city:"Laramie, WY, USA", lat:41.314687, lon:-105.569063 },
+    { id:"site-uiuc", name:"University of Illinois Urbana–Champaign (UIUC)", city:"Urbana–Champaign, Illinois, USA", lat:40.1106, lon:-88.2284},
     // { id:"site-ucl",  name:"University College London",   city:"London, United Kingdom", lat:51.524563, lon:-0.134063 },
   ];
 
@@ -960,6 +967,34 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=FELMI-ZFE" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=Austrian%20Centre%20for%20Electron%20Microscopy%20and%20Nanoanalysis%20(FELMI-ZFE)%20-%20Graz,%20Austria" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Wyoming -->
+    <div class="site-card" id="site-uw">
+      <span class="badge">Wyoming, USA</span>
+      <h3>University of Wyoming</h3>
+      <img class="site-logo" src="{{ '/assets/UWyonming.png' | relative_url }}" alt="University of Wyoming logo" style="max-height:64px;">
+      <div class="site-meta">
+        Laramie, WY • Building/Room: <em>TBA</em><br>
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Wyoming" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Wyoming" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Illinois Urbana-Champaign (UIUC) -->
+    <div class="site-card" id="site-uiuc">
+      <span class="badge">Illinois, USA</span>
+      <h3>University of Illinois Urbana-Champaign (UIUC)</h3>
+      <img class="site-logo" src="{{ '/assets/UIUC.png' | relative_url }}" alt="UIUC logo" style="max-height:64px;">
+      <div class="site-meta">
+        Urbana–Champaign, IL • Building/Room: <em>TBA</em><br>
+        Contact: <em>TBA</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Illinois%20Urbana-Champaign" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Illinois%20Urbana-Champaign%20(UIUC)" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- University College London-->

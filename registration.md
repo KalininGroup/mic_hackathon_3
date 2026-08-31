@@ -219,6 +219,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Birck Nanotechnology Center, Purdue University"> Birck Nanotechnology Center, Purdue University</label>
         <label><input type="checkbox" name="entry.1753222212" value="Duke University"> Duke University</label>
         <label><input type="checkbox" name="entry.1753222212" value="Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria"> Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Wyoming"> University of Wyoming</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Illinois Urbana-Champaign (UIUC)"> University of Illinois Urbana-Champaign (UIUC)</label>
         <!-- <label><input type="checkbox" name="entry.1753222212" value="University College London - London, UK"> University College London - London, UK</label> -->
       </div>
     </fieldset>
@@ -349,6 +351,8 @@ document.addEventListener("DOMContentLoaded", function () {
     'Birck Nanotechnology Center, Purdue University',
     'Duke University',
     'Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria',
+    'University of Wyoming',
+    'University of Illinois Urbana-Champaign (UIUC)',
   //  'University College London - London, UK',
   ];
 
