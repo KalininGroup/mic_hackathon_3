@@ -77,9 +77,9 @@ published: true
     </a>
   </p>
 </div>
-//
-//
-//
+
+
+
 <!-- <div class="section-card">
   <h2>Hackathon Launch Meeting (Nov 21, 2025)</h2>
   <p>
@@ -93,16 +93,19 @@ published: true
 
   <p><em>Video credits: Hackathon Organizing Team</em></p>
 </div> -->
-//
-//
-//
-<!-- <div class="section-card">
+
+
+
+<div class="section-card">
   <h2>Using Slack & Miro for Collaboration</h2>
   <p>
-  This short video introduces how participants can use <strong>Slack</strong> and <strong>Miro</strong> effectively before and during the hackathon — to form teams, discuss ideas, interact with the organizers and collaborate with members even if they’re at different locations.  
-  It walks you through joining the workspace, setting up team channels, and using Miro for brainstorming and project planning.
+    This short video introduces how participants can use <strong>Slack</strong> and <strong>Miro</strong> effectively before and during the hackathon — to form teams, discuss ideas, interact with the organizers and collaborate with members even if they’re at different locations.<br>
+    It walks you through joining the workspace, setting up team channels, and using Miro for brainstorming and project planning.
   </p>
-  //
+  <p style="margin-top:10px">
+    <i><strong>Important note:</strong> Access to the Miro Board with this year challenges will be provided on December 14, 2026, to ensure competition fairness.</i>
+  </p>
+
 <div class="video-frame" style="aspect-ratio:16/9; max-width:1920px; margin:auto;">
   <iframe 
     src="https://drive.google.com/file/d/1hbGdXziLnsHg2CEAw1BsTPkTeIXt40Q4/preview"
@@ -113,7 +116,7 @@ published: true
   <p style="font-size:0.9rem; color:#475467; text-align:right; margin-top:6px;">
   🎬 <em>Video credits: Utkarsh Pratiush</em>
   </p>
-</div> -->
+</div>
 
 <div class="section-card">
   <h2>Understanding Digital Twins in Microscopy</h2>
@@ -133,14 +136,14 @@ published: true
     🎬 <em>Video credits: Richard Liu</em>
   </p>
 </div>
-//
+
 <!-- <div class="section-card">
   <h2>Hackathon Data Access & Submission Guide</h2>
   <p>
     This tutorial explains where to find the datasets provided for the Hackathon,  
     how to prepare your data for submission to use for hackathon, and how to use digital twin microscopes.
   </p>
-//
+
   <div class="video-frame" style="aspect-ratio:16/9; max-width:1920px; margin:auto;">
     <iframe 
       src="https://drive.google.com/file/d/1a2I7dsaJE3xa6djz2dczQCrSNqr1h1S0/preview"
@@ -148,7 +151,7 @@ published: true
       allow="autoplay; fullscreen">
     </iframe>
   </div>
-//
+
   <p style="font-size:0.9rem; color:#475467; text-align:right; margin-top:6px;">
     🎬 <em>Video credits: Rama Vasudevan and Aditya Raghavan</em>
   </p> 
