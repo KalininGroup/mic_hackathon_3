@@ -221,6 +221,12 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria"> Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Wyoming"> University of Wyoming</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Illinois Urbana-Champaign (UIUC)"> University of Illinois Urbana-Champaign (UIUC)</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Friedrich-Alexander-Universität - Erlangen, Germany"> Friedrich-Alexander-Universität - Erlangen, Germany</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of California Merced"> University of California Merced</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Baylor University"> Baylor University</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Technology Delhi - New Delhi, India"> Indian Institute of Technology Delhi - New Delhi, India</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Linköping University - Linköping, Sweden"> Linköping University - Linköping, Sweden</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Science - Bengaluru, India"> Indian Institute of Science - Bengaluru, India</label>
         <!-- <label><input type="checkbox" name="entry.1753222212" value="University College London - London, UK"> University College London - London, UK</label> -->
       </div>
     </fieldset>
@@ -353,6 +359,12 @@ document.addEventListener("DOMContentLoaded", function () {
     'Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria',
     'University of Wyoming',
     'University of Illinois Urbana-Champaign (UIUC)',
+    'Friedrich-Alexander-Universität - Erlangen, Germany',
+    'University of California Merced',
+    'Baylor University',
+    'Indian Institute of Technology Delhi - New Delhi, India',
+    'Linköping University - Linköping, Sweden',
+    'Indian Institute of Science - Bengaluru, India',
   //  'University College London - London, UK',
   ];
 
