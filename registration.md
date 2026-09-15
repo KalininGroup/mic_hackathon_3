@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <p class="hint">
   Pick the site that’s closest to you (or choose <strong><a href="{{ '/registration/' | relative_url }}?site=Online" class="btn-primary;" style="color: #3a7bd5; text-decoration: underline; cursor: pointer;">Online</a></strong>). 
   <br><br>
-  <em><strong>Note:</strong> We are actively adding more hosting sites! We recommend registering now to get early access to Slack and Miro for team building. If a location closer to you is announced later, you can easily change your site selection by replying to your confirmation email.</em><br><br>
+  <em><strong>Note:</strong> Our list of co-hosting universities is continually expanding! We recommend registering now to get early access to Slack channel for team building. If a location closer to you is announced later, you can easily change your site selection by replying to your confirmation email.</em><br><br>
 </p>
 
 
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <input type="email" 
                name="entry.1556369182" 
                required 
-               placeholder="e.g., you@university.edu"
+               placeholder="e.g., you@university.edu (double-check for spelling)"
                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                title="Please enter a complete email address (e.g., you@university.edu)">
       </label>
@@ -227,6 +227,9 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Technology Delhi - New Delhi, India"> Indian Institute of Technology Delhi - New Delhi, India</label>
         <label><input type="checkbox" name="entry.1753222212" value="Linköping University - Linköping, Sweden"> Linköping University - Linköping, Sweden</label>
         <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Science - Bengaluru, India"> Indian Institute of Science - Bengaluru, India</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Vienna University of Technology - Vienna, Austria"> Vienna University of Technology - Vienna, Austria</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Toronto - Toronto, Canada"> University of Toronto - Toronto, Canada</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Virginia Tech"> Virginia Tech</label>
         <!-- <label><input type="checkbox" name="entry.1753222212" value="University College London - London, UK"> University College London - London, UK</label> -->
       </div>
     </fieldset>
@@ -240,8 +243,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   <!-- success alert -->
   <div id="reg-success" style="display:none; margin-top:.8rem; padding:.75rem 1rem; border:1px solid #c8e6c9; background:#e8f5e9; border-radius:10px; color:#256029; line-height: 1.5;">
-    ✅ <strong>Thank you! Your registration was submitted.</strong><br><br>
-    You will receive a confirmation email within the next <strong>5 working days</strong>. If you have not received your confirmation after this period, please submit your registration again or contact Alla Slautina at <a href="mailto:aslautin@utk.edu" style="color:#256029; text-decoration:underline;">aslautin@utk.edu</a>.
+    ✅ <strong>Thank you for registering for Microscopy Hackathon 3!</strong><br><br>
+    A confirmation email with the Slack link has been sent. If you do not receive it within an hour (please check your spam folder!), you may have accidentally made a typo in your email address. If so, please contact Alla Slautina at <a href="mailto:aslautin@utk.edu" style="color:#256029; text-decoration:underline;">aslautin@utk.edu</a> so we can correct your registration and send your link.
   </div>
 </div>
 
@@ -365,6 +368,9 @@ document.addEventListener("DOMContentLoaded", function () {
     'Indian Institute of Technology Delhi - New Delhi, India',
     'Linköping University - Linköping, Sweden',
     'Indian Institute of Science - Bengaluru, India',
+    'Vienna University of Technology - Vienna, Austria',
+    'University of Toronto - Toronto, Canada',
+    'Virginia Tech',
   //  'University College London - London, UK',
   ];
 

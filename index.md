@@ -123,6 +123,9 @@ menu_icon: house-door
     <div>Indian Institute of Technology Delhi, India</div>
     <div>Linköping University, Sweden</div>
     <div>Indian Institute of Science, India</div>
+    <div>Vienna University of Technology, Austria</div>
+    <div>University of Toronto, Canada</div>
+    <div>Virginia Tech</div>
     <div>Online (Global)</div>    
   </div>
   <p style="margin-top:20px;"><i>More sites will be added soon. Stay tuned!</i></p>

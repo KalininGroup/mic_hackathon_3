@@ -150,7 +150,9 @@ published: true
     { id:"site-iitd", name:"Indian Institute of Technology Delhi", city:"New Delhi, India", lat:28.545687, lon:77.192813 },
     { id:"site-liu", name:"Linköping University", city:"Linköping, Sweden", lat:58.397813, lon:15.576062 },
     { id:"site-iisc", name:"Indian Institute of Science", city:"Bengaluru, India", lat:13.017062, lon:77.565938 },
-    // { id:"site-ucl",  name:"University College London",   city:"London, United Kingdom", lat:51.524563, lon:-0.134063 },
+    { id:"site-tuwien", name:"Vienna University of Technology", city:"Vienna, Austria", lat:48.198937, lon:16.369937 },
+    { id:"site-uoft", name:"University of Toronto", city:"Toronto, Canada", lat:43.663438, lon:-79.395813 },
+    { id:"site-vt", name:"Virginia Tech", city:"Blacksburg, VA, USA", lat:37.228437, lon:-80.423438 },
   ];
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -292,6 +294,7 @@ published: true
       <div class="site-meta">
         Stuttgart, Germany • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <br><i>Limited to 20 registered participants.</i>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Max%20Planck%20Institute%20for%20Solid%20State%20Research" target="_blank" rel="noopener">Map</a>
@@ -1093,20 +1096,51 @@ published: true
         <a href="{{ '/registration/' | relative_url }}?site=Indian%20Institute%20of%20Science%20-%20Bengaluru,%20India" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- University College London-->
-    <!-- <div class="site-card" id="site-ucl">
-      <span class="badge">United Kingdom</span>
-      <h3>University College London</h3>
-      <img class="site-logo" src="{{ '/assets/ucl.svg' | relative_url }}" alt="University College London logo" style="max-height:64px;">
+    <!-- Vienna University of Technology - Vienna, Austria -->
+    <div class="site-card" id="site-tuwien">
+      <span class="badge">Austria</span>
+      <h3>Vienna University of Technology</h3>
+      <img class="site-logo" src="{{ '/assets/tuwien.png' | relative_url }}" alt="Vienna University of Technology logo" style="max-height:64px;">
       <div class="site-meta">
-        London, UK • Building/Room: <em>TBA</em><br>
-        Contact: <em>TBA</em>
+        Vienna, Austria • Building/Room: <em>TBA</em><br>
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20College%20London" target="_blank" rel="noopener">Map</a>
-        <a href="{{ '/registration/' | relative_url }}?site=University%20College%20London%20-%20London,%20UK" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=TU%20Wien" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Vienna%20University%20of%20Technology%20-%20Vienna,%20Austria" class="btn-primary">Register</a>
       </div>
-    </div> -->
+    </div>
+    <!-- University of Toronto - Toronto, Canada -->
+    <div class="site-card" id="site-uoft">
+      <span class="badge">Canada</span>
+      <h3>University of Toronto</h3>
+      <img class="site-logo" src="{{ '/assets/UofT.svg' | relative_url }}" alt="University of Toronto logo" style="max-height:64px;">
+      <div class="site-meta">
+        Toronto, Canada • Building/Room: <em>TBA</em><br>
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Toronto" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Toronto%20-%20Toronto,%20Canada" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Virginia Tech -->
+    <div class="site-card" id="site-vt">
+      <span class="badge">Virginia, USA</span>
+      <h3>Virginia Tech</h3>
+      <img class="site-logo" src="{{ '/assets/vt.svg' | relative_url }}" alt="Virginia Tech logo" style="max-height:64px;">
+      <div class="site-meta">
+        Blacksburg, VA • Building/Room: <em>TBA</em><br>
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Virginia%20Tech" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Virginia%20Tech" class="btn-primary">Register</a>
+      </div>
+    </div>
     <!-- Online (no pin) -->
     <div class="site-card" id="site-online">
       <span class="badge">Global</span>
