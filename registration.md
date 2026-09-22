@@ -230,7 +230,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Vienna University of Technology - Vienna, Austria"> Vienna University of Technology - Vienna, Austria</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Toronto - Toronto, Canada"> University of Toronto - Toronto, Canada</label>
         <label><input type="checkbox" name="entry.1753222212" value="Virginia Tech"> Virginia Tech</label>
-        <!-- <label><input type="checkbox" name="entry.1753222212" value="University College London - London, UK"> University College London - London, UK</label> -->
+        <label><input type="checkbox" name="entry.1753222212" value="Nanosurf - Liestal, Switzerland"> Nanosurf - Liestal, Switzerland</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Texas at Austin"> University of Texas at Austin</label>
       </div>
     </fieldset>
     <p>
@@ -371,7 +372,8 @@ document.addEventListener("DOMContentLoaded", function () {
     'Vienna University of Technology - Vienna, Austria',
     'University of Toronto - Toronto, Canada',
     'Virginia Tech',
-  //  'University College London - London, UK',
+    'Nanosurf - Liestal, Switzerland',
+    'University of Texas at Austin',
   ];
 
   boxes.forEach(box => {

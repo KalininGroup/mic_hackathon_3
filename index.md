@@ -126,6 +126,8 @@ menu_icon: house-door
     <div>Vienna University of Technology, Austria</div>
     <div>University of Toronto, Canada</div>
     <div>Virginia Tech</div>
+    <div>Nanosurf</div>
+    <div>University of Texas at Austin</div>
     <div>Online (Global)</div>    
   </div>
   <p style="margin-top:20px;"><i>More sites will be added soon. Stay tuned!</i></p>
