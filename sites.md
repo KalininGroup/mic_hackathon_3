@@ -155,6 +155,10 @@ published: true
     { id:"site-vt", name:"Virginia Tech", city:"Blacksburg, VA, USA", lat:37.228437, lon:-80.423438 },
     { id:"site-nanosurf", name:"Nanosurf", city:"Liestal, Switzerland", lat:47.475812, lon:7.744312 },
     { id:"site-ut_austin", name:"University of Texas at Austin", city:"Austin, TX, USA", lat:30.285063, lon:-97.733563 },
+    { id:"site-aarhus", name:"Aarhus University", city:"Aarhus, Denmark", lat:56.165937, lon:10.200062 },
+    { id:"site-umss", name:"Universidad Mayor de San Simón", city:"Cochabamba, Bolivia", lat:-17.393937, lon:-66.147312 },
+    { id:"site-uconn", name:"University of Connecticut", city:"Mansfield, CT, USA", lat:41.811188, lon:-72.252938 },
+    { id:"site-ncem", name:"National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory", city:"Berkeley, CA, USA", lat:37.875563, lon:-122.242437 },
   ];
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -294,8 +298,9 @@ published: true
       <h3>Max Planck Institute for Solid State Research</h3>
       <img class="site-logo" src="{{ '/assets/mpi-fkf.png' | relative_url }}" alt="MPI-FKF logo" style="max-height:64px;">
       <div class="site-meta">
-        Stuttgart, Germany • Building/Room: <em>TBA</em><br>
-        Contact: <em>TBA</em>
+        Stuttgart, Germany • Building/Room: Heisenbergstrasse 1, 2D8<br>
+        Contact: Kenan Elibol<br>
+        <a href="mailto:k.elibol@fkf.mpg.de">k.elibol@fkf.mpg.de</a>
         <br><i>Limited to 20 registered participants.</i>
       </div>
       <div class="site-actions">
@@ -437,8 +442,9 @@ published: true
       <h3>Institute of Materials Science of Barcelona (ICMAB-CSIC)</h3>
       <img class="site-logo" src="{{ '/assets/icmab.png' | relative_url }}" alt="ICMAB-CSIC logo" style="max-height:64px;">
       <div class="site-meta">
-        Barcelona, Spain • Building/Room: <em>TBA</em><br>
-        Contact: <em>TBA</em>
+        Barcelona, Spain • Building/Room: <em>Salón de actos Matgas</em><br>
+        Contact: Dr.hab. Horacio V. Guzman<br>
+        <a href="mailto:hguzman@icmab.es">hguzman@icmab.es</a>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=ICMAB%20Barcelona" target="_blank" rel="noopener">Map</a>
@@ -1045,8 +1051,9 @@ published: true
       <h3>Baylor University</h3>
       <img class="site-logo" src="{{ '/assets/baylor.png' | relative_url }}" alt="Baylor University logo" style="max-height:64px;">
       <div class="site-meta">
-        Waco, TX • Building/Room: <em>TBA</em><br>
+        Waco, TX • Building/Room: <em>Baylor Sciences Building, A202</em><br>
         Contact: <em>TBA</em>
+        <br><i>Limited to 15 participants affiliated with Baylor University</i>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Baylor%20University" target="_blank" rel="noopener">Map</a>
@@ -1171,6 +1178,66 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=UT%20Austin" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Texas%20at%20Austin" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Aarhus University - Aarhus, Denmark -->
+    <div class="site-card" id="site-aarhus">
+      <span class="badge">Denmark</span>
+      <h3>Aarhus University</h3>
+      <img class="site-logo" src="{{ '/assets/aarhus.png' | relative_url }}" alt="Aarhus University logo" style="max-height:64px;">
+      <div class="site-meta">
+        Aarhus, Denmark • Building/Room: <em>TBA</em><br>
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Aarhus%20University" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Aarhus%20University%20-%20Aarhus,%20Denmark" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Universidad Mayor de San Simon - Cochabamba, Bolivia -->
+    <div class="site-card" id="site-umss">
+      <span class="badge">Bolivia</span>
+      <h3>Universidad Mayor de San Simon</h3>
+      <img class="site-logo" src="{{ '/assets/umss.png' | relative_url }}" alt="UMSS logo" style="max-height:64px;">
+      <div class="site-meta">
+        Cochabamba, Bolivia • Building/Room: <em>TBA</em><br>
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Universidad%20Mayor%20de%20San%20Simon" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Universidad%20Mayor%20de%20San%20Simon%20-%20Cochabamba,%20Bolivia" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Connecticut -->
+    <div class="site-card" id="site-uconn">
+      <span class="badge">Connecticut, USA</span>
+      <h3>University of Connecticut</h3>
+      <img class="site-logo" src="{{ '/assets/uconn.svg' | relative_url }}" alt="University of Connecticut logo" style="max-height:64px;">
+      <div class="site-meta">
+        Mansfield, CT • Building/Room: <em>TBA</em><br>
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Connecticut" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Connecticut" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory -->
+    <div class="site-card" id="site-ncem">
+      <span class="badge">California, USA</span>
+      <h3>National Center for Electron Microscopy (NCEM)</h3>
+      <img class="site-logo" src="{{ '/assets/lbnl.svg' | relative_url }}" alt="Lawrence Berkeley National Laboratory logo" style="max-height:64px;">
+      <div class="site-meta">
+        LBNL, Berkeley, CA • Building/Room: <em>TBA</em><br>
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=NCEM%20LBNL" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=National%20Center%20for%20Electron%20Microscopy%20(NCEM),%20Lawrence%20Berkeley%20National%20Laboratory" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- Online (no pin) -->

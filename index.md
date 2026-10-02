@@ -116,6 +116,7 @@ menu_icon: house-door
     <div>Duke University</div>
     <div>University of Wyoming</div>
     <div>Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE), Austria</div>
+    <div>National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory</div>
     <div>University of Illinois Urbana-Champaign (UIUC)</div>
     <div>Friedrich-Alexander-Universität, Germany</div>
     <div>University of California Merced</div>
@@ -126,8 +127,11 @@ menu_icon: house-door
     <div>Vienna University of Technology, Austria</div>
     <div>University of Toronto, Canada</div>
     <div>Virginia Tech</div>
-    <div>Nanosurf</div>
+    <div>Nanosurf, Switzerland</div>
     <div>University of Texas at Austin</div>
+    <div>Aarhus University, Denmark</div>
+    <div>Universidad Mayor de San Simón, Bolivia</div>
+    <div>University of Connecticut</div>
     <div>Online (Global)</div>    
   </div>
   <p style="margin-top:20px;"><i>More sites will be added soon. Stay tuned!</i></p>

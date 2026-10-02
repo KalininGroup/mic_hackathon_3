@@ -232,6 +232,10 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Virginia Tech"> Virginia Tech</label>
         <label><input type="checkbox" name="entry.1753222212" value="Nanosurf - Liestal, Switzerland"> Nanosurf - Liestal, Switzerland</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Texas at Austin"> University of Texas at Austin</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Aarhus University - Aarhus, Denmark"> Aarhus University - Aarhus, Denmark</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Universidad Mayor de San Simon - Cochabamba, Bolivia"> Universidad Mayor de San Simon - Cochabamba, Bolivia</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Connecticut"> University of Connecticut</label>
+        <label><input type="checkbox" name="entry.1753222212" value="National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory"> National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory</label>
       </div>
     </fieldset>
     <p>
@@ -374,6 +378,10 @@ document.addEventListener("DOMContentLoaded", function () {
     'Virginia Tech',
     'Nanosurf - Liestal, Switzerland',
     'University of Texas at Austin',
+    'Aarhus University - Aarhus, Denmark',
+    'Universidad Mayor de San Simon - Cochabamba, Bolivia',
+    'University of Connecticut',
+    'National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory',
   ];
 
   boxes.forEach(box => {
