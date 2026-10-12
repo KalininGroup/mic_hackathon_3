@@ -227,7 +227,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Technology Delhi - New Delhi, India"> Indian Institute of Technology Delhi - New Delhi, India</label>
         <label><input type="checkbox" name="entry.1753222212" value="Linköping University - Linköping, Sweden"> Linköping University - Linköping, Sweden</label>
         <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Science - Bengaluru, India"> Indian Institute of Science - Bengaluru, India</label>
-        <label><input type="checkbox" name="entry.1753222212" value="Vienna University of Technology - Vienna, Austria"> Vienna University of Technology - Vienna, Austria</label>
+        <label><input type="checkbox" name="entry.1753222212" value="TU Wien - Vienna, Austria"> TU Wien - Vienna, Austria</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Toronto - Toronto, Canada"> University of Toronto - Toronto, Canada</label>
         <label><input type="checkbox" name="entry.1753222212" value="Virginia Tech"> Virginia Tech</label>
         <label><input type="checkbox" name="entry.1753222212" value="Nanosurf - Liestal, Switzerland"> Nanosurf - Liestal, Switzerland</label>
@@ -373,7 +373,7 @@ document.addEventListener("DOMContentLoaded", function () {
     'Indian Institute of Technology Delhi - New Delhi, India',
     'Linköping University - Linköping, Sweden',
     'Indian Institute of Science - Bengaluru, India',
-    'Vienna University of Technology - Vienna, Austria',
+    'TU Wien - Vienna, Austria',
     'University of Toronto - Toronto, Canada',
     'Virginia Tech',
     'Nanosurf - Liestal, Switzerland',

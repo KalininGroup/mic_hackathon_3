@@ -184,6 +184,11 @@ permalink: /sponsors/
   <a href="https://denssolutions.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="DENS solutions">
     <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENS solutions Logo">
   </a>
+
+  <!-- DECTRIS -->
+  <a href="https://www.dectris.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="DECTRIS">
+    <img src="{{ '/assets/DECTRIS.png' | relative_url }}" alt="DECTRIS Logo">
+  </a>
 </div>
 
 <div class="cta-banner">

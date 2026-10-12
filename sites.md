@@ -1105,11 +1105,11 @@ published: true
         <a href="{{ '/registration/' | relative_url }}?site=Indian%20Institute%20of%20Science%20-%20Bengaluru,%20India" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- Vienna University of Technology - Vienna, Austria -->
+    <!-- TU Wien - Vienna, Austria -->
     <div class="site-card" id="site-tuwien">
       <span class="badge">Austria</span>
-      <h3>Vienna University of Technology</h3>
-      <img class="site-logo" src="{{ '/assets/tuwien.png' | relative_url }}" alt="Vienna University of Technology logo" style="max-height:64px;">
+      <h3>TU Wien</h3>
+      <img class="site-logo" src="{{ '/assets/tuwien.png' | relative_url }}" alt="TU Wien logo" style="max-height:64px;">
       <div class="site-meta">
         Vienna, Austria • Building/Room: <em>TBA</em><br>
         Contact: TBA
@@ -1117,7 +1117,7 @@ published: true
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=TU%20Wien" target="_blank" rel="noopener">Map</a>
-        <a href="{{ '/registration/' | relative_url }}?site=Vienna%20University%20of%20Technology%20-%20Vienna,%20Austria" class="btn-primary">Register</a>
+        <a href="{{ '/registration/' | relative_url }}?site=TU%20Wien%20-%20Vienna,%20Austria" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- University of Toronto - Toronto, Canada -->

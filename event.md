@@ -83,10 +83,10 @@ permalink: /event/
 
 Registration for the AI/ML Microscopy Hackathon 3 is now open.
 
-Currently we received **249 registrations** in total, with participants joining from universities, national laboratories, and industry worldwide.
+Currently we received **312 registrations** in total, with participants joining from universities, national laboratories, and industry worldwide.
 
-- **Online participation:** 117 registered participants  
-- **Local site participation:** 132 participants across multiple host institutions
+- **Online participation:** 139 registered participants  
+- **Local site participation:** 173 participants across multiple host institutions
 
 This page will share live snapshots from the ongoing hackathon, including online sessions and local site activities, and will continue to be updated throughout the event.
 
