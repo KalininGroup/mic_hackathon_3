@@ -1158,7 +1158,7 @@ published: true
       <div class="site-meta">
         Liestal, Switzerland • Building/Room: <em>Gräubernstrasse 12-14</em><br>
         Contact: Nanosurf Team
-        <br><a href="mailto:copilot@nanosruf.com">copilot@nanosruf.com</a>
+        <br><a href="mailto:copilot@nanosurf.com">copilot@nanosurf.com</a>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Nanosurf%20Liestal" target="_blank" rel="noopener">Map</a>
