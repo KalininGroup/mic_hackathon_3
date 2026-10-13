@@ -159,6 +159,7 @@ published: true
     { id:"site-umss", name:"Universidad Mayor de San Simón", city:"Cochabamba, Bolivia", lat:-17.393937, lon:-66.147312 },
     { id:"site-uconn", name:"University of Connecticut", city:"Mansfield, CT, USA", lat:41.811188, lon:-72.252938 },
     { id:"site-ncem", name:"National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory", city:"Berkeley, CA, USA", lat:37.875563, lon:-122.242437 },
+    { id:"site-utsa", name:"University of Texas at San Antonio", city:"San Antonio, TX, USA", lat:29.583062, lon:-98.619937 },
   ];
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -1238,6 +1239,21 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=NCEM%20LBNL" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=National%20Center%20for%20Electron%20Microscopy%20(NCEM),%20Lawrence%20Berkeley%20National%20Laboratory" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Texas at San Antonio -->
+    <div class="site-card" id="site-utsa">
+      <span class="badge">Texas, USA</span>
+      <h3>University of Texas at San Antonio</h3>
+      <img class="site-logo" src="{{ '/assets/utsa.svg' | relative_url }}" alt="UT San Antonio logo" style="max-height:64px;">
+      <div class="site-meta">
+        San Antonio, TX • Building/Room: <em>TBA</em><br>
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=UT%20San%20Antonio" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Texas%20at%20San%20Antonio" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- Online (no pin) -->
