@@ -216,7 +216,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="California Institute of Technology"> California Institute of Technology</label>
         <label><input type="checkbox" name="entry.1753222212" value="California NanoSystems Institute, University of California, Santa Barbara"> California NanoSystems Institute, University of California, Santa Barbara</label>
         <label><input type="checkbox" name="entry.1753222212" value="Yale University"> Yale University</label>
-        <label><input type="checkbox" name="entry.1753222212" value="Birck Nanotechnology Center, Purdue University"> Birck Nanotechnology Center, Purdue University</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Purdue University, Birck Nanotechnology Center"> Purdue University, Birck Nanotechnology Center</label>
         <label><input type="checkbox" name="entry.1753222212" value="Duke University"> Duke University</label>
         <label><input type="checkbox" name="entry.1753222212" value="Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria"> Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Wyoming"> University of Wyoming</label>
@@ -363,7 +363,7 @@ document.addEventListener("DOMContentLoaded", function () {
     'California Institute of Technology',
     'California NanoSystems Institute, University of California, Santa Barbara',
     'Yale University',
-    'Birck Nanotechnology Center, Purdue University',
+    'Purdue University, Birck Nanotechnology Center',
     'Duke University',
     'Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria',
     'University of Wyoming',
