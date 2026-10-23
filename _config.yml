@@ -24,13 +24,13 @@ theme: minima
 header_pages:
   - registration.md
   - sponsors.md
+  - awards.md
   - sites.md
   - resources.md
   - beyond_hackathon.md
   - about.md
   # - summary.md
   # - agenda.md
-  # - awards.md
   # - projects.md
   # - submission.md
 

@@ -144,7 +144,8 @@ permalink: /sponsors/
 </div>
 
 <p style="text-align: center; font-size: 1.05rem; color: #444; max-width: 800px; margin: 0 auto;">
-  We are incredibly grateful to the following organizations for their support. Specific details regarding sponsor-backed challenges and the final prize structures will be announced closer to the event!
+  We are incredibly grateful to the following organizations for their support. <br>
+  The prize list is available on the <a href="{{ '/awards/' | relative_url }}"><strong>Awards</strong></a> page.
 </p>
 
 <h2 class="sponsor-tier-title">Our Generous Sponsors</h2>
@@ -189,7 +190,51 @@ permalink: /sponsors/
   <a href="https://www.dectris.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="DECTRIS">
     <img src="{{ '/assets/DECTRIS.png' | relative_url }}" alt="DECTRIS Logo">
   </a>
-</div>
+
+  <!-- Quantum Design -->
+  <a href="https://qdusa.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Quantum Design">
+    <img src="{{ '/assets/QD.svg' | relative_url }}" alt="Quantum Design Logo">
+  </a>
+
+  <!-- Oxford Instruments - Asylum Research -->
+  <a href="https://afm.oxinst.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Oxford Instruments - Asylum Research">
+    <img src="{{ '/assets/asylum.png' | relative_url }}" alt="Oxford Instruments - Asylum Research Logo">
+  </a>
+
+<!-- JEOL -->
+  <a href="https://jeol.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="JEOL">
+    <img src="{{ '/assets/Jeol.png' | relative_url }}" alt="JEOL">
+  </a>
+
+<!-- Anthropic -->
+  <a href="https://www.anthropic.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Anthropic">
+    <img src="{{ '/assets/Anthropic.svg' | relative_url }}" alt="Anthropic">
+  </a>
+      
+<!-- Constructor Labs -->
+  <a href="https://constructorlabs.org/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Constructor Labs">
+    <img src="{{ '/assets/C-Labs.png' | relative_url }}" alt="Constructor Labs">
+  </a>
+
+<!-- Covalent Metrology -->
+  <a href="https://covalentmetrology.com" class="sponsor-logo-card" target="_blank" rel="noopener" title="Covalent Metrology">
+    <img src="{{ '/assets/covalent.png' | relative_url }}" alt="Covalent Metrology">
+  </a>
+
+<!-- Theia Scientific -->
+  <a href="https://theiascientific.com" class="sponsor-logo-card" target="_blank" rel="noopener" title="Theia Scientific">
+    <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific">
+  </a>
+  
+<!-- COMMAT -->
+  <a href="https://www.sciencedirect.com/journal/computational-materials-science" class="sponsor-logo-card" target="_blank" rel="noopener" title="Computational Material Science">
+    <img src="{{ '/assets/commat.png' | relative_url }}" alt="Computational Material Science">
+  </a>
+  
+<!-- Hitachi -->
+  <a href="https://www.hitachi-hightech.com/ca/en/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Hitachi High-Tech Canada Inc.">
+    <img src="{{ '/assets/hitachi.png' | relative_url }}" alt="Hitachi High-Tech Canada Inc.">
+  </a>
 
 <div class="cta-banner">
   <h3>More sponsors to be announced soon!</h3>

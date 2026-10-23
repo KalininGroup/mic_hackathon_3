@@ -160,7 +160,7 @@ published: true
     { id:"site-uconn", name:"University of Connecticut", city:"Mansfield, CT, USA", lat:41.811188, lon:-72.252938 },
     { id:"site-ncem", name:"National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory", city:"Berkeley, CA, USA", lat:37.875563, lon:-122.242437 },
     { id:"site-utsa", name:"University of Texas at San Antonio", city:"San Antonio, TX, USA", lat:29.583062, lon:-98.619937 },
-  ];
+    { id:"site-ucf", name:"University of Central Florida", city:"Orlando, FL, USA", lat:28.602438, lon:-81.200063 },
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -1012,7 +1012,8 @@ published: true
       <img class="site-logo" src="{{ '/assets/UIUC.png' | relative_url }}" alt="UIUC logo" style="max-height:64px;">
       <div class="site-meta">
         Urbana–Champaign, IL • Building/Room: <em>MRL/Supercon 1002</em><br>
-        Contact: <em>TBA</em>
+        Contact: Hyoungryul Park
+        <br><a href="mailto:hp33@illinois.edu">hp33@illinois.edu</a>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Illinois%20Urbana-Champaign" target="_blank" rel="noopener">Map</a>
@@ -1116,6 +1117,7 @@ published: true
         Vienna, Austria • Building/Room: <em>TBA</em><br>
         Contact: TBA
         <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+        <br><em>Limited to 30 registered participants.</em>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=TU%20Wien" target="_blank" rel="noopener">Map</a>
@@ -1129,8 +1131,8 @@ published: true
       <img class="site-logo" src="{{ '/assets/UofT.svg' | relative_url }}" alt="University of Toronto logo" style="max-height:64px;">
       <div class="site-meta">
         Toronto, Canada • Building/Room: <em>TBA</em><br>
-        Contact: TBA
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+        Contact: Kevin Zhang
+        <br><a href="mailto:kevinzy.zhang@mail.utoronto.ca">kevinzy.zhang@mail.utoronto.ca</a>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Toronto" target="_blank" rel="noopener">Map</a>
@@ -1255,6 +1257,21 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=UT%20San%20Antonio" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Texas%20at%20San%20Antonio" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Central Florida -->
+    <div class="site-card" id="site-ucf">
+      <span class="badge">Florida, USA</span>
+      <h3>University of Central Florida</h3>
+      <img class="site-logo" src="{{ '/assets/UCF.png' | relative_url }}" alt="University of Central Florida logo" style="max-height:64px;">
+      <div class="site-meta">
+        Orlando, FL • Building/Room: <em>TBA</em><br>
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Central%20Florida" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Central%20Florida" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- Online (no pin) -->

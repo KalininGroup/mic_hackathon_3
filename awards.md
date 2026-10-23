@@ -57,213 +57,188 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
     </tr>
   </thead>
 
-<template> <!-- template hides the whole block -->
+
   <tbody>
-    <!-- Renaissance Philanthropy (2 rows) -->
+    <!-- Renaissance Philanthropy -->
     <tr>
-      <td rowspan="2" style="text-align:center; vertical-align:middle;">
+      <td rowspan="1" style="text-align:center; vertical-align:middle;">
         <a href="https://www.renaissancephilanthropy.org" target="_blank" rel="noopener">
-          <img src="{{ '/assets/renaissance.png' | relative_url }}" alt="Renaissance Philanthropy" style="max-height:80px;">
+          <img src="{{ '/assets/renaissance.png' | relative_url }}" alt="Renaissance Philanthropy" style="max-height:75px;">
         </a>
       </td>
-      <td><strong>Overall Winner</strong> ($7,000)</td>
+      <td>$5,000</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-051' | relative_url }}">H-051</a>
-        </strong>
-        — Interpretable Digital Twins for Autonomous STEM Aberration Correction
+       TBA
       </td>
     </tr>
+    <!-- Nanosurf -->
     <tr>
-      <td><strong>2nd Overall Winner</strong> ($3,000)</td>
-      <td>
-        <strong>
-          <a href="{{ '/submissions/#H-065' | relative_url }}">H-065</a>
-        </strong>
-        — Autonomous Identification of Metal Microstructural Features via Latent Space Mapping-Based Microscope Control
-      </td>
-    </tr>
-    <!-- Covalent Metrology (2 rows) -->
-    <tr>
-      <td rowspan="2" style="text-align:center; vertical-align:middle;">
-        <a href="https://covalentmetrology.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/covalent.png' | relative_url }}" alt="Covalent Metrology" style="max-height:55px;">
+      <td rowspan="1" style="text-align:center; vertical-align:middle;">
+        <a href="https://www.nanosurf.com/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/nanosurf.svg' | relative_url }}" alt="Nanosurf" style="max-height:55px;">
         </a>
       </td>
-      <td><strong>2nd Place</strong> ($3,000)</td>
+      <td>$3,000</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-068' | relative_url }}">H-068</a>
-        </strong>
-        — TwinSpec: A Digital Twin Framework for GIWAXS Data, Geometry, and Physics-Aware ML
+       <strong>Nanosurf Award</strong>
       </td>
     </tr>
+    <!-- Park Systems -->
     <tr>
-      <td><strong>3rd Place</strong> ($2,000)</td>
-      <td>
-        <strong>
-          <a href="{{ '/submissions/#H-064' | relative_url }}">H-064</a>
-        </strong>
-        — RONIN - Ronchigram based Optical Neural Inference for aberration detection
-      </td>
-    </tr>
-    <!-- Theia Scientific -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://theiascientific.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific" style="max-height:60px;">
+      <td rowspan="1" style="text-align:center; vertical-align:middle;">
+        <a href="https://www.parksystems.com/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/parksystems.svg' | relative_url }}" alt="Park Systems" style="max-height:65px;">
         </a>
       </td>
-      <td>$1,000</td>
+      <td>$3,000</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-043' | relative_url }}">H-043</a>
-        </strong>
-        — Automated particle detection and quantitative analysis from electron microscopy images
+       <strong>Park Innovation Award</strong>
       </td>
     </tr>
-    <!-- Toyota Research Institute -->
+    <!-- Quantum Design -->
     <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://www.tri.global" target="_blank" rel="noopener">
-          <img src="{{ '/assets/TRI.png' | relative_url }}" alt="Toyota Research Institute" style="max-height:55px;">
+      <td rowspan="1" style="text-align:center; vertical-align:middle;">
+        <a href="https://qdusa.com/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/QD.svg' | relative_url }}" alt="Quantum Design" style="max-height:55px;">
         </a>
       </td>
-      <td>$1,000 (Best Interactivity)</td>
+      <td>TBA</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-022' | relative_url }}">H-022</a>
-        </strong>
-        — DeepScan Pro: Intelligent Microscopy Agent
+       TBA
       </td>
     </tr>
     <!-- Oxford Instruments - Asylum Research -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
         <a href="https://afm.oxinst.com/" target="_blank" rel="noopener">
-          <img src="{{ '/assets/asylum.png' | relative_url }}" alt="Oxford Instruments - Asylum Research" style="max-height:55px;">
+          <img src="{{ '/assets/asylum.png' | relative_url }}" alt="Oxford Instruments - Asylum Research" style="max-height:35px;">
         </a>
       </td>
-      <td>$1,000 (Best AFM/SPM Project)</td>
+      <td>$1,500</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-035' | relative_url }}">H-035</a>
-        </strong>
-        — Angle-Dependent Morphologies of Ferroelectric Domain Walls
+        Best AFM/SPM Project
       </td>
     </tr>
-    <!-- Polaron (2 rows) -->
+    <!-- Zurich Instruments -->
     <tr>
-      <td rowspan="2" style="text-align:center; vertical-align:middle;">
-        <a href="https://polaron.ai" target="_blank" rel="noopener">
-          <img src="{{ '/assets/polaron.png' | relative_url }}" alt="Polaron" style="max-height:55px;">
+      <td rowspan="1" style="text-align:center; vertical-align:middle;">
+        <a href="https://www.zhinst.com/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/zhinst.svg' | relative_url }}" alt="Zurich Instruments" style="max-height:55px;">
         </a>
       </td>
-      <td><strong>Award Winner</strong> ($1,000 + platform access)</td>
+      <td>$1,000</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-065' | relative_url }}">H-065</a>
-        </strong>
-        — Autonomous Identification of Metal Microstructural Features via Latent Space Mapping-Based Microscope Control
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Runner-up</strong> (platform access)</td>
-      <td>
-        <strong>
-          <a href="{{ '/submissions/#H-042' | relative_url }}">H-042</a>
-        </strong>
-        — EM-Caddie
+       TBA
       </td>
     </tr>
     <!-- JEOL -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
         <a href="https://jeol.com/" target="_blank" rel="noopener">
-          <img src="{{ '/assets/Jeol.png' | relative_url }}" alt="JEOL" style="max-height:55px;">
+          <img src="{{ '/assets/Jeol.png' | relative_url }}" alt="JEOL" style="max-height:65px;">
         </a>
       </td>
       <td>$1,000</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-041' | relative_url }}">H-041</a>
-        </strong>
-        — Machine Learning Denoising of Reciprocal Space Maps for realistic center-of-mass evaluation
+        TBA
       </td>
     </tr>
-    <!-- MSA Student Council -->
+    <!-- DECTRIS -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
-        <a href="https://microscopy.org/the-student-council-stc/" target="_blank" rel="noopener">
-          <img src="{{ '/assets/msa_stc.png' | relative_url }}" alt="MSA Student Council" style="max-height:55px;">
+        <a href="https://www.dectris.com/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/DECTRIS.png' | relative_url }}" alt="DECTRIS" style="max-height:55px;">
         </a>
       </td>
-      <td>$500 + Student registration to MSA 2026 PMC (Milwaukee)</td>
+      <td>$1,000</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-014' | relative_url }}">H-014</a>
-        </strong>
-        — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology
+        TBA
+      </td>
+    </tr>
+    <!-- Anthropic -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://www.anthropic.com/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/Anthropic.svg' | relative_url }}" alt="Anthropic" style="max-height:25px;">
+        </a>
+      </td>
+      <td>TBA</td>
+      <td>
+        TBA
+      </td>
+    </tr>
+    <!-- Constructor Labs -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://constructorlabs.org/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/C-Labs.png' | relative_url }}" alt="Constructor Labs" style="max-height:65px;">
+        </a>
+      </td>
+      <td>TBA</td>
+      <td>
+        TBA
       </td>
     </tr>
     <!-- Waviks -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
         <a href="https://www.waviks.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/waviks.png' | relative_url }}" alt="Waviks" style="max-height:50px;">
+          <img src="{{ '/assets/waviks.png' | relative_url }}" alt="Waviks" style="max-height:35px;">
         </a>
       </td>
-      <td>$500</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-042' | relative_url }}">H-042</a>
-        </strong>
-        — EM-Caddie
+       <i>TBA</i>
       </td>
-    </tr>
-    <!-- Hugging Face -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://huggingface.co" target="_blank" rel="noopener">
-          <img src="{{ '/assets/hf.png' | relative_url }}" alt="Hugging Face" style="max-height:50px;">
-        </a>
-      </td>
-      <td>Merch + 2 months Hugging Face Pro</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-002' | relative_url }}">H-002</a>
-        </strong>
-        — Contrastive Micrograph-Metadata Pre-Training
-      </td>
-    </tr>
-    <!-- Mat3ra -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://mat3ra.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/mat3ra_logo.png' | relative_url }}" alt="Mat3ra" style="max-height:55px;">
-        </a>
-      </td>
-      <td>Compute credits worth $5,000</td>
-      <td>
-        <strong>
-          <a href="{{ '/submissions/#H-051' | relative_url }}">H-051</a>
-        </strong>
-        — Interpretable Digital Twins for Autonomous STEM Aberration Correction
+       <i>TBA</i>
       </td>
     </tr>
     <!-- DENS Solutions -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
         <a href="https://denssolutions.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENS Solutions" style="max-height:50px;">
+          <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENS Solutions" style="max-height:55px;">
         </a>
       </td>
-      <td>Mystery Prize (Gin-Situ)</td>
+      <td>Gin-Situ</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-043' | relative_url }}">H-043</a>
-        </strong>
-        — Automated particle detection and quantitative analysis from electron microscopy images
+       Mystery Prize
+      </td>
+    </tr>
+    <!-- Covalent Metrology -->
+    <tr>
+      <td rowspan="1" style="text-align:center; vertical-align:middle;">
+        <a href="https://covalentmetrology.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/covalent.png' | relative_url }}" alt="Covalent Metrology" style="max-height:55px;">
+        </a>
+      </td>
+      <td>TBA</td>
+      <td>
+        TBA
+      </td>
+    </tr>
+    <!-- Theia Scientific -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://theiascientific.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific" style="max-height:75px;">
+        </a>
+      </td>
+      <td>$1,000</td>
+      <td>
+        TBA
+      </td>
+    </tr>
+    <!-- University of Illinois Urbana-Champaign - local award -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://illinois.edu/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/UIUC.png' | relative_url }}" alt="University of Illinois Urbana-Champaign" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$500</td>
+      <td>
+        The best local team
       </td>
     </tr>
     <!-- COMMAT -->
@@ -273,46 +248,24 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
           <img src="{{ '/assets/commat.png' | relative_url }}" alt="COMMAT" style="max-height:55px;">
         </a>
       </td>
-      <td>$500 (Canada Regional Winner)</td>
+      <td>TBA</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-014' | relative_url }}">H-014</a>
-        </strong>
-        — VLRIMM - Vision-Language Retrieval for Identical Materials Morphology
+        Canada Regional Winner
       </td>
     </tr>
     <!-- Hitachi -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
         <a href="https://www.hitachi-hightech.com/ca/en/" target="_blank" rel="noopener">
-          <img src="{{ '/assets/hitachi.png' | relative_url }}" alt="Hitachi High-Tech Canada" style="max-height:55px;">
+          <img src="{{ '/assets/hitachi.png' | relative_url }}" alt="Hitachi High-Tech Canada" style="max-height:65px;">
         </a>
       </td>
-      <td>$300 (Canada Regional Runner-up)</td>
+      <td>TBA</td>
       <td>
-        <strong>
-          <a href="{{ '/submissions/#H-062' | relative_url }}">H-062</a>
-        </strong>
-        — ANCHOR: Registration by Alignment
-      </td>
-    </tr>
-    <!-- AISCIA -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://aiscia.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/AISCIA.png' | relative_url }}" alt="AISCIA" style="max-height:55px;">
-        </a>
-      </td>
-      <td>MENA Regional Award</td>
-      <td>
-        <strong>
-          <a href="{{ '/submissions/#H-011' | relative_url }}">H-011</a>
-        </strong>
-        — Digital Bubble Stability Tracking Microscope
+        Canada Regional Runner-up
       </td>
     </tr>
   </tbody>
-</template>
 </table>
 
 </div>

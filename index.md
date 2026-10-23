@@ -133,6 +133,7 @@ menu_icon: house-door
     <div>Universidad Mayor de San Simón, Bolivia</div>
     <div>University of Connecticut</div>
     <div>University of Texas at San Antonio</div>
+    <div>University of Central Florida</div>
     <div>Online (Global)</div>    
   </div>
   <p style="margin-top:20px;"><i>More sites will be added soon. Stay tuned!</i></p>

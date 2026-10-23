@@ -237,6 +237,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="University of Connecticut"> University of Connecticut</label>
         <label><input type="checkbox" name="entry.1753222212" value="National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory"> National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Texas at San Antonio"> University of Texas at San Antonio</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Central Florida"> University of Central Florida</label>
       </div>
     </fieldset>
     <p>
@@ -384,6 +385,7 @@ document.addEventListener("DOMContentLoaded", function () {
     'University of Connecticut',
     'National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory',
     'University of Texas at San Antonio',
+    'University of Central Florida',
   ];
 
   boxes.forEach(box => {
