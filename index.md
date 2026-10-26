@@ -170,7 +170,7 @@ menu_icon: house-door
       <tr>
         <td>Team Formation</td>
         <td>Now - Dec 15</td>
-        <td><a href="https://join.slack.com/t/mic-hackathon/shared_invite/zt-3oia7ip6q-ZNUG9qrzmvz8OkWs2HgEzw">Join Slack</a>, and find collaborators.</td>
+        <td><a href="https://join.slack.com/t/mic-hackathon/shared_invite/zt-4eca4foub-usW~xHx4PHcQcZC3aDvVvQ">Join Slack</a>, and find collaborators.</td>
       </tr>
       <tr>
         <td>Challenges release</td>
@@ -220,7 +220,7 @@ menu_icon: house-door
   </p>
   <!-- <p style="margin-top:5px;"><i>Access links coming soon!</i></p> -->
   <ul>
-    <li><a href="https://join.slack.com/t/mic-hackathon/shared_invite/zt-3oia7ip6q-ZNUG9qrzmvz8OkWs2HgEzw">Join the Slack workspace</a></li>
+    <li><a href="https://join.slack.com/t/mic-hackathon/shared_invite/zt-4eca4foub-usW~xHx4PHcQcZC3aDvVvQ">Join the Slack workspace</a></li>
     <li>Access to the Miro Board to overview challenges and create teams will be provided on December 14, 2026</li>
   </ul>
 </div>

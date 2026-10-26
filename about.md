@@ -452,9 +452,8 @@ published: true
   <div class="grid-2">
     <div>
       <strong>Join the Community</strong><br>
-      Connect on Slack, meet collaborators, and find a team.<br>
-      <i>The link to join Slack workspace will be published soon</i>
-      <!-- <div style="margin-top:6px;"><a href="https://tiny.utk.edu/slack">Join the Slack workspace</a></div> -->
+      Connect on Slack, meet collaborators, and find a team.
+      <div style="margin-top:6px;"><a href="https://join.slack.com/t/mic-hackathon/shared_invite/zt-4eca4foub-usW~xHx4PHcQcZC3aDvVvQ">Join the Slack workspace</a></div>
     </div>
     <div>
       <strong>Participate</strong><br>
