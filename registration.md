@@ -209,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Colorado School of Mines"> Colorado School of Mines</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Texas at Arlington"> University of Texas at Arlington</label>
         <label><input type="checkbox" name="entry.1753222212" value="Center for Integrated Nanotechnologies (CINT)"> Center for Integrated Nanotechnologies (CINT)</label>
-        <label><input type="checkbox" name="entry.1753222212" value="University of Colorado"> University of Colorado</label>
+        <label><input type="checkbox" name="entry.1753222212" value="University of Colorado Boulder"> University of Colorado Boulder</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Washington"> University of Washington</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Southern California"> University of Southern California</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Florida"> University of Florida</label>
@@ -238,6 +238,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory"> National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Texas at San Antonio"> University of Texas at San Antonio</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Central Florida"> University of Central Florida</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Constructor University - Bremen, Germany"> Constructor University - Bremen, Germany</label>
       </div>
     </fieldset>
     <p>
@@ -357,7 +358,7 @@ document.addEventListener("DOMContentLoaded", function () {
     'Colorado School of Mines',
     'University of Texas at Arlington',
     'Center for Integrated Nanotechnologies (CINT)',
-    'University of Colorado',
+    'University of Colorado Boulder',
     'University of Washington',
     'University of Southern California',
     'University of Florida',
@@ -386,6 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
     'National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory',
     'University of Texas at San Antonio',
     'University of Central Florida',
+    'Constructor University - Bremen, Germany',
   ];
 
   boxes.forEach(box => {

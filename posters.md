@@ -121,7 +121,19 @@ Then scroll to the bottom and click **“Submit Vote”** to record your choice.
 
 </div>
 
+## University of Colorado Boulder
+<div class="poster-gallery">
 
+  <figure class="poster-card"
+          data-vote-value="University of Colorado Boulder">
+    <img src="{{ '/posters/UCBoulder.png' | relative_url }}" alt="University of Colorado Boulder">
+    <figcaption>University of Colorado Boulder</figcaption>
+    <button type="button" class="select-btn">
+      Select this poster
+    </button>
+  </figure>
+
+</div>
 
 ---
 

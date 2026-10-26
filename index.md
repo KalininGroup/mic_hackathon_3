@@ -105,7 +105,7 @@ menu_icon: house-door
     <div>Colorado School of Mines</div>
     <div>University of Texas at Arlington</div>
     <div>Center for Integrated Nanotechnologies (CINT)</div>
-    <div>University of Colorado</div>
+    <div>University of Colorado Boulder</div>
     <div>University of Washington</div>
     <div>University of Southern California</div>
     <div>University of Florida</div>
@@ -134,6 +134,7 @@ menu_icon: house-door
     <div>University of Connecticut</div>
     <div>University of Texas at San Antonio</div>
     <div>University of Central Florida</div>
+    <div>Constructor University, Germany</div>
     <div>Online (Global)</div>    
   </div>
   <p style="margin-top:20px;"><i>More sites will be added soon. Stay tuned!</i></p>

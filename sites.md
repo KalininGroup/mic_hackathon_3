@@ -132,7 +132,7 @@ published: true
     { id:"site-mines", name:"Colorado School of Mines", city:"Golden, CO, USA", lat:39.7510, lon:-105.2226 },
     { id:"site-uta", name:"University of Texas at Arlington", city:"Arlington, TX, USA", lat:32.729188, lon:-97.115188 },
     { id:"site-cint", name:"Center for Integrated Nanotechnologies (CINT)", city:"Albuquerque, NM, USA", lat:35.060563,  lon:-106.534688 },
-    { id:"site-ucolo", name:"University of Colorado", city:"Boulder, CO, USA", lat:40.0076, lon:-105.2659 },
+    { id:"site-ucboulder", name:"University of Colorado Boulder", city:"Boulder, CO, USA", lat:40.0076, lon:-105.2659 },
     { id:"site-uwashington", name:"University of Washington", city:"Seattle, WA, USA", lat:47.656562, lon:-122.312687 },
     { id:"site-usc", name:"University of Southern California", city:"Los Angeles, CA, USA", lat:34.022312, lon:-118.285062 },
     { id:"site-ufl", name:"University of Florida", city:"Gainesville, FL, USA", lat:29.646563, lon:-82.353313 },
@@ -161,6 +161,8 @@ published: true
     { id:"site-ncem", name:"National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory", city:"Berkeley, CA, USA", lat:37.875563, lon:-122.242437 },
     { id:"site-utsa", name:"University of Texas at San Antonio", city:"San Antonio, TX, USA", lat:29.583062, lon:-98.619937 },
     { id:"site-ucf", name:"University of Central Florida", city:"Orlando, FL, USA", lat:28.602438, lon:-81.200063 },
+    { id:"site-cu", name:"Constructor University", city:"Bremen, Germany", lat:53.168813, lon:8.650063 },
+  ]
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -273,6 +275,7 @@ published: true
       <div class="site-meta">
         Genoa, Italy • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Istituto%20Italiano%20di%20Tecnologia%20Center%20for%20Convergent%20Technologies" target="_blank" rel="noopener">Map</a>
@@ -287,6 +290,7 @@ published: true
       <div class="site-meta">
         Raleigh, NC • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=North%20Carolina%20State%20University" target="_blank" rel="noopener">Map</a>
@@ -299,7 +303,7 @@ published: true
       <h3>Max Planck Institute for Solid State Research</h3>
       <img class="site-logo" src="{{ '/assets/mpi-fkf.png' | relative_url }}" alt="MPI-FKF logo" style="max-height:64px;">
       <div class="site-meta">
-        Stuttgart, Germany • Building/Room: Heisenbergstrasse 1, 2D8<br>
+        Stuttgart, Germany • Building/Room: <em>Heisenbergstrasse 1, 2D8</em><br>
         Contact: Kenan Elibol<br>
         <a href="mailto:k.elibol@fkf.mpg.de">k.elibol@fkf.mpg.de</a>
         <br><i>Limited to 20 registered participants.</i>
@@ -317,6 +321,7 @@ published: true
       <div class="site-meta">
         Suwon, Republic of Korea • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=School%20of%20Advanced%20Materials%20Science%20and%20Engineering%20SKKU" target="_blank" rel="noopener">Map</a>
@@ -331,6 +336,7 @@ published: true
       <div class="site-meta">
         Berlin, Germany • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Institut%20für%20Physik%20der%20Humboldt-Universität%20Berlin" target="_blank" rel="noopener">Map</a>
@@ -345,6 +351,7 @@ published: true
       <div class="site-meta">
         Manchester, UK • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=The%20University%20of%20Manchester" target="_blank" rel="noopener">Map</a>
@@ -374,6 +381,7 @@ published: true
       <div class="site-meta">
         Darmstadt, Germany • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Technical%20University%20of%20Darmstadt" target="_blank" rel="noopener">Map</a>
@@ -388,6 +396,7 @@ published: true
       <div class="site-meta">
         Leeds, United Kingdom • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Leeds" target="_blank" rel="noopener">Map</a>
@@ -402,6 +411,7 @@ published: true
       <div class="site-meta">
         Dublin, Ireland • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Trinity%20College%20Dublin" target="_blank" rel="noopener">Map</a>
@@ -416,6 +426,7 @@ published: true
       <div class="site-meta">
         Belfast, UK • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Ulster%20University%20Belfast" target="_blank" rel="noopener">Map</a>
@@ -460,6 +471,7 @@ published: true
       <div class="site-meta">
         Daejeon, Republic of Korea • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=KAIST%20Daejeon" target="_blank" rel="noopener">Map</a>
@@ -474,6 +486,7 @@ published: true
       <div class="site-meta">
         Qatar Science and Technology Park, Doha • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Qatar%20Science%20and%20Technology%20Park%20Doha" target="_blank" rel="noopener">Map</a>
@@ -489,6 +502,7 @@ published: true
         Sheffield, UK • Building/Room: <em><br>Dec 15: The Ideas Space, Sir Robert Hadfield Building<br>
         Dec 16-17: Mappin Hall, Sir Frederick Mappin Building</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Sheffield" target="_blank" rel="noopener">Map</a>
@@ -533,6 +547,7 @@ published: true
       <div class="site-meta">
         Oxford, UK • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Department%20of%20Materials%20Parks%20Road" target="_blank" rel="noopener">Map</a>
@@ -547,6 +562,7 @@ published: true
       <div class="site-meta">
         Barcelona, Spain • Building/Room: <em>Campus UAB, ICN2</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=ICN2%20Barcelona" target="_blank" rel="noopener">Map</a>
@@ -561,6 +577,7 @@ published: true
       <div class="site-meta">
         Trondheim, Norway • Building/Room: <em>Natural Science building. Room TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Norwegian%20University%20of%20Science%20and%20Technology" target="_blank" rel="noopener">Map</a>
@@ -575,6 +592,7 @@ published: true
       <div class="site-meta">
         Saarbrücken, Germany • Building/Room: <em>Campus D2 2</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=INM%20Saarbrücken" target="_blank" rel="noopener">Map</a>
@@ -589,6 +607,7 @@ published: true
       <div class="site-meta">
         Charlottesville, VA • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Virginia" target="_blank" rel="noopener">Map</a>
@@ -603,6 +622,7 @@ published: true
       <div class="site-meta">
         Baltimore, MD • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Johns%20Hopkins%20University%20Baltimore" target="_blank" rel="noopener">Map</a>
@@ -632,6 +652,7 @@ published: true
       <div class="site-meta">
         Chalmersplatsen, Gothenburg • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Chalmers%20Gothenburg" target="_blank" rel="noopener">Map</a>
@@ -646,6 +667,7 @@ published: true
       <div class="site-meta">
         State College, PA • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Pennsylvania%20State%20University%20State%20College" target="_blank" rel="noopener">Map</a>
@@ -660,6 +682,7 @@ published: true
       <div class="site-meta">
         New York, NY • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Columbia%20University" target="_blank" rel="noopener">Map</a>
@@ -674,6 +697,7 @@ published: true
       <div class="site-meta">
         Lausanne, Switzerland • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=EPFL" target="_blank" rel="noopener">Map</a>
@@ -688,6 +712,7 @@ published: true
       <div class="site-meta">
         Lemont, IL • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Argonne%20Laboratory" target="_blank" rel="noopener">Map</a>
@@ -702,6 +727,7 @@ published: true
       <div class="site-meta">
         Evanston, IL • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Northwestern%20University" target="_blank" rel="noopener">Map</a>
@@ -716,6 +742,7 @@ published: true
       <div class="site-meta">
         College Station, TX • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Texas%20A%26M%20University%20College%20Station" target="_blank" rel="noopener">Map</a>
@@ -730,6 +757,7 @@ published: true
       <div class="site-meta">
         Stillwater, OK • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Oklahoma%20State%20University%20Stillwater" target="_blank" rel="noopener">Map</a>
@@ -744,6 +772,7 @@ published: true
       <div class="site-meta">
         Columbus, OH • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Ohio%20State%20University" target="_blank" rel="noopener">Map</a>
@@ -758,6 +787,7 @@ published: true
       <div class="site-meta">
         Houston, TX • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Rice%20University" target="_blank" rel="noopener">Map</a>
@@ -787,6 +817,7 @@ published: true
       <div class="site-meta">
         Bloomington, IN • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Indiana%20University%20Bloomington" target="_blank" rel="noopener">Map</a>
@@ -801,6 +832,7 @@ published: true
       <div class="site-meta">
         Tucson, AZ • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Arizona" target="_blank" rel="noopener">Map</a>
@@ -815,6 +847,7 @@ published: true
       <div class="site-meta">
         Golden, CO • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Colorado%20School%20of%20Mines%20Golden" target="_blank" rel="noopener">Map</a>
@@ -829,6 +862,7 @@ published: true
       <div class="site-meta">
         Arlington, TX • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Texas%20Arlington" target="_blank" rel="noopener">Map</a>
@@ -843,24 +877,26 @@ published: true
       <div class="site-meta">
         Albuquerque, NM • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=CINT%20SNL" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=Center%20for%20Integrated%20Nanotechnologies%20(CINT)" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- Colorado (Boulder) -->
-    <div class="site-card" id="site-ucolo">
+    <!-- University of Colorado Boulder -->
+    <div class="site-card" id="site-ucboulder">
       <span class="badge">Colorado, USA</span>
-      <h3>University of Colorado</h3>
-      <img class="site-logo" src="{{ '/assets/UCB.png' | relative_url }}" alt="University of Colorado logo" style="max-height:64px;">
+      <h3>University of Colorado Boulder</h3>
+      <img class="site-logo" src="{{ '/assets/UCB.png' | relative_url }}" alt="University of Colorado Boulder logo" style="max-height:64px;">
       <div class="site-meta">
-        Boulder, CO • Building/Room: <em>TBA</em><br>
-        Contact: <em>TBA</em>
+        Boulder, CO • Building/Room: <em>SEEC Building, Room S228</em><br>
+        Contact: Sadegh Yazdi
+        <br><a href="mailto:sadegh.yazdi@colorado.edu">sadegh.yazdi@colorado.edu</a>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Colorado%20Boulder" target="_blank" rel="noopener">Map</a>
-        <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Colorado" class="btn-primary">Register</a>
+        <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Colorado%20Boulder" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- University of Washington -->
@@ -871,6 +907,7 @@ published: true
       <div class="site-meta">
         Seattle, WA • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Washington" target="_blank" rel="noopener">Map</a>
@@ -885,6 +922,7 @@ published: true
       <div class="site-meta">
         Los Angeles, CA • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Southern%20California" target="_blank" rel="noopener">Map</a>
@@ -899,6 +937,7 @@ published: true
       <div class="site-meta">
         Gainesville, FL • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Florida" target="_blank" rel="noopener">Map</a>
@@ -913,6 +952,7 @@ published: true
       <div class="site-meta">
         Pasadena, CA • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=California%20Institute%20of%20Technology" target="_blank" rel="noopener">Map</a>
@@ -927,6 +967,7 @@ published: true
       <div class="site-meta">
         Santa Barbara, CA • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=California%20NanoSystems%20Institute%20Santa%20Barbara" target="_blank" rel="noopener">Map</a>
@@ -941,6 +982,7 @@ published: true
       <div class="site-meta">
         New Haven, CT • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Yale%20Universitya" target="_blank" rel="noopener">Map</a>
@@ -970,6 +1012,7 @@ published: true
       <div class="site-meta">
         Durham, NC • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Duke%20University" target="_blank" rel="noopener">Map</a>
@@ -999,6 +1042,7 @@ published: true
       <div class="site-meta">
         Laramie, WY • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Wyoming" target="_blank" rel="noopener">Map</a>
@@ -1028,6 +1072,7 @@ published: true
       <div class="site-meta">
         Erlangen, Germany • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Friedrich-Alexander-Universität" target="_blank" rel="noopener">Map</a>
@@ -1042,6 +1087,7 @@ published: true
       <div class="site-meta">
         Merced, CA • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20California%20Merced" target="_blank" rel="noopener">Map</a>
@@ -1056,6 +1102,7 @@ published: true
       <div class="site-meta">
         Waco, TX • Building/Room: <em>Baylor Sciences Building, A202</em><br>
         Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
         <br><i>Limited to 15 participants affiliated with Baylor University</i>
       </div>
       <div class="site-actions">
@@ -1274,13 +1321,28 @@ published: true
         <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Central%20Florida" class="btn-primary">Register</a>
       </div>
     </div>
+    <!-- Constructor University - Bremen, Germany -->
+    <div class="site-card" id="site-cu">
+      <span class="badge">Germany</span>
+      <h3>Constructor University</h3>
+      <img class="site-logo" src="{{ '/assets/C-Uni.png' | relative_url }}" alt="Constructor University - Bremen, Germany logo" style="max-height:64px;">
+      <div class="site-meta">
+        Bremen, Germany • Building/Room: <em>TBA</em><br>
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Constructor%20University%20Bremen" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Constructor%20University%20-%20Bremen,%20Germany" class="btn-primary">Register</a>
+      </div>
+    </div>
     <!-- Online (no pin) -->
     <div class="site-card" id="site-online">
       <span class="badge">Global</span>
       <h3>Online</h3>
       <div class="site-meta">
         Participate remotely via Zoom + Slack<br>
-        Access details will be emailed after registration.
+        <em>Access details will be emailed after registration.</em>
       </div>
       <div class="site-actions">
         <a href="{{ '/registration/' | relative_url }}?site=Online" class="btn-primary">Register</a>

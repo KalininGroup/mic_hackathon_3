@@ -71,6 +71,18 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
        TBA
       </td>
     </tr>
+    <!-- Covalent Metrology -->
+    <tr>
+      <td rowspan="1" style="text-align:center; vertical-align:middle;">
+        <a href="https://covalentmetrology.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/covalent.png' | relative_url }}" alt="Covalent Metrology" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$5,000</td>
+      <td>
+        <strong>Covalent Award</strong>
+      </td>
+    </tr>
     <!-- Nanosurf -->
     <tr>
       <td rowspan="1" style="text-align:center; vertical-align:middle;">
@@ -116,7 +128,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       </td>
       <td>$1,500</td>
       <td>
-        Best AFM/SPM Project
+        <strong>Best AFM/SPM Project</strong>
       </td>
     </tr>
     <!-- Zurich Instruments -->
@@ -152,7 +164,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       </td>
       <td>$1,000</td>
       <td>
-        TBA
+        <strong>DECTRIS Microscopy Hackathon Award</strong>
       </td>
     </tr>
     <!-- Anthropic -->
@@ -202,19 +214,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       </td>
       <td>Gin-Situ</td>
       <td>
-       Mystery Prize
-      </td>
-    </tr>
-    <!-- Covalent Metrology -->
-    <tr>
-      <td rowspan="1" style="text-align:center; vertical-align:middle;">
-        <a href="https://covalentmetrology.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/covalent.png' | relative_url }}" alt="Covalent Metrology" style="max-height:55px;">
-        </a>
-      </td>
-      <td>TBA</td>
-      <td>
-        TBA
+       <strong>Mystery Prize</strong>
       </td>
     </tr>
     <!-- Theia Scientific -->
@@ -238,7 +238,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       </td>
       <td>$500</td>
       <td>
-        The best local team
+        <strong>The best local team</strong>
       </td>
     </tr>
     <!-- COMMAT -->
@@ -250,7 +250,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       </td>
       <td>TBA</td>
       <td>
-        Canada Regional Winner
+        <strong>Canada Regional Winner</strong>
       </td>
     </tr>
     <!-- Hitachi -->
@@ -262,7 +262,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       </td>
       <td>TBA</td>
       <td>
-        Canada Regional Runner-up
+        <strong>Canada Regional Runner-up</strong>
       </td>
     </tr>
   </tbody>
