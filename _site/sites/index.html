@@ -249,6 +249,7 @@
     { id:"site-utsa", name:"University of Texas at San Antonio", city:"San Antonio, TX, USA", lat:29.583062, lon:-98.619937 },
     { id:"site-ucf", name:"University of Central Florida", city:"Orlando, FL, USA", lat:28.602438, lon:-81.200063 },
     { id:"site-cu", name:"Constructor University", city:"Bremen, Germany", lat:53.168813, lon:8.650063 },
+    { id:"site-aveiro", name:"University of Aveiro", city:"Aveiro, Portugal", lat:40.630562, lon:-8.657438 },
   ]
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -337,6 +338,9 @@
 </style>
 
 <div class="sites-wrap">
+
+  <!-- North America -->
+  <h3 style="margin-top:20px; font-size:1.3rem; color:#1d2a56; border-bottom: 2px solid #e8ecf3; padding-bottom: 5px;">North America</h3>
   <div class="sites-grid">
     <!-- UTK -->
     <div class="site-card" id="site-utk">
@@ -351,443 +355,6 @@
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University+of+Tennessee+Knoxville" target="_blank" rel="noopener">Map</a>
         <a href="/registration/?site=University%20of%20Tennessee,%20Knoxville" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- IIT -->
-    <div class="site-card" id="site-iit">
-      <span class="badge">Italy</span>
-      <h3>Italian Institute of Technology</h3>
-      <img class="site-logo" src="/assets/IIT.png" alt="IIT logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Genoa, Italy • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Istituto%20Italiano%20di%20Tecnologia%20Center%20for%20Convergent%20Technologies" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Italian%20Institute%20of%20Technology%20-%20Genoa,%20Italy" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- NCSU -->
-    <div class="site-card" id="site-ncsu">
-      <span class="badge">North Carolina, USA</span>
-      <h3>North Carolina State University</h3>
-      <img class="site-logo" src="/assets/ncsu.png" alt="NCSU logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Raleigh, NC • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=North%20Carolina%20State%20University" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=North%20Carolina%20State%20University" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- MPI-FKF -->
-    <div class="site-card" id="site-mpi-fkf">
-      <span class="badge">Germany</span>
-      <h3>Max Planck Institute for Solid State Research</h3>
-      <img class="site-logo" src="/assets/mpi-fkf.png" alt="MPI-FKF logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Stuttgart, Germany • Building/Room: <em>Heisenbergstrasse 1, 2D8</em><br />
-        Contact: Kenan Elibol<br />
-        <a href="mailto:k.elibol@fkf.mpg.de">k.elibol@fkf.mpg.de</a>
-        <br /><i>Limited to 20 registered participants.</i>
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Max%20Planck%20Institute%20for%20Solid%20State%20Research" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Max%20Planck%20Institute%20for%20Solid%20State%20Research%20-%20Stuttgart,%20Germany" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- SKKU -->
-    <div class="site-card" id="site-skku">
-      <span class="badge">Republic of Korea</span>
-      <h3>School of Advanced Materials Science and Engineering, Sungkyunkwan University</h3>
-      <img class="site-logo" src="/assets/SKKU.jpg" alt="SKKU logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Suwon, Republic of Korea • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=School%20of%20Advanced%20Materials%20Science%20and%20Engineering%20SKKU" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Sungkyunkwan%20University%20-%20Suwon,%20Republic%20of%20Korea" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Humboldt Uni -->
-    <div class="site-card" id="site-hu-berlin">
-      <span class="badge">Germany</span>
-      <h3>Department of Physics, Humboldt University of Berlin</h3>
-      <img class="site-logo" src="/assets/hu-berlin.svg" alt="Humboldt University logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Berlin, Germany • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Institut%20für%20Physik%20der%20Humboldt-Universität%20Berlin" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Humboldt%20University%20of%20Berlin%20-%20Berlin,%20Germany" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Manchester Uni -->
-    <div class="site-card" id="site-manchester-uni">
-      <span class="badge">United Kingdom</span>
-      <h3>The University of Manchester</h3>
-      <img class="site-logo" src="/assets/manchester-uni.png" alt="Manchester University logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Manchester, UK • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=The%20University%20of%20Manchester" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=The%20University%20of%20Manchester%20-%20Manchester,%20UK" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Kanazawa Uni -->
-    <div class="site-card" id="site-kanazawa-uni">
-      <span class="badge">Japan</span>
-      <h3>Kanazawa University</h3>
-      <img class="site-logo" src="/assets/kanazawa_uni.png" alt="Kanazawa University logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Kanazawa, Japan • Building/Room: <em>Nano Life Science Institute, 4F Main Conference Room</em><br />
-        Contact: Kazuki Miyata<br />
-        <a href="mailto:k-miyata@staff.kanazawa-u.ac.jp">k-miyata@staff.kanazawa-u.ac.jp</a>
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Kanazawa%20University" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Kanazawa%20University%20-%20Kanazawa,%20Japan" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Technical Uni Darmstadt -->
-    <div class="site-card" id="site-tu-darmstadt">
-      <span class="badge">Germany</span>
-      <h3>Technical University of Darmstadt</h3>
-      <img class="site-logo" src="/assets/tu-darmstadt.svg" alt="TU Darmstadt logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Darmstadt, Germany • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Technical%20University%20of%20Darmstadt" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Technical%20University%20of%20Darmstadt%20-%20Darmstadt,%20Germany" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- University of Leeds -->
-    <div class="site-card" id="site-leeds-uni">
-      <span class="badge">United Kingdom</span>
-      <h3>University of Leeds</h3>
-      <img class="site-logo" src="/assets/leeds.svg" alt="Leeds University logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Leeds, United Kingdom • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Leeds" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Leeds%20-%20Leeds,%20UK" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Trinity College Dublin-->
-    <div class="site-card" id="site-tcd">
-      <span class="badge">Ireland</span>
-      <h3>Trinity College Dublin</h3>
-      <img class="site-logo" src="/assets/tcd.png" alt="Trinity College Dublin logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Dublin, Ireland • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Trinity%20College%20Dublin" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Trinity%20College%20Dublin%20-%20Dublin,%20Ireland" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Ulster Uni-->
-    <div class="site-card" id="site-ulster">
-      <span class="badge">United Kingdom</span>
-      <h3>Ulster University</h3>
-      <img class="site-logo" src="/assets/ulster.svg" alt="Ulster University logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Belfast, UK • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Ulster%20University%20Belfast" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Ulster%20University%20-%20Belfast,%20UK" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Institute of Industrial Science, The University of Tokyo, Japan -->
-    <div class="site-card" id="site-iis">
-      <span class="badge">Japan</span>
-      <h3>Institute of Industrial Science</h3>
-      <img class="site-logo" src="/assets/iis.png" alt="Institute of Industrial Science logo" style="max-height:64px;" />
-      <div class="site-meta">
-        The University of Tokyo, Japan • Building/Room: <em>TBA</em><br />
-        Contact: Fumihiko Uesugi<br />
-        <a href="mailto:uesugi23@iis.u-tokyo.ac.jp">uesugi23@iis.u-tokyo.ac.jp</a>
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Institute%20of%20Industrial%20Science%20Tokyo" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Institute%20of%20Industrial%20Science,%20The%20University%20of%20Tokyo%20-%20Japan" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- ICMAB-->
-    <div class="site-card" id="site-icmab">
-      <span class="badge">Spain</span>
-      <h3>Institute of Materials Science of Barcelona (ICMAB-CSIC)</h3>
-      <img class="site-logo" src="/assets/icmab.png" alt="ICMAB-CSIC logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Barcelona, Spain • Building/Room: <em>Salón de actos Matgas</em><br />
-        Contact: Dr.hab. Horacio V. Guzman<br />
-        <a href="mailto:hguzman@icmab.es">hguzman@icmab.es</a>
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=ICMAB%20Barcelona" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Institute%20of%20Materials%20Science%20of%20Barcelona%20-%20Barcelona,%20Spain" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Korea Advanced Institute of Science & Technology (KAIST), Daejeon -->
-    <div class="site-card" id="site-kaist">
-      <span class="badge">Republic of Korea</span>
-      <h3>Korea Advanced Institute of Science &amp; Technology (KAIST), Republic of Korea</h3>
-      <img class="site-logo" src="/assets/KAIST.png" alt="KAIST logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Daejeon, Republic of Korea • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=KAIST%20Daejeon" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Korea%20Advanced%20Institute%20of%20Science%20%26%20Technology%20(KAIST)%20-%20Republic%20of%20Korea" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- AISCIA Informatics - Doha -->
-    <div class="site-card" id="site-aiscia">
-      <span class="badge">Qatar</span>
-      <h3>AISCIA Informatics</h3>
-      <img class="site-logo" src="/assets/AISCIA.png" alt="AISCIA Informatics logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Qatar Science and Technology Park, Doha • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Qatar%20Science%20and%20Technology%20Park%20Doha" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=AISCIA%20Informatics%20-%20Doha,%20Qatar" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- University of Sheffield -->
-    <div class="site-card" id="site-uos">
-      <span class="badge">United Kingdom</span>
-      <h3>University of Sheffield</h3>
-      <img class="site-logo" src="/assets/uos.svg" alt="University of Sheffield logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Sheffield, UK • Building/Room: <em><br />Dec 15: The Ideas Space, Sir Robert Hadfield Building<br />
-        Dec 16-17: Mappin Hall, Sir Frederick Mappin Building</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Sheffield" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Sheffield%20-%20Sheffield,%20UK" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons - Jülich, Germany -->
-    <div class="site-card" id="site-erc">
-      <span class="badge">Germany</span>
-      <h3>Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons</h3>
-      <img class="site-logo" src="/assets/erc.png" alt="Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Jülich, Germany • Building/Room: <em>TBA</em><br />
-        Contact: Bashir Kazimi
-        <br /><a href="mailto:b.kazimi@fz-juelich.de">b.kazimi@fz-juelich.de</a>
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Ernst%20Ruska-Centre" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Ernst%20Ruska-Centre%20for%20Microscopy%20and%20Spectroscopy%20with%20Electrons%20-%20Jülich,%20Germany" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Institute for Bioengineering of Catalonia (IBEC) - Barcelona, Spain -->
-    <div class="site-card" id="site-ibec">
-      <span class="badge">Spain</span>
-      <h3>Institute for Bioengineering of Catalonia (IBEC)</h3>
-      <img class="site-logo" src="/assets/ibec.png" alt="IBEC logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Barcelona, Spain • Building/Room: <em>TBA</em><br />
-        Contact: Mauricio Cano
-        <br /><a href="mailto:mcano@ibecbarcelona.eu">mcano@ibecbarcelona.eu</a>
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=IBEC%20Spain" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Institute%20for%20Bioengineering%20of%20Catalonia%20(IBEC)%20-%20Barcelona,%20Spain" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Department of Materials, University of Oxford - Oxford, UK -->
-    <div class="site-card" id="site-dom-oxford">
-      <span class="badge">United Kingdom</span>
-      <h3>Department of Materials, University of Oxford</h3>
-      <img class="site-logo" src="/assets/dom-oxford.svg" alt="Department of Materials, University of Oxford logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Oxford, UK • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Department%20of%20Materials%20Parks%20Road" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Department%20of%20Materials,%20University%20of%20Oxford%20-%20Oxford,%20UK " class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Institut Català de Nanociència i Nanotecnologia (ICN2) - Barcelona, Spain -->
-    <div class="site-card" id="site-icn2">
-      <span class="badge">Spain</span>
-      <h3>Institut Català de Nanociència i Nanotecnologia - ICN2</h3>
-      <img class="site-logo" src="/assets/ICN2.png" alt="ICN2 logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Barcelona, Spain • Building/Room: <em>Campus UAB, ICN2</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=ICN2%20Barcelona" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Institut%20Catal%C3%A0%20de%20Nanoci%C3%A8ncia%20i%20Nanotecnologia%20(ICN2)%20-%20Barcelona,%20Spain" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Norwegian University of Science and Technology (NTNU) - Trondheim, Norway -->
-    <div class="site-card" id="site-ntnu">
-      <span class="badge">Norway</span>
-      <h3>Norwegian University of Science and Technology (NTNU)</h3>
-      <img class="site-logo" src="/assets/ntnu.svg" alt="NTNU logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Trondheim, Norway • Building/Room: <em>Natural Science building. Room TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Norwegian%20University%20of%20Science%20and%20Technology" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Norwegian%20University%20of%20Science%20and%20Technology%20(NTNU)%20-%20Trondheim,%20Norway" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Leibniz Institute for New Materials (INM) - Saarbrücken, Germany -->
-    <div class="site-card" id="site-inm">
-      <span class="badge">Germany</span>
-      <h3>Leibniz Institute for New Materials (INM)</h3>
-      <img class="site-logo" src="/assets/inm.png" alt="INM logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Saarbrücken, Germany • Building/Room: <em>Campus D2 2</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=INM%20Saarbrücken" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Leibniz%20Institute%20for%20New%20Materials%20(INM)%20-%20Saarbrücken,%20Germany" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- University of Virginia -->
-    <div class="site-card" id="site-uva">
-      <span class="badge">Virginia, USA</span>
-      <h3>University of Virginia</h3>
-      <img class="site-logo" src="/assets/uva.svg" alt="University of Virginia logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Charlottesville, VA • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Virginia" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Virginia" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Johns Hopkins University -->
-    <div class="site-card" id="site-jhu">
-      <span class="badge">Maryland, USA</span>
-      <h3>Johns Hopkins University</h3>
-      <img class="site-logo" src="/assets/JHU.png" alt="Johns Hopkins University logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Baltimore, MD • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Johns%20Hopkins%20University%20Baltimore" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Johns%20Hopkins%20University" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Georgia Institute of Technology -->
-    <div class="site-card" id="site-gatech">
-      <span class="badge">Georgia, USA</span>
-      <h3>Georgia Institute of Technology</h3>
-      <img class="site-logo" src="/assets/gatech.png" alt="Georgia Institute of Technology logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Atlanta, GA • Building/Room: <em>TBA</em><br />
-        Contact: Mengkun Tian<br />
-        <a href="mailto:mtian37@gatech.edu">mtian37@gatech.edu</a>
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=gatech" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Georgia%20Institute%20of%20Technology" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Chalmers University of Technology - Gothenburg, Sweden -->
-    <div class="site-card" id="site-chalmers">
-      <span class="badge">Sweden</span>
-      <h3>Chalmers University of Technology</h3>
-      <img class="site-logo" src="/assets/chalmers.svg" alt="Chalmers University of Technology logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Chalmersplatsen, Gothenburg • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Chalmers%20Gothenburg" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Chalmers%20University%20of%20Technology%20-%20Gothenburg,%20Sweden" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Pennsylvania State University -->
-    <div class="site-card" id="site-psu">
-      <span class="badge">Pennsylvania, USA</span>
-      <h3>Pennsylvania State University</h3>
-      <img class="site-logo" src="/assets/PSU.png" alt="Pennsylvania State University logo" style="max-height:64px;" />
-      <div class="site-meta">
-        State College, PA • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Pennsylvania%20State%20University%20State%20College" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Pennsylvania%20State%20University" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Columbia University -->
-    <div class="site-card" id="site-columbia">
-      <span class="badge">New York, USA</span>
-      <h3>Columbia University</h3>
-      <img class="site-logo" src="/assets/columbia.svg" alt="Columbia University logo" style="max-height:64px;" />
-      <div class="site-meta">
-        New York, NY • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Columbia%20University" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Columbia%20University" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Swiss Federal Technology Institute of Lausanne (EPFL) - Lausanne, Switzerland -->
-    <div class="site-card" id="site-epfl">
-      <span class="badge">Switzerland</span>
-      <h3>Swiss Federal Technology Institute of Lausanne (EPFL)</h3>
-      <img class="site-logo" src="/assets/epfl.svg" alt="EPFL logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Lausanne, Switzerland • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=EPFL" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Swiss%20Federal%20Technology%20Institute%20of%20Lausanne%20(EPFL)%20-%20Lausanne,%20Switzerland" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- Argonne National Laboratory -->
@@ -805,229 +372,20 @@
         <a href="/registration/?site=Argonne%20National%20Laboratory" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- Northwestern University -->
-    <div class="site-card" id="site-nwu">
-      <span class="badge">Illinois, USA</span>
-      <h3>Northwestern University</h3>
-      <img class="site-logo" src="/assets/northwestern.svg" alt="Northwestern logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Evanston, IL • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Northwestern%20University" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Northwestern%20University" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Texas A&M University -->
-    <div class="site-card" id="site-tamu">
+    <!-- Baylor University -->
+    <div class="site-card" id="site-baylor">
       <span class="badge">Texas, USA</span>
-      <h3>Texas A&amp;M University</h3>
-      <img class="site-logo" src="/assets/TAMU.png" alt="Texas A&amp;M University logo" style="max-height:64px;" />
+      <h3>Baylor University</h3>
+      <img class="site-logo" src="/assets/baylor.png" alt="Baylor University logo" style="max-height:64px;" />
       <div class="site-meta">
-        College Station, TX • Building/Room: <em>TBA</em><br />
+        Waco, TX • Building/Room: <em>Baylor Sciences Building, A202</em><br />
         Contact: <em>TBA</em>
         <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+        <br /><i>Limited to 15 participants affiliated with Baylor University</i>
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=Texas%20A%26M%20University%20College%20Station" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Texas%20A%26M%20University" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Oklahoma State University -->
-    <div class="site-card" id="site-osu">
-      <span class="badge">Oklahoma, USA</span>
-      <h3>Oklahoma State University</h3>
-      <img class="site-logo" src="/assets/OSU.png" alt="Oklahoma State University logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Stillwater, OK • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Oklahoma%20State%20University%20Stillwater" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Oklahoma%20State%20University" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Ohio State University -->
-    <div class="site-card" id="site-ohio">
-      <span class="badge">Ohio, USA</span>
-      <h3>Ohio State University</h3>
-      <img class="site-logo" src="/assets/ohio.svg" alt="Ohio State University logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Columbus, OH • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Ohio%20State%20University" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Ohio%20State%20University" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Rice University -->
-    <div class="site-card" id="site-rice">
-      <span class="badge">Texas, USA</span>
-      <h3>Rice University</h3>
-      <img class="site-logo" src="/assets/rice.svg" alt="Rice University logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Houston, TX • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Rice%20University" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Rice%20University" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- University of Houston -->
-    <div class="site-card" id="site-uh">
-      <span class="badge">Texas, USA</span>
-      <h3>University of Houston</h3>
-      <img class="site-logo" src="/assets/UH.svg" alt="University of Houston logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Houston, TX • Building/Room: <em>TBA</em><br />
-        Contact: Jacob Smith<br />
-        <a href="mailto:jgsmith5@cougarnet.uh.edu">jgsmith5@cougarnet.uh.edu</a>        
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Houston" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Houston" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Indiana University Bloomington -->
-    <div class="site-card" id="site-iu-bloom">
-      <span class="badge">Indiana, USA</span>
-      <h3>Indiana University Bloomington</h3>
-      <img class="site-logo" src="/assets/IU.svg" alt="Indiana University Bloomington logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Bloomington, IN • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Indiana%20University%20Bloomington" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Indiana%20University%20Bloomington" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- University of Arizona -->
-    <div class="site-card" id="site-uarizona">
-      <span class="badge">Arizona, USA</span>
-      <h3>University of Arizona</h3>
-      <img class="site-logo" src="/assets/uarizona.svg" alt="University of Arizona logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Tucson, AZ • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Arizona" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Arizona" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Colorado School of Mines -->
-    <div class="site-card" id="site-mines">
-      <span class="badge">Colorado, USA</span>
-      <h3>Colorado School of Mines</h3>
-      <img class="site-logo" src="/assets/Mines.png" alt="Colorado School of Mines logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Golden, CO • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Colorado%20School%20of%20Mines%20Golden" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Colorado%20School%20of%20Mines" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- University of Texas at Arlington -->
-    <div class="site-card" id="site-uta">
-      <span class="badge">Texas, USA</span>
-      <h3>University of Texas at Arlington</h3>
-      <img class="site-logo" src="/assets/uta.svg" alt="University of Texas at Arlington logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Arlington, TX • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Texas%20Arlington" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Texas%20at%20Arlington" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Center for Integrated Nanotechnologies (CINT), Sandia National Laboratories -->
-    <div class="site-card" id="site-cint">
-      <span class="badge">New Mexico, USA</span>
-      <h3>Center for Integrated Nanotechnologies (CINT)</h3>
-      <img class="site-logo" src="/assets/cint.png" alt="Center for Integrated Nanotechnologies logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Albuquerque, NM • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=CINT%20SNL" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Center%20for%20Integrated%20Nanotechnologies%20(CINT)" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- University of Colorado Boulder -->
-    <div class="site-card" id="site-ucboulder">
-      <span class="badge">Colorado, USA</span>
-      <h3>University of Colorado Boulder</h3>
-      <img class="site-logo" src="/assets/UCB.png" alt="University of Colorado Boulder logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Boulder, CO • Building/Room: <em>SEEC Building, Room S228</em><br />
-        Contact: Sadegh Yazdi
-        <br /><a href="mailto:sadegh.yazdi@colorado.edu">sadegh.yazdi@colorado.edu</a>
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Colorado%20Boulder" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Colorado%20Boulder" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- University of Washington -->
-    <div class="site-card" id="site-uwashington">
-      <span class="badge">Washington, USA</span>
-      <h3>University of Washington</h3>
-      <img class="site-logo" src="/assets/uwashington.png" alt="University of Washington logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Seattle, WA • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Washington" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Washington" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- University of Southern California -->
-    <div class="site-card" id="site-usc">
-      <span class="badge">California, USA</span>
-      <h3>University of Southern California</h3>
-      <img class="site-logo" src="/assets/usc.png" alt="University of Southern California logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Los Angeles, CA • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Southern%20California" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Southern%20California" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- University of Florida -->
-    <div class="site-card" id="site-ufl">
-      <span class="badge">Florida, USA</span>
-      <h3>University of Florida</h3>
-      <img class="site-logo" src="/assets/ufl.svg" alt="University of Florida logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Gainesville, FL • Building/Room: <em>TBA</em><br />
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Florida" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Florida" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=Baylor%20University" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Baylor%20University" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- California Institute of Technology -->
@@ -1048,7 +406,7 @@
     <!-- California NanoSystems Institute, Santa Barbara -->
     <div class="site-card" id="site-cnsi-sb">
       <span class="badge">California, USA</span>
-      <h3>California NanoSystems Institute, University of California</h3>
+      <h3>California NanoSystems Institute, University of California Santa Barbara</h3>
       <img class="site-logo" src="/assets/cnsi.png" alt="California NanoSystems Institute logo" style="max-height:64px;" />
       <div class="site-meta">
         Santa Barbara, CA • Building/Room: <em>TBA</em><br />
@@ -1060,34 +418,49 @@
         <a href="/registration/?site=California%20NanoSystems%20Institute,%20University%20of%20California,%20Santa%20Barbara" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- Yale University -->
-    <div class="site-card" id="site-yale">
-      <span class="badge">Connecticut, USA</span>
-      <h3>Yale University</h3>
-      <img class="site-logo" src="/assets/yale.svg" alt="Yale University logo" style="max-height:64px;" />
+    <!-- Center for Integrated Nanotechnologies (CINT), Sandia National Laboratories -->
+    <div class="site-card" id="site-cint">
+      <span class="badge">New Mexico, USA</span>
+      <h3>Center for Integrated Nanotechnologies (CINT)</h3>
+      <img class="site-logo" src="/assets/cint.png" alt="Center for Integrated Nanotechnologies logo" style="max-height:64px;" />
       <div class="site-meta">
-        New Haven, CT • Building/Room: <em>TBA</em><br />
+        Albuquerque, NM • Building/Room: <em>TBA</em><br />
         Contact: <em>TBA</em>
         <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=Yale%20Universitya" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Yale%20University" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=CINT%20SNL" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Center%20for%20Integrated%20Nanotechnologies%20(CINT)" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- Birck Nanotechnology Center, Purdue University -->
-    <div class="site-card" id="site-purdue">
-      <span class="badge">Indiana, USA</span>
-      <h3>Purdue University, Birck Nanotechnology Center</h3>
-      <img class="site-logo" src="/assets/purdue.svg" alt="Purdue University logo" style="max-height:64px;" />
+    <!-- Colorado School of Mines -->
+    <div class="site-card" id="site-mines">
+      <span class="badge">Colorado, USA</span>
+      <h3>Colorado School of Mines</h3>
+      <img class="site-logo" src="/assets/Mines.png" alt="Colorado School of Mines logo" style="max-height:64px;" />
       <div class="site-meta">
-        West Lafayette, IN • Building/Room: <em>Birck Nanotechnology Center, Room 2001</em><br />
-        Contact: Jenny Mattson
-        <br /><a href="mailto:jmattson@purdue.edu">jmattson@purdue.edu</a>
+        Golden, CO • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=Birck%20Nanotechnology%20Center" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Purdue%20University,%20Birck%20Nanotechnology%20Center" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=Colorado%20School%20of%20Mines%20Golden" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Colorado%20School%20of%20Mines" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Columbia University -->
+    <div class="site-card" id="site-columbia">
+      <span class="badge">New York, USA</span>
+      <h3>Columbia University</h3>
+      <img class="site-logo" src="/assets/columbia.svg" alt="Columbia University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        New York, NY • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Columbia%20University" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Columbia%20University" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- Duke University -->
@@ -1105,64 +478,199 @@
         <a href="/registration/?site=Duke%20University" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) -->
-    <div class="site-card" id="site-felmi-zfe">
-      <span class="badge">Austria</span>
-      <h3>Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE)</h3>
-      <img class="site-logo" src="/assets/felmi-zfe.gif" alt="FELMI-ZFE logo" style="max-height:64px;" />
+    <!-- Georgia Institute of Technology -->
+    <div class="site-card" id="site-gatech">
+      <span class="badge">Georgia, USA</span>
+      <h3>Georgia Institute of Technology</h3>
+      <img class="site-logo" src="/assets/gatech.png" alt="Georgia Institute of Technology logo" style="max-height:64px;" />
       <div class="site-meta">
-        Graz, Austria • Building/Room: <em>TBA</em><br />
-        Contact: Michael Oberaigner
-        <br /><a href="mailto:michael.oberaigner@felmi-zfe.at">michael.oberaigner@felmi-zfe.at</a>
+        Atlanta, GA • Building/Room: <em>TBA</em><br />
+        Contact: Mengkun Tian<br />
+        <a href="mailto:mtian37@gatech.edu">mtian37@gatech.edu</a>
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=FELMI-ZFE" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Austrian%20Centre%20for%20Electron%20Microscopy%20and%20Nanoanalysis%20(FELMI-ZFE)%20-%20Graz,%20Austria" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=gatech" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Georgia%20Institute%20of%20Technology" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- University of Wyoming -->
-    <div class="site-card" id="site-uw">
-      <span class="badge">Wyoming, USA</span>
-      <h3>University of Wyoming</h3>
-      <img class="site-logo" src="/assets/UWyonming.png" alt="University of Wyoming logo" style="max-height:64px;" />
+    <!-- Indiana University Bloomington -->
+    <div class="site-card" id="site-iu-bloom">
+      <span class="badge">Indiana, USA</span>
+      <h3>Indiana University Bloomington</h3>
+      <img class="site-logo" src="/assets/IU.svg" alt="Indiana University Bloomington logo" style="max-height:64px;" />
       <div class="site-meta">
-        Laramie, WY • Building/Room: <em>TBA</em><br />
+        Bloomington, IN • Building/Room: <em>TBA</em><br />
         Contact: <em>TBA</em>
         <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Wyoming" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Wyoming" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=Indiana%20University%20Bloomington" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Indiana%20University%20Bloomington" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- University of Illinois Urbana-Champaign (UIUC) -->
-    <div class="site-card" id="site-uiuc">
+    <!-- Johns Hopkins University -->
+    <div class="site-card" id="site-jhu">
+      <span class="badge">Maryland, USA</span>
+      <h3>Johns Hopkins University</h3>
+      <img class="site-logo" src="/assets/JHU.png" alt="Johns Hopkins University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Baltimore, MD • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Johns%20Hopkins%20University%20Baltimore" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Johns%20Hopkins%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory -->
+    <div class="site-card" id="site-ncem">
+      <span class="badge">California, USA</span>
+      <h3>National Center for Electron Microscopy (NCEM)</h3>
+      <img class="site-logo" src="/assets/lbnl.svg" alt="Lawrence Berkeley National Laboratory logo" style="max-height:64px;" />
+      <div class="site-meta">
+        LBNL, Berkeley, CA • Building/Room: <em>TBA</em><br />
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=NCEM%20LBNL" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=National%20Center%20for%20Electron%20Microscopy%20(NCEM),%20Lawrence%20Berkeley%20National%20Laboratory" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- NCSU -->
+    <div class="site-card" id="site-ncsu">
+      <span class="badge">North Carolina, USA</span>
+      <h3>North Carolina State University</h3>
+      <img class="site-logo" src="/assets/ncsu.png" alt="NCSU logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Raleigh, NC • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=North%20Carolina%20State%20University" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=North%20Carolina%20State%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Northwestern University -->
+    <div class="site-card" id="site-nwu">
       <span class="badge">Illinois, USA</span>
-      <h3>University of Illinois Urbana-Champaign (UIUC)</h3>
-      <img class="site-logo" src="/assets/UIUC.png" alt="UIUC logo" style="max-height:64px;" />
+      <h3>Northwestern University</h3>
+      <img class="site-logo" src="/assets/northwestern.svg" alt="Northwestern logo" style="max-height:64px;" />
       <div class="site-meta">
-        Urbana–Champaign, IL • Building/Room: <em>MRL/Supercon 1002</em><br />
-        Contact: Hyoungryul Park
-        <br /><a href="mailto:hp33@illinois.edu">hp33@illinois.edu</a>
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Illinois%20Urbana-Champaign" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Illinois%20Urbana-Champaign%20(UIUC)" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Friedrich-Alexander-Universität - Erlangen, Germany -->
-    <div class="site-card" id="site-fau">
-      <span class="badge">Germany</span>
-      <h3>Friedrich-Alexander-Universität</h3>
-      <img class="site-logo" src="/assets/FAU.svg" alt="Friedrich-Alexander-Universität logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Erlangen, Germany • Building/Room: <em>TBA</em><br />
+        Evanston, IL • Building/Room: <em>TBA</em><br />
         Contact: <em>TBA</em>
         <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=Friedrich-Alexander-Universität" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Friedrich-Alexander-Universität%20-%20Erlangen,%20Germany" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=Northwestern%20University" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Northwestern%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Ohio State University -->
+    <div class="site-card" id="site-ohio">
+      <span class="badge">Ohio, USA</span>
+      <h3>Ohio State University</h3>
+      <img class="site-logo" src="/assets/ohio.svg" alt="Ohio State University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Columbus, OH • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Ohio%20State%20University" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Ohio%20State%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Oklahoma State University -->
+    <div class="site-card" id="site-osu">
+      <span class="badge">Oklahoma, USA</span>
+      <h3>Oklahoma State University</h3>
+      <img class="site-logo" src="/assets/OSU.png" alt="Oklahoma State University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Stillwater, OK • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Oklahoma%20State%20University%20Stillwater" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Oklahoma%20State%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Pennsylvania State University -->
+    <div class="site-card" id="site-psu">
+      <span class="badge">Pennsylvania, USA</span>
+      <h3>Pennsylvania State University</h3>
+      <img class="site-logo" src="/assets/PSU.png" alt="Pennsylvania State University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        State College, PA • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Pennsylvania%20State%20University%20State%20College" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Pennsylvania%20State%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Birck Nanotechnology Center, Purdue University -->
+    <div class="site-card" id="site-purdue">
+      <span class="badge">Indiana, USA</span>
+      <h3>Purdue University, Birck Nanotechnology Center</h3>
+      <img class="site-logo" src="/assets/purdue.svg" alt="Purdue University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        West Lafayette, IN • Building/Room: <em>Birck Nanotechnology Center, Room 2001</em><br />
+        Contact: Jenny Mattson
+        <br /><a href="mailto:jmattson@purdue.edu">jmattson@purdue.edu</a>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Birck%20Nanotechnology%20Center" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Purdue%20University,%20Birck%20Nanotechnology%20Center" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Rice University -->
+    <div class="site-card" id="site-rice">
+      <span class="badge">Texas, USA</span>
+      <h3>Rice University</h3>
+      <img class="site-logo" src="/assets/rice.svg" alt="Rice University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Houston, TX • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Rice%20University" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Rice%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Texas A&M University -->
+    <div class="site-card" id="site-tamu">
+      <span class="badge">Texas, USA</span>
+      <h3>Texas A&amp;M University</h3>
+      <img class="site-logo" src="/assets/TAMU.png" alt="Texas A&amp;M University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        College Station, TX • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Texas%20A%26M%20University%20College%20Station" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Texas%20A%26M%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Arizona -->
+    <div class="site-card" id="site-uarizona">
+      <span class="badge">Arizona, USA</span>
+      <h3>University of Arizona</h3>
+      <img class="site-logo" src="/assets/uarizona.svg" alt="University of Arizona logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Tucson, AZ • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Arizona" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Arizona" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- University of California Merced -->
@@ -1180,35 +688,429 @@
         <a href="/registration/?site=University%20of%20California%20Merced" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- Baylor University -->
-    <div class="site-card" id="site-baylor">
-      <span class="badge">Texas, USA</span>
-      <h3>Baylor University</h3>
-      <img class="site-logo" src="/assets/baylor.png" alt="Baylor University logo" style="max-height:64px;" />
+    <!-- University of Central Florida -->
+    <div class="site-card" id="site-ucf">
+      <span class="badge">Florida, USA</span>
+      <h3>University of Central Florida</h3>
+      <img class="site-logo" src="/assets/UCF.png" alt="University of Central Florida logo" style="max-height:64px;" />
       <div class="site-meta">
-        Waco, TX • Building/Room: <em>Baylor Sciences Building, A202</em><br />
-        Contact: <em>TBA</em>
+        Orlando, FL • Building/Room: <em>TBA</em><br />
+        Contact: TBA
         <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-        <br /><i>Limited to 15 participants affiliated with Baylor University</i>
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=Baylor%20University" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Baylor%20University" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=University%20of%20Central%20Florida" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Central%20Florida" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- Indian Institute of Technology Delhi - New Delhi, India -->
-    <div class="site-card" id="site-iitd">
-      <span class="badge">India</span>
-      <h3>Indian Institute of Technology Delhi</h3>
-      <img class="site-logo" src="/assets/iitd.svg" alt="Indian Institute of Technology Delhi logo" style="max-height:64px;" />
+    <!-- University of Colorado Boulder -->
+    <div class="site-card" id="site-ucboulder">
+      <span class="badge">Colorado, USA</span>
+      <h3>University of Colorado Boulder</h3>
+      <img class="site-logo" src="/assets/UCB.png" alt="University of Colorado Boulder logo" style="max-height:64px;" />
       <div class="site-meta">
-        New Delhi, India • Building/Room: <em>TBA</em><br />
-        Contact: Indrajeet Mandal
-        <br /><a href="mailto:srz228569@iitd.ac.in">srz228569@iitd.ac.in</a>
+        Boulder, CO • Building/Room: <em>SEEC Building, Room S228</em><br />
+        Contact: Sadegh Yazdi
+        <br /><a href="mailto:sadegh.yazdi@colorado.edu">sadegh.yazdi@colorado.edu</a>
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=IIT%20Delhi" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Indian%20Institute%20of%20Technology%20Delhi%20-%20New%20Delhi,%20India" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=University%20of%20Colorado%20Boulder" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Colorado%20Boulder" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Connecticut -->
+    <div class="site-card" id="site-uconn">
+      <span class="badge">Connecticut, USA</span>
+      <h3>University of Connecticut</h3>
+      <img class="site-logo" src="/assets/uconn.svg" alt="University of Connecticut logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Mansfield, CT • Building/Room: <em>TBA</em><br />
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Connecticut" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Connecticut" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Florida -->
+    <div class="site-card" id="site-ufl">
+      <span class="badge">Florida, USA</span>
+      <h3>University of Florida</h3>
+      <img class="site-logo" src="/assets/ufl.svg" alt="University of Florida logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Gainesville, FL • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Florida" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Florida" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Houston -->
+    <div class="site-card" id="site-uh">
+      <span class="badge">Texas, USA</span>
+      <h3>University of Houston</h3>
+      <img class="site-logo" src="/assets/UH.svg" alt="University of Houston logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Houston, TX • Building/Room: <em>TBA</em><br />
+        Contact: Jacob Smith<br />
+        <a href="mailto:jgsmith5@cougarnet.uh.edu">jgsmith5@cougarnet.uh.edu</a>        
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Houston" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Houston" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Illinois Urbana-Champaign (UIUC) -->
+    <div class="site-card" id="site-uiuc">
+      <span class="badge">Illinois, USA</span>
+      <h3>University of Illinois Urbana-Champaign (UIUC)</h3>
+      <img class="site-logo" src="/assets/UIUC.png" alt="UIUC logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Urbana–Champaign, IL • Building/Room: <em>MRL/Supercon 1002</em><br />
+        Contact: Hyoungryul Park
+        <br /><a href="mailto:hp33@illinois.edu">hp33@illinois.edu</a>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Illinois%20Urbana-Champaign" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Illinois%20Urbana-Champaign%20(UIUC)" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Southern California -->
+    <div class="site-card" id="site-usc">
+      <span class="badge">California, USA</span>
+      <h3>University of Southern California</h3>
+      <img class="site-logo" src="/assets/usc.png" alt="University of Southern California logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Los Angeles, CA • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Southern%20California" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Southern%20California" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Texas at Arlington -->
+    <div class="site-card" id="site-uta">
+      <span class="badge">Texas, USA</span>
+      <h3>University of Texas at Arlington</h3>
+      <img class="site-logo" src="/assets/uta.svg" alt="University of Texas at Arlington logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Arlington, TX • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Texas%20Arlington" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Texas%20at%20Arlington" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Texas at Austin -->
+    <div class="site-card" id="site-ut_austin">
+      <span class="badge">Texas, USA</span>
+      <h3>University of Texas at Austin</h3>
+      <img class="site-logo" src="/assets/ut_austin.svg" alt="UT Austin logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Austin, TX • Building/Room: <em>TBA</em><br />
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=UT%20Austin" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Texas%20at%20Austin" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Texas at San Antonio -->
+    <div class="site-card" id="site-utsa">
+      <span class="badge">Texas, USA</span>
+      <h3>University of Texas at San Antonio</h3>
+      <img class="site-logo" src="/assets/utsa.svg" alt="UT San Antonio logo" style="max-height:64px;" />
+      <div class="site-meta">
+        San Antonio, TX • Building/Room: <em>TBA</em><br />
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=UT%20San%20Antonio" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Texas%20at%20San%20Antonio" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Toronto - Toronto, Canada -->
+    <div class="site-card" id="site-uoft">
+      <span class="badge">Canada</span>
+      <h3>University of Toronto</h3>
+      <img class="site-logo" src="/assets/UofT.svg" alt="University of Toronto logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Toronto, Canada • Building/Room: <em>TBA</em><br />
+        Contact: Kevin Zhang
+        <br /><a href="mailto:kevinzy.zhang@mail.utoronto.ca">kevinzy.zhang@mail.utoronto.ca</a>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Toronto" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Toronto%20-%20Toronto,%20Canada" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Virginia -->
+    <div class="site-card" id="site-uva">
+      <span class="badge">Virginia, USA</span>
+      <h3>University of Virginia</h3>
+      <img class="site-logo" src="/assets/uva.svg" alt="University of Virginia logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Charlottesville, VA • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Virginia" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Virginia" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Washington -->
+    <div class="site-card" id="site-uwashington">
+      <span class="badge">Washington, USA</span>
+      <h3>University of Washington</h3>
+      <img class="site-logo" src="/assets/uwashington.png" alt="University of Washington logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Seattle, WA • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Washington" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Washington" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Wyoming -->
+    <div class="site-card" id="site-uw">
+      <span class="badge">Wyoming, USA</span>
+      <h3>University of Wyoming</h3>
+      <img class="site-logo" src="/assets/UWyonming.png" alt="University of Wyoming logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Laramie, WY • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Wyoming" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Wyoming" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Virginia Tech -->
+    <div class="site-card" id="site-vt">
+      <span class="badge">Virginia, USA</span>
+      <h3>Virginia Tech</h3>
+      <img class="site-logo" src="/assets/vt.svg" alt="Virginia Tech logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Blacksburg, VA • Building/Room: <em>TBA</em><br />
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Virginia%20Tech" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Virginia%20Tech" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Yale University -->
+    <div class="site-card" id="site-yale">
+      <span class="badge">Connecticut, USA</span>
+      <h3>Yale University</h3>
+      <img class="site-logo" src="/assets/yale.svg" alt="Yale University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        New Haven, CT • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Yale%20Universitya" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Yale%20University" class="btn-primary">Register</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Europe -->
+  <h3 style="margin-top:40px; font-size:1.3rem; color:#1d2a56; border-bottom: 2px solid #e8ecf3; padding-bottom: 5px;">Europe</h3>
+  <div class="sites-grid">
+    <!-- Aarhus University - Aarhus, Denmark -->
+    <div class="site-card" id="site-aarhus">
+      <span class="badge">Denmark</span>
+      <h3>Aarhus University</h3>
+      <img class="site-logo" src="/assets/aarhus.png" alt="Aarhus University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Aarhus, Denmark • Building/Room: <em>TBA</em><br />
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Aarhus%20University" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Aarhus%20University%20-%20Aarhus,%20Denmark" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) -->
+    <div class="site-card" id="site-felmi-zfe">
+      <span class="badge">Austria</span>
+      <h3>Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE)</h3>
+      <img class="site-logo" src="/assets/felmi-zfe.gif" alt="FELMI-ZFE logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Graz, Austria • Building/Room: <em>TBA</em><br />
+        Contact: Michael Oberaigner
+        <br /><a href="mailto:michael.oberaigner@felmi-zfe.at">michael.oberaigner@felmi-zfe.at</a>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=FELMI-ZFE" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Austrian%20Centre%20for%20Electron%20Microscopy%20and%20Nanoanalysis%20(FELMI-ZFE)%20-%20Graz,%20Austria" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Chalmers University of Technology - Gothenburg, Sweden -->
+    <div class="site-card" id="site-chalmers">
+      <span class="badge">Sweden</span>
+      <h3>Chalmers University of Technology</h3>
+      <img class="site-logo" src="/assets/chalmers.svg" alt="Chalmers University of Technology logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Chalmersplatsen, Gothenburg • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Chalmers%20Gothenburg" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Chalmers%20University%20of%20Technology%20-%20Gothenburg,%20Sweden" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Constructor University - Bremen, Germany -->
+    <div class="site-card" id="site-cu">
+      <span class="badge">Germany</span>
+      <h3>Constructor University</h3>
+      <img class="site-logo" src="/assets/C-Uni.png" alt="Constructor University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Bremen, Germany • Building/Room: <em>TBA</em><br />
+        Contact: TBA
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Constructor%20University%20Bremen" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Constructor%20University%20-%20Bremen,%20Germany" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons - Jülich, Germany -->
+    <div class="site-card" id="site-erc">
+      <span class="badge">Germany</span>
+      <h3>Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons</h3>
+      <img class="site-logo" src="/assets/erc.png" alt="Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Jülich, Germany • Building/Room: <em>TBA</em><br />
+        Contact: Bashir Kazimi
+        <br /><a href="mailto:b.kazimi@fz-juelich.de">b.kazimi@fz-juelich.de</a>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Ernst%20Ruska-Centre" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Ernst%20Ruska-Centre%20for%20Microscopy%20and%20Spectroscopy%20with%20Electrons%20-%20Jülich,%20Germany" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Friedrich-Alexander-Universität - Erlangen, Germany -->
+    <div class="site-card" id="site-fau">
+      <span class="badge">Germany</span>
+      <h3>Friedrich-Alexander-Universität</h3>
+      <img class="site-logo" src="/assets/FAU.svg" alt="Friedrich-Alexander-Universität logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Erlangen, Germany • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Friedrich-Alexander-Universität" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Friedrich-Alexander-Universität%20-%20Erlangen,%20Germany" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Humboldt University of Berlin - Berlin, Germany -->
+    <div class="site-card" id="site-hu-berlin">
+      <span class="badge">Germany</span>
+      <h3>Department of Physics, Humboldt University of Berlin</h3>
+      <img class="site-logo" src="/assets/hu-berlin.svg" alt="Humboldt University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Berlin, Germany • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Institut%20für%20Physik%20der%20Humboldt-Universität%20Berlin" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Humboldt%20University%20of%20Berlin%20-%20Berlin,%20Germany" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Institut Català de Nanociència i Nanotecnologia (ICN2) - Barcelona, Spain -->
+    <div class="site-card" id="site-icn2">
+      <span class="badge">Spain</span>
+      <h3>Institut Català de Nanociència i Nanotecnologia - ICN2</h3>
+      <img class="site-logo" src="/assets/ICN2.png" alt="ICN2 logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Barcelona, Spain • Building/Room: <em>Campus UAB, ICN2</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=ICN2%20Barcelona" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Institut%20Catal%C3%A0%20de%20Nanoci%C3%A8ncia%20i%20Nanotecnologia%20(ICN2)%20-%20Barcelona,%20Spain" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Institute for Bioengineering of Catalonia (IBEC) - Barcelona, Spain -->
+    <div class="site-card" id="site-ibec">
+      <span class="badge">Spain</span>
+      <h3>Institute for Bioengineering of Catalonia (IBEC)</h3>
+      <img class="site-logo" src="/assets/ibec.png" alt="IBEC logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Barcelona, Spain • Building/Room: <em>TBA</em><br />
+        Contact: Mauricio Cano
+        <br /><a href="mailto:mcano@ibecbarcelona.eu">mcano@ibecbarcelona.eu</a>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=IBEC%20Spain" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Institute%20for%20Bioengineering%20of%20Catalonia%20(IBEC)%20-%20Barcelona,%20Spain" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- ICMAB-->
+    <div class="site-card" id="site-icmab">
+      <span class="badge">Spain</span>
+      <h3>Institute of Materials Science of Barcelona (ICMAB-CSIC)</h3>
+      <img class="site-logo" src="/assets/icmab.png" alt="ICMAB-CSIC logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Barcelona, Spain • Building/Room: <em>Salón de actos Matgas</em><br />
+        Contact: Dr.hab. Horacio V. Guzman<br />
+        <a href="mailto:hguzman@icmab.es">hguzman@icmab.es</a>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=ICMAB%20Barcelona" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Institute%20of%20Materials%20Science%20of%20Barcelona%20-%20Barcelona,%20Spain" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- IIT -->
+    <div class="site-card" id="site-iit">
+      <span class="badge">Italy</span>
+      <h3>Italian Institute of Technology</h3>
+      <img class="site-logo" src="/assets/IIT.png" alt="IIT logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Genoa, Italy • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Istituto%20Italiano%20di%20Tecnologia%20Center%20for%20Convergent%20Technologies" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Italian%20Institute%20of%20Technology%20-%20Genoa,%20Italy" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Leibniz Institute for New Materials (INM) - Saarbrücken, Germany -->
+    <div class="site-card" id="site-inm">
+      <span class="badge">Germany</span>
+      <h3>Leibniz Institute for New Materials (INM)</h3>
+      <img class="site-logo" src="/assets/inm.png" alt="INM logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Saarbrücken, Germany • Building/Room: <em>Campus D2 2</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=INM%20Saarbrücken" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Leibniz%20Institute%20for%20New%20Materials%20(INM)%20-%20Saarbrücken,%20Germany" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- Linköping University - Linköping, Sweden -->
@@ -1226,19 +1128,110 @@
         <a href="/registration/?site=Linköping%20University%20-%20Linköping,%20Sweden" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- Indian Institute of Science - Bengaluru, India -->
-    <div class="site-card" id="site-iisc">
-      <span class="badge">India</span>
-      <h3>Indian Institute of Science</h3>
-      <img class="site-logo" src="/assets/iisc.svg" alt="Indian Institute of Science logo" style="max-height:64px;" />
+    <!-- MPI-FKF -->
+    <div class="site-card" id="site-mpi-fkf">
+      <span class="badge">Germany</span>
+      <h3>Max Planck Institute for Solid State Research</h3>
+      <img class="site-logo" src="/assets/mpi-fkf.png" alt="MPI-FKF logo" style="max-height:64px;" />
       <div class="site-meta">
-        Bengaluru, India • Building/Room: <em>TBA</em><br />
-        Contact: TBA
+        Stuttgart, Germany • Building/Room: <em>Heisenbergstrasse 1, 2D8</em><br />
+        Contact: Kenan Elibol<br />
+        <a href="mailto:k.elibol@fkf.mpg.de">k.elibol@fkf.mpg.de</a>
+        <br /><i>Limited to 20 registered participants.</i>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Max%20Planck%20Institute%20for%20Solid%20State%20Research" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Max%20Planck%20Institute%20for%20Solid%20State%20Research%20-%20Stuttgart,%20Germany" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Nanosurf - Liestal, Switzerland -->
+    <div class="site-card" id="site-nanosurf">
+      <span class="badge">Switzerland</span>
+      <h3>Nanosurf</h3>
+      <img class="site-logo" src="/assets/nanosurf.svg" alt="Nanosurf logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Liestal, Switzerland • Building/Room: <em>Gräubernstrasse 12-14</em><br />
+        Contact: Nanosurf Team
+        <br /><a href="mailto:copilot@nanosurf.com">copilot@nanosurf.com</a>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Nanosurf%20Liestal" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Nanosurf%20-%20Liestal,%20Switzerland" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Norwegian University of Science and Technology (NTNU) - Trondheim, Norway -->
+    <div class="site-card" id="site-ntnu">
+      <span class="badge">Norway</span>
+      <h3>Norwegian University of Science and Technology (NTNU)</h3>
+      <img class="site-logo" src="/assets/ntnu.svg" alt="NTNU logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Trondheim, Norway • Building/Room: <em>Natural Science building. Room TBA</em><br />
+        Contact: <em>TBA</em>
         <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=IISc%20Bengaluru" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Indian%20Institute%20of%20Science%20-%20Bengaluru,%20India" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=Norwegian%20University%20of%20Science%20and%20Technology" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Norwegian%20University%20of%20Science%20and%20Technology%20(NTNU)%20-%20Trondheim,%20Norway" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Swiss Federal Technology Institute of Lausanne (EPFL) - Lausanne, Switzerland -->
+    <div class="site-card" id="site-epfl">
+      <span class="badge">Switzerland</span>
+      <h3>Swiss Federal Technology Institute of Lausanne (EPFL)</h3>
+      <img class="site-logo" src="/assets/epfl.svg" alt="EPFL logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Lausanne, Switzerland • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=EPFL" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Swiss%20Federal%20Technology%20Institute%20of%20Lausanne%20(EPFL)%20-%20Lausanne,%20Switzerland" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Technical Uni Darmstadt -->
+    <div class="site-card" id="site-tu-darmstadt">
+      <span class="badge">Germany</span>
+      <h3>Technical University of Darmstadt</h3>
+      <img class="site-logo" src="/assets/tu-darmstadt.svg" alt="TU Darmstadt logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Darmstadt, Germany • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Technical%20University%20of%20Darmstadt" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Technical%20University%20of%20Darmstadt%20-%20Darmstadt,%20Germany" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Manchester Uni -->
+    <div class="site-card" id="site-manchester-uni">
+      <span class="badge">United Kingdom</span>
+      <h3>The University of Manchester</h3>
+      <img class="site-logo" src="/assets/manchester-uni.png" alt="Manchester University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Manchester, UK • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=The%20University%20of%20Manchester" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=The%20University%20of%20Manchester%20-%20Manchester,%20UK" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Trinity College Dublin-->
+    <div class="site-card" id="site-tcd">
+      <span class="badge">Ireland</span>
+      <h3>Trinity College Dublin</h3>
+      <img class="site-logo" src="/assets/tcd.png" alt="Trinity College Dublin logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Dublin, Ireland • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Trinity%20College%20Dublin" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Trinity%20College%20Dublin%20-%20Dublin,%20Ireland" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- TU Wien - Vienna, Austria -->
@@ -1257,81 +1250,197 @@
         <a href="/registration/?site=TU%20Wien%20-%20Vienna,%20Austria" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- University of Toronto - Toronto, Canada -->
-    <div class="site-card" id="site-uoft">
-      <span class="badge">Canada</span>
-      <h3>University of Toronto</h3>
-      <img class="site-logo" src="/assets/UofT.svg" alt="University of Toronto logo" style="max-height:64px;" />
+    <!-- Ulster Uni-->
+    <div class="site-card" id="site-ulster">
+      <span class="badge">United Kingdom</span>
+      <h3>Ulster University</h3>
+      <img class="site-logo" src="/assets/ulster.svg" alt="Ulster University logo" style="max-height:64px;" />
       <div class="site-meta">
-        Toronto, Canada • Building/Room: <em>TBA</em><br />
-        Contact: Kevin Zhang
-        <br /><a href="mailto:kevinzy.zhang@mail.utoronto.ca">kevinzy.zhang@mail.utoronto.ca</a>
+        Belfast, UK • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Toronto" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Toronto%20-%20Toronto,%20Canada" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=Ulster%20University%20Belfast" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Ulster%20University%20-%20Belfast,%20UK" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- Virginia Tech -->
-    <div class="site-card" id="site-vt">
-      <span class="badge">Virginia, USA</span>
-      <h3>Virginia Tech</h3>
-      <img class="site-logo" src="/assets/vt.svg" alt="Virginia Tech logo" style="max-height:64px;" />
+    <!-- University of Aveiro - Aveiro, Portugal -->
+    <div class="site-card" id="site-aveiro">
+      <span class="badge">Portugal</span>
+      <h3>University of Aveiro</h3>
+      <img class="site-logo" src="/assets/aveiro.png" alt="University of Aveiro logo" style="max-height:84px;" />
       <div class="site-meta">
-        Blacksburg, VA • Building/Room: <em>TBA</em><br />
+        Aveiro, Portugal • Building/Room: <em>TBA</em><br />
         Contact: TBA
         <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=Virginia%20Tech" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Virginia%20Tech" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=University%20of%20Aveiro" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Aveiro%20-%20Aveiro,%20Portugal" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- Nanosurf - Liestal, Switzerland -->
-    <div class="site-card" id="site-nanosurf">
-      <span class="badge">Switzerland</span>
-      <h3>Nanosurf</h3>
-      <img class="site-logo" src="/assets/nanosurf.svg" alt="Nanosurf logo" style="max-height:64px;" />
+    <!-- University of Leeds -->
+    <div class="site-card" id="site-leeds-uni">
+      <span class="badge">United Kingdom</span>
+      <h3>University of Leeds</h3>
+      <img class="site-logo" src="/assets/leeds.svg" alt="Leeds University logo" style="max-height:64px;" />
       <div class="site-meta">
-        Liestal, Switzerland • Building/Room: <em>Gräubernstrasse 12-14</em><br />
-        Contact: Nanosurf Team
-        <br /><a href="mailto:copilot@nanosurf.com">copilot@nanosurf.com</a>
+        Leeds, United Kingdom • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=Nanosurf%20Liestal" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Nanosurf%20-%20Liestal,%20Switzerland" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=University%20of%20Leeds" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Leeds%20-%20Leeds,%20UK" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- University of Texas at Austin -->
-    <div class="site-card" id="site-ut_austin">
-      <span class="badge">Texas, USA</span>
-      <h3>University of Texas at Austin</h3>
-      <img class="site-logo" src="/assets/ut_austin.svg" alt="UT Austin logo" style="max-height:64px;" />
+    <!-- Department of Materials, University of Oxford - Oxford, UK -->
+    <div class="site-card" id="site-dom-oxford">
+      <span class="badge">United Kingdom</span>
+      <h3>University of Oxford, Department of Materials</h3>
+      <img class="site-logo" src="/assets/dom-oxford.svg" alt="Department of Materials, University of Oxford logo" style="max-height:64px;" />
       <div class="site-meta">
-        Austin, TX • Building/Room: <em>TBA</em><br />
+        Oxford, UK • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Department%20of%20Materials%20Parks%20Road" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Department%20of%20Materials,%20University%20of%20Oxford%20-%20Oxford,%20UK " class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- University of Sheffield -->
+    <div class="site-card" id="site-uos">
+      <span class="badge">United Kingdom</span>
+      <h3>University of Sheffield</h3>
+      <img class="site-logo" src="/assets/uos.svg" alt="University of Sheffield logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Sheffield, UK • Building/Room: <em><br />Dec 15: The Ideas Space, Sir Robert Hadfield Building<br />
+        Dec 16-17: Mappin Hall, Sir Frederick Mappin Building</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=University%20of%20Sheffield" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=University%20of%20Sheffield%20-%20Sheffield,%20UK" class="btn-primary">Register</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Asia & Middle East -->
+  <h3 style="margin-top:40px; font-size:1.3rem; color:#1d2a56; border-bottom: 2px solid #e8ecf3; padding-bottom: 5px;">Asia &amp; Middle East</h3>
+  <div class="sites-grid">
+    <!-- AISCIA Informatics - Doha -->
+    <div class="site-card" id="site-aiscia">
+      <span class="badge">Qatar</span>
+      <h3>AISCIA Informatics</h3>
+      <img class="site-logo" src="/assets/AISCIA.png" alt="AISCIA Informatics logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Qatar Science and Technology Park, Doha • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Qatar%20Science%20and%20Technology%20Park%20Doha" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=AISCIA%20Informatics%20-%20Doha,%20Qatar" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Indian Institute of Science - Bengaluru, India -->
+    <div class="site-card" id="site-iisc">
+      <span class="badge">India</span>
+      <h3>Indian Institute of Science</h3>
+      <img class="site-logo" src="/assets/iisc.svg" alt="Indian Institute of Science logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Bengaluru, India • Building/Room: <em>TBA</em><br />
         Contact: TBA
         <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=UT%20Austin" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Texas%20at%20Austin" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=IISc%20Bengaluru" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Indian%20Institute%20of%20Science%20-%20Bengaluru,%20India" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- Aarhus University - Aarhus, Denmark -->
-    <div class="site-card" id="site-aarhus">
-      <span class="badge">Denmark</span>
-      <h3>Aarhus University</h3>
-      <img class="site-logo" src="/assets/aarhus.png" alt="Aarhus University logo" style="max-height:64px;" />
+    <!-- Indian Institute of Technology Delhi - New Delhi, India -->
+    <div class="site-card" id="site-iitd">
+      <span class="badge">India</span>
+      <h3>Indian Institute of Technology Delhi</h3>
+      <img class="site-logo" src="/assets/iitd.svg" alt="Indian Institute of Technology Delhi logo" style="max-height:64px;" />
       <div class="site-meta">
-        Aarhus, Denmark • Building/Room: <em>TBA</em><br />
-        Contact: TBA
+        New Delhi, India • Building/Room: <em>TBA</em><br />
+        Contact: Indrajeet Mandal
+        <br /><a href="mailto:srz228569@iitd.ac.in">srz228569@iitd.ac.in</a>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=IIT%20Delhi" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Indian%20Institute%20of%20Technology%20Delhi%20-%20New%20Delhi,%20India" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Kanazawa Uni -->
+    <div class="site-card" id="site-kanazawa-uni">
+      <span class="badge">Japan</span>
+      <h3>Kanazawa University</h3>
+      <img class="site-logo" src="/assets/kanazawa_uni.png" alt="Kanazawa University logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Kanazawa, Japan • Building/Room: <em>Nano Life Science Institute, 4F Main Conference Room</em><br />
+        Contact: Kazuki Miyata<br />
+        <a href="mailto:k-miyata@staff.kanazawa-u.ac.jp">k-miyata@staff.kanazawa-u.ac.jp</a>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Kanazawa%20University" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Kanazawa%20University%20-%20Kanazawa,%20Japan" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Korea Advanced Institute of Science & Technology (KAIST), Daejeon -->
+    <div class="site-card" id="site-kaist">
+      <span class="badge">Republic of Korea</span>
+      <h3>Korea Advanced Institute of Science &amp; Technology (KAIST), Republic of Korea</h3>
+      <img class="site-logo" src="/assets/KAIST.png" alt="KAIST logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Daejeon, Republic of Korea • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
         <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
       </div>
       <div class="site-actions">
-        <a href="https://maps.google.com/?q=Aarhus%20University" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Aarhus%20University%20-%20Aarhus,%20Denmark" class="btn-primary">Register</a>
+        <a href="https://maps.google.com/?q=KAIST%20Daejeon" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Korea%20Advanced%20Institute%20of%20Science%20%26%20Technology%20(KAIST)%20-%20Republic%20of%20Korea" class="btn-primary">Register</a>
       </div>
     </div>
+    <!-- SKKU -->
+    <div class="site-card" id="site-skku">
+      <span class="badge">Republic of Korea</span>
+      <h3>School of Advanced Materials Science and Engineering, Sungkyunkwan University</h3>
+      <img class="site-logo" src="/assets/SKKU.jpg" alt="SKKU logo" style="max-height:64px;" />
+      <div class="site-meta">
+        Suwon, Republic of Korea • Building/Room: <em>TBA</em><br />
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=School%20of%20Advanced%20Materials%20Science%20and%20Engineering%20SKKU" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Sungkyunkwan%20University%20-%20Suwon,%20Republic%20of%20Korea" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Institute of Industrial Science, The University of Tokyo, Japan -->
+    <div class="site-card" id="site-iis">
+      <span class="badge">Japan</span>
+      <h3>Institute of Industrial Science</h3>
+      <img class="site-logo" src="/assets/iis.png" alt="Institute of Industrial Science logo" style="max-height:64px;" />
+      <div class="site-meta">
+        The University of Tokyo, Japan • Building/Room: <em>TBA</em><br />
+        Contact: Fumihiko Uesugi<br />
+        <a href="mailto:uesugi23@iis.u-tokyo.ac.jp">uesugi23@iis.u-tokyo.ac.jp</a>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Institute%20of%20Industrial%20Science%20Tokyo" target="_blank" rel="noopener">Map</a>
+        <a href="/registration/?site=Institute%20of%20Industrial%20Science,%20The%20University%20of%20Tokyo%20-%20Japan" class="btn-primary">Register</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- South America -->
+  <h3 style="margin-top:40px; font-size:1.3rem; color:#1d2a56; border-bottom: 2px solid #e8ecf3; padding-bottom: 5px;">South America</h3>
+  <div class="sites-grid">
     <!-- Universidad Mayor de San Simon - Cochabamba, Bolivia -->
     <div class="site-card" id="site-umss">
       <span class="badge">Bolivia</span>
@@ -1347,81 +1456,11 @@
         <a href="/registration/?site=Universidad%20Mayor%20de%20San%20Simon%20-%20Cochabamba,%20Bolivia" class="btn-primary">Register</a>
       </div>
     </div>
-    <!-- University of Connecticut -->
-    <div class="site-card" id="site-uconn">
-      <span class="badge">Connecticut, USA</span>
-      <h3>University of Connecticut</h3>
-      <img class="site-logo" src="/assets/uconn.svg" alt="University of Connecticut logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Mansfield, CT • Building/Room: <em>TBA</em><br />
-        Contact: TBA
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Connecticut" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Connecticut" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- National Center for Electron Microscopy (NCEM), Lawrence Berkeley National Laboratory -->
-    <div class="site-card" id="site-ncem">
-      <span class="badge">California, USA</span>
-      <h3>National Center for Electron Microscopy (NCEM)</h3>
-      <img class="site-logo" src="/assets/lbnl.svg" alt="Lawrence Berkeley National Laboratory logo" style="max-height:64px;" />
-      <div class="site-meta">
-        LBNL, Berkeley, CA • Building/Room: <em>TBA</em><br />
-        Contact: TBA
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=NCEM%20LBNL" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=National%20Center%20for%20Electron%20Microscopy%20(NCEM),%20Lawrence%20Berkeley%20National%20Laboratory" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- University of Texas at San Antonio -->
-    <div class="site-card" id="site-utsa">
-      <span class="badge">Texas, USA</span>
-      <h3>University of Texas at San Antonio</h3>
-      <img class="site-logo" src="/assets/utsa.svg" alt="UT San Antonio logo" style="max-height:64px;" />
-      <div class="site-meta">
-        San Antonio, TX • Building/Room: <em>TBA</em><br />
-        Contact: TBA
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=UT%20San%20Antonio" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Texas%20at%20San%20Antonio" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- University of Central Florida -->
-    <div class="site-card" id="site-ucf">
-      <span class="badge">Florida, USA</span>
-      <h3>University of Central Florida</h3>
-      <img class="site-logo" src="/assets/UCF.png" alt="University of Central Florida logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Orlando, FL • Building/Room: <em>TBA</em><br />
-        Contact: TBA
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=University%20of%20Central%20Florida" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=University%20of%20Central%20Florida" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Constructor University - Bremen, Germany -->
-    <div class="site-card" id="site-cu">
-      <span class="badge">Germany</span>
-      <h3>Constructor University</h3>
-      <img class="site-logo" src="/assets/C-Uni.png" alt="Constructor University - Bremen, Germany logo" style="max-height:64px;" />
-      <div class="site-meta">
-        Bremen, Germany • Building/Room: <em>TBA</em><br />
-        Contact: TBA
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Constructor%20University%20Bremen" target="_blank" rel="noopener">Map</a>
-        <a href="/registration/?site=Constructor%20University%20-%20Bremen,%20Germany" class="btn-primary">Register</a>
-      </div>
-    </div>
+  </div>
+
+  <!-- Virtual -->
+  <h3 style="margin-top:40px; font-size:1.3rem; color:#1d2a56; border-bottom: 2px solid #e8ecf3; padding-bottom: 5px;">Virtual</h3>
+  <div class="sites-grid">
     <!-- Online (no pin) -->
     <div class="site-card" id="site-online">
       <span class="badge">Global</span>
@@ -1434,9 +1473,10 @@
         <a href="/registration/?site=Online" class="btn-primary">Register</a>
       </div>
     </div>
-
   </div>
+
 </div>
+
 <style>
 /* allow grid items to re-pack when one expands */
 .sites-grid{

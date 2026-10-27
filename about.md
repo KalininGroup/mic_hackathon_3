@@ -407,9 +407,9 @@ published: true
   <h2>Partners &amp; Support</h2>
 
 <p style="text-align:justify;">
-  The hackathon is supported by the <strong>AI Tennessee Initiative</strong> and the 
-  <strong>Center for Advanced Materials &amp; Manufacturing (CAMM)</strong>, with participation from 
-  <strong>University of Tennessee Knoxville, North Carolina State University, Italian Institute of Technology (Italy), Max Planck Institute for Solid State Research (Germany), Sungkyunkwan University (Republic of Korea), Humboldt University of Berlin (Germany), The University of Manchester (United Kingdom), Kanazawa University (Japan), Technical University of Darmstadt (Germany), University of Leeds (United Kingdom), Trinity College Dublin (Ireland), Ulster University (United Kingdom), The University of Tokyo (Japan), Institute of Materials Science of Barcelona (Spain), Korea Advanced Institute of Science & Technology (Republic of Korea), Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons (Germany), AISCIA Informatics (Qatar), University of Sheffield (United Kingdom), Institute for Bioengineering of Catalonia (Spain), University of Oxford (United Kingdom), Institut Català de Nanociència i Nanotecnologia (Spain), NTNU - Norwegian University of Science and Technology (Norway), INM - Leibniz Institute for New Materials (Germany), University of Virginia, Johns Hopkins University, Georgia Institute of Technology, Chalmers University of Technology (Sweden), Pennsylvania State University, Columbia University, EPFL - Swiss Federal Technology Institute of Lausanne (Switzerland), Argonne National Laboratory, Northwestern University, Texas A&M University, Oklahoma State University, Ohio State University, Rice University, University of Houston, Indiana University Bloomington, University of Arizona, Colorado School of Mines, University of Texas at Arlington, Center for Integrated Nanotechnologies (CINT), University of Colorado Boulder, University of Washington, University of Southern California, University of Florida, California Institute of Technology, University of California, Yale University, Purdue University, Duke University, FELMI-ZFE - Austrian Centre for Electron Microscopy and Nanoanalysis (Austria), University of Wyoming, University of Illinois Urbana-Champaign, Friedrich-Alexander-Universität (Germany), University of California Merced, Baylor University, Indian Institute of Technology Delhi (India), Linköping University (Sweden), Indian Institute of Science (India), Vienna University of Technology (Austria), University of Toronto (Canada), Virginia Tech, Nanosurf (Switzerland), University of Texas at Austin, Aarhus University (Denmark), Universidad Mayor de San Simón (Bolivia), University of Connecticut, National Center for Electron Microscopy (Lawrence Berkeley National Laboratory), University of Texas at San Antonio, University of Central Florida, and Constructor University (Germany)</strong>.
+  The hackathon is supported by the <strong><a href="https://athena.utk.edu/">ATHENA</a></strong> and the 
+  <strong><a href="https://camm.utk.edu/">Center for Advanced Materials &amp; Manufacturing (CAMM)</a></strong>, with participation from 
+  <strong>University of Tennessee Knoxville, North Carolina State University, Italian Institute of Technology (Italy), Max Planck Institute for Solid State Research (Germany), Sungkyunkwan University (Republic of Korea), Humboldt University of Berlin (Germany), The University of Manchester (United Kingdom), Kanazawa University (Japan), Technical University of Darmstadt (Germany), University of Leeds (United Kingdom), Trinity College Dublin (Ireland), Ulster University (United Kingdom), The University of Tokyo (Japan), Institute of Materials Science of Barcelona (Spain), Korea Advanced Institute of Science & Technology (Republic of Korea), Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons (Germany), AISCIA Informatics (Qatar), University of Sheffield (United Kingdom), Institute for Bioengineering of Catalonia (Spain), University of Oxford (United Kingdom), Institut Català de Nanociència i Nanotecnologia (Spain), NTNU - Norwegian University of Science and Technology (Norway), INM - Leibniz Institute for New Materials (Germany), University of Virginia, Johns Hopkins University, Georgia Institute of Technology, Chalmers University of Technology (Sweden), Pennsylvania State University, Columbia University, EPFL - Swiss Federal Technology Institute of Lausanne (Switzerland), Argonne National Laboratory, Northwestern University, Texas A&M University, Oklahoma State University, Ohio State University, Rice University, University of Houston, Indiana University Bloomington, University of Arizona, Colorado School of Mines, University of Texas at Arlington, Center for Integrated Nanotechnologies (CINT), University of Colorado Boulder, University of Washington, University of Southern California, University of Florida, California Institute of Technology, University of California, Yale University, Purdue University, Duke University, FELMI-ZFE - Austrian Centre for Electron Microscopy and Nanoanalysis (Austria), University of Wyoming, University of Illinois Urbana-Champaign, Friedrich-Alexander-Universität (Germany), University of California Merced, Baylor University, Indian Institute of Technology Delhi (India), Linköping University (Sweden), Indian Institute of Science (India), Vienna University of Technology (Austria), University of Toronto (Canada), Virginia Tech, Nanosurf (Switzerland), University of Texas at Austin, Aarhus University (Denmark), Universidad Mayor de San Simón (Bolivia), University of Connecticut, National Center for Electron Microscopy (Lawrence Berkeley National Laboratory), University of Texas at San Antonio, University of Central Florida, Constructor University (Germany), and University of Aveiro (Portugal)</strong>.
 </p>
 
 
@@ -418,30 +418,29 @@ published: true
     Our primary sponsors provide critical support for enabling open, collaborative AI-driven microscopy:
   </p> 
   <div class="logo-row" style="margin-top:10px;">    
-    <img src="{{ '/assets/tf_logo.svg' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/renaissance.png' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/nanosurf.svg' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/zhinst.svg' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/parksystems.svg' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/waviks.png' | relative_url }}"  style="max-height:48px;">
-    <img src="{{ '/assets/DENS.png' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/DECTRIS.png' | relative_url }}"  style="max-height:64px;">
-  </div>
-    <!-- <img src="{{ '/assets/ONR.png' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/TheiaScientific.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/covalent.png' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/polaron.png' | relative_url }}"  style="max-height:48px;">
-    <img src="{{ '/assets/TRI.png' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/msa_stc.png' | relative_url }}"  style="max-height:64px;"> -->
+    <img src="{{ '/assets/QD.svg' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/parksystems.svg' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/nanosurf.svg' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/asylum.png' | relative_url }}"  style="max-height:34px;">
+    <img src="{{ '/assets/Jeol.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/tf_logo.svg' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/Anthropic.svg' | relative_url }}"  style="max-height:24px;">
+    <img src="{{ '/assets/zhinst.svg' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/DECTRIS.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/TheiaScientific.png' | relative_url }}"  style="max-height:64px;"><br>
+    <img src="{{ '/assets/DENS.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/waviks.png' | relative_url }}"  style="max-height:48px;">
+    <img src="{{ '/assets/C-Labs.png' | relative_url }}"  style="max-height:64px;">
+  </div>
 
-  <p style="margin-top:20px;"><strong>Partners</strong></p>
+  <!-- <p style="margin-top:20px;"><strong>Partners</strong></p>
   <p>
     Our partners empower open science and innovation in AI for materials research:
   </p>
-  <p><i>To be decided</i></p>
-  <!-- <div class="logo-row" style="margin-top:10px;">
-    <img src="{{ '/assets/mat3ra_logo.png' | relative_url }}" alt="Mat3ra – Materials R&D Cloud logo">
-    <img src="{{ '/assets/hf.png' | relative_url }}" alt="Hugging Face logo">
+  <div class="logo-row" style="margin-top:10px;">
+    
   </div> -->
 </div>
 

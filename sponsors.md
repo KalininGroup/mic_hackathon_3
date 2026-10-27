@@ -236,6 +236,11 @@ permalink: /sponsors/
     <img src="{{ '/assets/hitachi.png' | relative_url }}" alt="Hitachi High-Tech Canada Inc.">
   </a>
 
+<!-- Gatan Ametek -->
+  <a href="https://www.gatan.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Gatan AMETEK">
+    <img src="{{ '/assets/gatan.png' | relative_url }}" alt="Gatan AMETEK">
+  </a>
+
 <div class="cta-banner">
   <h3>More sponsors to be announced soon!</h3>
   <p>We are continually welcoming new partners. This list will be updated regularly as new organizations join forces with us.</p>
