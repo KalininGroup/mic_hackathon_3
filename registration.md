@@ -171,6 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Aarhus University - Aarhus, Denmark"> Aarhus University - Aarhus, Denmark</label>
         <label><input type="checkbox" name="entry.1753222212" value="AISCIA Informatics - Doha, Qatar"> AISCIA Informatics - Doha, Qatar</label>
         <label><input type="checkbox" name="entry.1753222212" value="Argonne National Laboratory"> Argonne National Laboratory</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Auburn University"> Auburn University</label>
         <label><input type="checkbox" name="entry.1753222212" value="Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria"> Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria</label>
         <label><input type="checkbox" name="entry.1753222212" value="Baylor University"> Baylor University</label>
         <label><input type="checkbox" name="entry.1753222212" value="California Institute of Technology"> California Institute of Technology</label>
@@ -180,12 +181,12 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Colorado School of Mines"> Colorado School of Mines</label>
         <label><input type="checkbox" name="entry.1753222212" value="Columbia University"> Columbia University</label>
         <label><input type="checkbox" name="entry.1753222212" value="Constructor University - Bremen, Germany"> Constructor University - Bremen, Germany</label>
-        <label><input type="checkbox" name="entry.1753222212" value="Department of Materials, University of Oxford - Oxford, UK"> Department of Materials, University of Oxford - Oxford, UK</label>
         <label><input type="checkbox" name="entry.1753222212" value="Duke University"> Duke University</label>
         <label><input type="checkbox" name="entry.1753222212" value="Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons - Jülich, Germany"> Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons - Jülich, Germany</label>
         <label><input type="checkbox" name="entry.1753222212" value="Friedrich-Alexander-Universität - Erlangen, Germany"> Friedrich-Alexander-Universität - Erlangen, Germany</label>
         <label><input type="checkbox" name="entry.1753222212" value="Georgia Institute of Technology"> Georgia Institute of Technology</label>
         <label><input type="checkbox" name="entry.1753222212" value="Humboldt University of Berlin - Berlin, Germany"> Humboldt University of Berlin - Berlin, Germany</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Imperial College London - London, United Kingdom"> Imperial College London - London, United Kingdom</label>
         <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Science - Bengaluru, India"> Indian Institute of Science - Bengaluru, India</label>
         <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Technology Delhi - New Delhi, India"> Indian Institute of Technology Delhi - New Delhi, India</label>
         <label><input type="checkbox" name="entry.1753222212" value="Indiana University Bloomington"> Indiana University Bloomington</label>
@@ -210,6 +211,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Pennsylvania State University"> Pennsylvania State University</label>
         <label><input type="checkbox" name="entry.1753222212" value="Purdue University, Birck Nanotechnology Center"> Purdue University, Birck Nanotechnology Center</label>
         <label><input type="checkbox" name="entry.1753222212" value="Rice University"> Rice University</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Rosalind Franklin Institute - Oxfordshire, UK"> Rosalind Franklin Institute - Oxfordshire, UK</label>
         <label><input type="checkbox" name="entry.1753222212" value="Sungkyunkwan University - Suwon, Republic of Korea"> Sungkyunkwan University - Suwon, Republic of Korea</label>
         <label><input type="checkbox" name="entry.1753222212" value="Swiss Federal Technology Institute of Lausanne (EPFL) - Lausanne, Switzerland"> Swiss Federal Technology Institute of Lausanne (EPFL) - Lausanne, Switzerland</label>
         <label><input type="checkbox" name="entry.1753222212" value="Technical University of Darmstadt - Darmstadt, Germany"> Technical University of Darmstadt - Darmstadt, Germany</label>
@@ -240,7 +242,6 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="University of Wyoming"> University of Wyoming</label>
         <label><input type="checkbox" name="entry.1753222212" value="Virginia Tech"> Virginia Tech</label>
         <label><input type="checkbox" name="entry.1753222212" value="Yale University"> Yale University</label>
-
       </div>
     </fieldset>
     <p>
@@ -337,7 +338,7 @@ document.addEventListener("DOMContentLoaded", function () {
     'University of Sheffield - Sheffield, UK',
     'Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons - Jülich, Germany',
     'Institute for Bioengineering of Catalonia (IBEC) - Barcelona, Spain',
-    'Department of Materials, University of Oxford - Oxford, UK',
+    'Rosalind Franklin Institute - Oxfordshire, UK',
     'Institut Català de Nanociència i Nanotecnologia (ICN2) - Barcelona, Spain',
     'Norwegian University of Science and Technology (NTNU) - Trondheim, Norway',
     'Leibniz Institute for New Materials (INM) - Saarbrücken, Germany',
@@ -391,6 +392,8 @@ document.addEventListener("DOMContentLoaded", function () {
     'University of Central Florida',
     'Constructor University - Bremen, Germany',
     'University of Aveiro - Aveiro, Portugal',
+    'Imperial College London - London, United Kingdom',
+    'Auburn University',
   ];
 
   boxes.forEach(box => {

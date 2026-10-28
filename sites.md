@@ -109,7 +109,7 @@ published: true
     { id:"site-uos", name:"University of Sheffield", city:"Sheffield, United Kingdom", lat:53.381312, lon:-1.488437 },
     { id:"site-erc", name:"Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons", city:"Jülich, Germany", lat:50.908187, lon:6.413937 },
     { id:"site-ibec", name:"Institute for Bioengineering of Catalonia (IBEC)", city:"Barcelona, Spain", lat:41.382188, lon:2.118062 },
-    { id:"site-dom-oxford", name:"Department of Materials, University of Oxford", city:"Oxford, United Kingdom", lat:51.760438, lon:-1.259187 },
+    { id:"site-rfi", name:"Rosalind Franklin Institute", city:"Oxfordshire, United Kingdom", lat:51.573313, lon:-1.314688 },
     { id:"site-icn2",  name:"Institut Català de Nanociència i Nanotecnologia (ICN2)", city:"Barcelona, Spain", lat:41.4915, lon:2.1834 },
     { id:"site-ntnu",  name:"Norwegian University of Science and Technology (NTNU)", city:"Trondheim, Norway", lat:63.419438, lon:10.401937 },
     { id:"site-inm",  name:"Leibniz Institute for New Materials (INM)", city:"Saarbrücken, Germany", lat:49.256563, lon:7.040188 },
@@ -163,6 +163,8 @@ published: true
     { id:"site-ucf", name:"University of Central Florida", city:"Orlando, FL, USA", lat:28.602438, lon:-81.200063 },
     { id:"site-cu", name:"Constructor University", city:"Bremen, Germany", lat:53.168813, lon:8.650063 },
     { id:"site-aveiro", name:"University of Aveiro", city:"Aveiro, Portugal", lat:40.630562, lon:-8.657438 },
+    { id:"site-imperial", name:"Imperial College London", city:"London, United Kingdom", lat:51.498812, lon:-0.174812 },
+    { id:"site-auburn", name:"Auburn University", city:"Auburn, AL, USA", lat:32.598062, lon:-85.494313 },
   ]
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -284,6 +286,21 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Argonne%20Laboratory" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=Argonne%20National%20Laboratory" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Auburn University -->
+    <div class="site-card" id="site-auburn">
+      <span class="badge">Alabama, USA</span>
+      <h3>Auburn University</h3>
+      <img class="site-logo" src="{{ '/assets/auburn.png' | relative_url }}" alt="Auburn University logo" style="max-height:64px;">
+      <div class="site-meta">
+        Auburn, AL • Building/Room: <em>TBA</em><br>
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Auburn%20University" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Auburn%20University" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- Baylor University -->
@@ -952,6 +969,21 @@ published: true
         <a href="{{ '/registration/' | relative_url }}?site=Humboldt%20University%20of%20Berlin%20-%20Berlin,%20Germany" class="btn-primary">Register</a>
       </div>
     </div>
+    <!-- Imperial College London - London, United Kingdom -->
+    <div class="site-card" id="site-imperial">
+      <span class="badge">United Kingdom</span>
+      <h3>Imperial College London</h3>
+      <img class="site-logo" src="{{ '/assets/imperial.png' | relative_url }}" alt="Imperial College London logo" style="max-height:64px;">
+      <div class="site-meta">
+        London, UK • Building/Room: <em>TBA</em><br>
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Imperial%20College%20London" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Imperial%20College%20London%20-%20London,%20United%20Kingdom" class="btn-primary">Register</a>
+      </div>
+    </div>
     <!-- Institut Català de Nanociència i Nanotecnologia (ICN2) - Barcelona, Spain -->
     <div class="site-card" id="site-icn2">
       <span class="badge">Spain</span>
@@ -1088,6 +1120,22 @@ published: true
         <a href="{{ '/registration/' | relative_url }}?site=Norwegian%20University%20of%20Science%20and%20Technology%20(NTNU)%20-%20Trondheim,%20Norway" class="btn-primary">Register</a>
       </div>
     </div>
+    <!-- Rosalind Franklin Institute - Oxfordshire, UK -->
+    <div class="site-card" id="site-rfi">
+      <span class="badge">United Kingdom</span>
+      <h3>Rosalind Franklin Institute</h3>
+      <img class="site-logo" src="{{ '/assets/rfi.png' | relative_url }}" alt="Rosalind Franklin Institute logo" style="max-height:64px;">
+      <div class="site-meta">
+        Didcot, UK • Building/Room: <em>TBA</em><br>
+        Contact: <em>TBA</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+        <br><em>Limited to 25 registered participants.</em>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Rosalind%20Franklin%20Institute" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Rosalind%20Franklin%20Institute%20-%20Oxfordshire,%20UK " class="btn-primary">Register</a>
+      </div>
+    </div>
     <!-- Swiss Federal Technology Institute of Lausanne (EPFL) - Lausanne, Switzerland -->
     <div class="site-card" id="site-epfl">
       <span class="badge">Switzerland</span>
@@ -1207,21 +1255,6 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Leeds" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=University%20of%20Leeds%20-%20Leeds,%20UK" class="btn-primary">Register</a>
-      </div>
-    </div>
-    <!-- Department of Materials, University of Oxford - Oxford, UK -->
-    <div class="site-card" id="site-dom-oxford">
-      <span class="badge">United Kingdom</span>
-      <h3>University of Oxford, Department of Materials</h3>
-      <img class="site-logo" src="{{ '/assets/dom-oxford.svg' | relative_url }}" alt="Department of Materials, University of Oxford logo" style="max-height:64px;">
-      <div class="site-meta">
-        Oxford, UK • Building/Room: <em>TBA</em><br>
-        Contact: <em>TBA</em>
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
-      </div>
-      <div class="site-actions">
-        <a href="https://maps.google.com/?q=Department%20of%20Materials%20Parks%20Road" target="_blank" rel="noopener">Map</a>
-        <a href="{{ '/registration/' | relative_url }}?site=Department%20of%20Materials,%20University%20of%20Oxford%20-%20Oxford,%20UK " class="btn-primary">Register</a>
       </div>
     </div>
     <!-- University of Sheffield -->

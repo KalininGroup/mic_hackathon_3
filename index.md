@@ -68,6 +68,7 @@ menu_icon: house-door
   <div class="grid-2" style="margin-top:10px;">
     <div>University of Tennessee, Knoxville</div>
     <div>Argonne National Laboratory, Illinois</div>
+    <div>Auburn University</div>
     <div>Baylor University</div>
     <div>California Institute of Technology</div>
     <div>California NanoSystems Institute, University of California Santa Barbara</div>
@@ -117,6 +118,7 @@ menu_icon: house-door
     <div>Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons, Germany</div>
     <div>Friedrich-Alexander-Universität, Germany</div>
     <div>Humboldt University of Berlin, Germany</div>
+    <div>Imperial College London, United Kingdom</div>
     <div>Institut Català de Nanociència i Nanotecnologia (ICN2), Spain</div>
     <div>Institute for Bioengineering of Catalonia (IBEC), Spain</div>
     <div>Institute of Materials Science of Barcelona (ICMAB-CSIC), Spain</div>
@@ -126,6 +128,7 @@ menu_icon: house-door
     <div>Max Planck Institute for Solid State Research, Germany</div>
     <div>Nanosurf, Switzerland</div>
     <div>Norwegian University of Science and Technology (NTNU), Norway</div>
+    <div>Rosalind Franklin Institute, United Kingdom</div>
     <div>Swiss Federal Technology Institute of Lausanne (EPFL), Switzerland</div>
     <div>Technical University of Darmstadt, Germany</div>
     <div>The University of Manchester, United Kingdom</div>
@@ -134,7 +137,7 @@ menu_icon: house-door
     <div>Ulster University, United Kingdom</div>
     <div>University of Aveiro, Portugal</div>
     <div>University of Leeds, United Kingdom</div>
-    <div>University of Oxford, Department of Materials, United Kingdom</div>
+    <!-- <div>University of Oxford, Department of Materials, United Kingdom</div> -->
     <div>University of Sheffield, United Kingdom</div>
   </div>
 
