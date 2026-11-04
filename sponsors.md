@@ -225,7 +225,12 @@ permalink: /sponsors/
   <a href="https://theiascientific.com" class="sponsor-logo-card" target="_blank" rel="noopener" title="Theia Scientific">
     <img src="{{ '/assets/TheiaScientific.png' | relative_url }}" alt="Theia Scientific">
   </a>
-  
+
+<!-- NTT DATA -->
+  <a href="nttdataservices.com" class="sponsor-logo-card" target="_blank" rel="noopener" title="NTT DATA">
+    <img src="{{ '/assets/nttdata.svg' | relative_url }}" alt="NTT DATA">
+  </a>
+
 <!-- COMMAT -->
   <a href="https://www.sciencedirect.com/journal/computational-materials-science" class="sponsor-logo-card" target="_blank" rel="noopener" title="Computational Material Science">
     <img src="{{ '/assets/commat.png' | relative_url }}" alt="Computational Material Science">

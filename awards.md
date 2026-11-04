@@ -83,6 +83,18 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         <strong>Covalent Award</strong>
       </td>
     </tr>
+    <!-- NTT DATA -->
+    <tr>
+      <td rowspan="1" style="text-align:center; vertical-align:middle;">
+        <a href="nttdataservices.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/nttdata.svg' | relative_url }}" alt="NTT DATA" style="max-height:75px;">
+        </a>
+      </td>
+      <td>$5,000</td>
+      <td>
+        TBA
+      </td>
+    </tr>
     <!-- Nanosurf -->
     <tr>
       <td rowspan="1" style="text-align:center; vertical-align:middle;">

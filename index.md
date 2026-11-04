@@ -257,7 +257,7 @@ menu_icon: house-door
 <div class="section-card">
   <h2>Sponsors & Partners</h2>
 <p>
-    Supported by <strong>Nanosurf</strong>, <strong>Thermo Fisher Scientific</strong>, <strong>Renaissance Philanthropy</strong>, <strong>Zurich Instruments</strong>, <strong>Park Systems</strong>, <strong>Waviks</strong>, <strong>DENS solutions, DECTRIS</strong>, <strong>Quantum Design</strong>, <strong>Asylum Research</strong>, <strong>JEOL USA</strong>, <strong>Anthropic</strong>, <strong>Constructor Labs</strong>, <strong>Covalent Metrology</strong>, <strong>Theia Scientific</strong>, <strong>Computational Materials Science (Elsevier)</strong>, <strong>Hitachi High-Tech</strong>, and <strong>Gatan AMETEK</strong>.
+    Supported by <strong>Nanosurf</strong>, <strong>Thermo Fisher Scientific</strong>, <strong>Renaissance Philanthropy</strong>, <strong>NTT DATA</strong>, <strong>Zurich Instruments</strong>, <strong>Park Systems</strong>, <strong>Waviks</strong>, <strong>DENS solutions, DECTRIS</strong>, <strong>Quantum Design</strong>, <strong>Asylum Research</strong>, <strong>JEOL USA</strong>, <strong>Anthropic</strong>, <strong>Constructor Labs</strong>, <strong>Covalent Metrology</strong>, <strong>Theia Scientific</strong>, <strong>Computational Materials Science (Elsevier)</strong>, <strong>Hitachi High-Tech</strong>, and <strong>Gatan AMETEK</strong>.
     <br>Learn more about our partners on the <a href="{{ '/sponsors/' | relative_url }}">Sponsors page</a>.
     <p style="margin-top:10px;"><i>Our list of sponsors is growing! Check back closer to the event for the most up-to-date list of our supporters.</i></p>
     <p style="margin-top:10px;">    

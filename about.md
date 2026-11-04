@@ -420,6 +420,7 @@ published: true
   <div class="logo-row" style="margin-top:10px;">    
     <img src="{{ '/assets/renaissance.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/covalent.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/nttdata.svg' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/QD.svg' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/parksystems.svg' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/nanosurf.svg' | relative_url }}"  style="max-height:64px;">
