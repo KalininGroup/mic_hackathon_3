@@ -189,6 +189,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Imperial College London - London, United Kingdom"> Imperial College London - London, United Kingdom</label>
         <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Science - Bengaluru, India"> Indian Institute of Science - Bengaluru, India</label>
         <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Technology Delhi - New Delhi, India"> Indian Institute of Technology Delhi - New Delhi, India</label>
+        <label><input type="checkbox" name="entry.1753222212" value="Indian Institute of Technology Kanpur - Kanpur, India"> Indian Institute of Technology Kanpur - Kanpur, India</label>
         <label><input type="checkbox" name="entry.1753222212" value="Indiana University Bloomington"> Indiana University Bloomington</label>
         <label><input type="checkbox" name="entry.1753222212" value="Institut Català de Nanociència i Nanotecnologia (ICN2) - Barcelona, Spain"> Institut Català de Nanociència i Nanotecnologia (ICN2) - Barcelona, Spain</label>
         <label><input type="checkbox" name="entry.1753222212" value="Institute for Bioengineering of Catalonia (IBEC) - Barcelona, Spain"> Institute for Bioengineering of Catalonia (IBEC) - Barcelona, Spain</label>
@@ -379,7 +380,7 @@ document.addEventListener("DOMContentLoaded", function () {
     'Indian Institute of Technology Delhi - New Delhi, India',
     'Linköping University - Linköping, Sweden',
     'Indian Institute of Science - Bengaluru, India',
-    'TU Wien - Vienna, Austria',
+    // 'TU Wien - Vienna, Austria',
     'University of Toronto - Toronto, Canada',
     'Virginia Tech',
     'Nanosurf - Liestal, Switzerland',
@@ -394,6 +395,7 @@ document.addEventListener("DOMContentLoaded", function () {
     'University of Aveiro - Aveiro, Portugal',
     'Imperial College London - London, United Kingdom',
     'Auburn University',
+    'Indian Institute of Technology Kanpur - Kanpur, India',
   ];
 
   boxes.forEach(box => {

@@ -152,7 +152,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       </td>
       <td>$1,000</td>
       <td>
-       TBA
+       <strong>Award for Cross-Correlative Measurements <br>& Control in Microscopy</strong>
       </td>
     </tr>
     <!-- JEOL -->
