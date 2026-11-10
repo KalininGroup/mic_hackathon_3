@@ -6,10 +6,16 @@ $header-brand-color: #FF8200;// Orange
 @import "minima";
 
 .site-header {
-    background: #1d1d1d;
-    border: none;
+    background: rgba(29, 29, 29, 0.90);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     color: #c3c3c3;
-    min-height: 80px;
+    min-height: 60px;
+    padding-top: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .site-nav {
@@ -19,7 +25,7 @@ $header-brand-color: #FF8200;// Orange
 
     .page-link {
         color: $header-brand-color;
-        line-height: 80px;
+        line-height: 55px;
         
         @include media-query($on-palm) {
             color: darken($header-brand-color, $amount: 10);
@@ -58,7 +64,7 @@ $header-brand-color: #FF8200;// Orange
         font-size: 59%;
     }
 
-    &, &:visited {
+    &, &:visited, &:hover {
         color: #fff;
     }
     

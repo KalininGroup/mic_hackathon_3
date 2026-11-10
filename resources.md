@@ -52,19 +52,9 @@ published: true
 </div>
 
 <div class="section-card">
-  <h2>Microscope Simulator</h2>
+  <h2>Microscope Simulators</h2>
   <p>
-    Please give a try to our 
-    <a href="https://github.com/pycroscopy/DTMicroscope"
-       target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
-       Microscope simulator.
-    </a>
-    Head to the 
-    <a href="https://github.com/pycroscopy/DTMicroscope/tree/main/notebooks"
-       target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
-       notebooks
-    </a>
-    section to explore how it works.
+    Discover <a href=" {{ '/digital_twins/' | relative_url }}">Digital Twin systems</a>, prepared by the various groups in the community.
   </p>
 </div>
 
@@ -115,25 +105,6 @@ published: true
 </div>
   <p style="font-size:0.9rem; color:#475467; text-align:right; margin-top:6px;">
   🎬 <em>Video credits: Utkarsh Pratiush</em>
-  </p>
-</div>
-
-<div class="section-card">
-  <h2>Understanding Digital Twins in Microscopy</h2>
-  <p>
-    Discover how machine learning is transforming microscopy research through collaborative hackathons and digital twin simulations.  
-  </p>
-
-  <div class="video-frame" style="aspect-ratio:16/9; max-width:1920px; margin:auto;">
-    <iframe 
-      src="https://drive.google.com/file/d/1rsj5udZULTyWfXn0uS3oM1ejZLT2jDjd/preview"
-      style="width:100%; height:100%; border:0; border-radius:10px;"
-      allow="autoplay; fullscreen">
-    </iframe>
-  </div>
-
-  <p style="font-size:0.9rem; color:#475467; text-align:right; margin-top:6px;">
-    🎬 <em>Video credits: Richard Liu</em>
   </p>
 </div>
 

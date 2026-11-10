@@ -113,6 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
   from { opacity: 0; transform: translateY(-5px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
 </style>
 
 <p class="hint">
@@ -165,6 +166,9 @@ document.addEventListener("DOMContentLoaded", function () {
     </fieldset>
     <fieldset>
       <legend>Where do you want to attend the hackathon? <span class="required">*</span></legend>
+      <div style="font-size: 0.9rem; margin-top: -0.8rem; margin-bottom: 0.8rem;">
+        <em>Please choose a single physical location to attend</em>
+      </div>
       <div class="checkgrid">
         <label><input type="checkbox" name="entry.1753222212" value="Online"> Online</label>
         <label><input type="checkbox" name="entry.1753222212" value="University of Tennessee, Knoxville"> University of Tennessee, Knoxville</label>
