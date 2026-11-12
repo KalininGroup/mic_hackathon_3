@@ -54,6 +54,53 @@ menu_icon: house-door
   box-shadow: 0 4px 12px rgba(235, 126, 9, 0.25);
   transform: translateY(-1px);
 }
+
+/* Countdown panel */
+.countdown-flat {
+  text-align: center;
+  margin: 24px 0;
+}
+.countdown-title {
+  font-size: 1.1rem;
+  color: #1d2a56;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.countdown-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+.time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 55px;
+}
+.time-box span {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ff8200;
+  font-variant-numeric: tabular-nums; /* Prevents text shifting */
+  line-height: 1;
+}
+.time-box small {
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 6px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.colon {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1d2a56;
+  line-height: 1;
+  padding-top: 4px;
+}
+
 </style>
 
 <div style="text-align:center; margin-top:10px;">
@@ -62,6 +109,21 @@ menu_icon: house-door
     <strong>December 15-17, 2026</strong> · Hybrid (In-person + Virtual)
   </p>
   <p style="margin-top:6px;"><a href="https://kaliningroup.github.io/mic-hackathon/">See the 2024 edition</a> · <a href="https://kaliningroup.github.io/mic_hackathon_2/">See the 2025 edition</a></p>
+</div>
+
+<!-- Countdown panel -->
+<div class="countdown-flat">
+  <h3 class="countdown-title" id="countdown-heading">Hacking starts in:</h3>
+  
+  <div id="countdown-container" class="countdown-wrapper">
+    <div class="time-box"><span id="cd-days">00</span><small>DAYS</small></div>
+    <span class="colon">:</span>
+    <div class="time-box"><span id="cd-hours">00</span><small>HOURS</small></div>
+    <span class="colon">:</span>
+    <div class="time-box"><span id="cd-mins">00</span><small>MINUTES</small></div>
+    <span class="colon">:</span>
+    <div class="time-box"><span id="cd-secs">00</span><small>SECONDS</small></div>
+  </div>
 </div>
 
 <div class="section-card">
@@ -287,3 +349,35 @@ menu_icon: house-door
 <div class="section-card" style="text-align:center;">
   <em>Join us to connect AI and microscopy — through collaboration, creativity, and open science.</em>
 </div>
+
+
+<script>
+// 1. SET YOUR DEADLINE HERE (Format: "Month DD, YYYY HH:MM:SS TZ")
+// Include the timezone (like EST or GMT) so it's accurate globally!
+const targetDate = new Date("December 15, 2026 09:00:00 EST").getTime();
+
+const countdownInterval = setInterval(function() {
+  const now = new Date().getTime();
+  const distance = targetDate - now;
+
+  // 2. WHAT HAPPENS WHEN THE TIMER HITS ZERO
+  if (distance < 0) {
+    clearInterval(countdownInterval);
+    document.getElementById("countdown-container").innerHTML = 
+      "<div style='font-size:1.4rem; color:#ff8200; font-weight:900;'>Happy Hacking!</div>";
+    return;
+  }
+
+  // 3. CALCULATE TIME UNITS
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // 4. INJECT NUMBERS WITH LEADING ZEROS (e.g. '09' instead of '9')
+  document.getElementById("cd-days").textContent = String(days).padStart(2, '0');
+  document.getElementById("cd-hours").textContent = String(hours).padStart(2, '0');
+  document.getElementById("cd-mins").textContent = String(minutes).padStart(2, '0');
+  document.getElementById("cd-secs").textContent = String(seconds).padStart(2, '0');
+}, 1000);
+</script>

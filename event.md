@@ -77,16 +77,106 @@ permalink: /event/
   font-size:14px;
   color:#444;
 }
+
+
+.clock-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); */
+  gap: 16px;
+  margin: 24px 0;
+}
+.clock-card {
+  background: #fafbfd;
+  border: 1px solid #e8ecf3;
+  border-radius: 12px;
+  padding: 10px 6px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(16,24,40,.04);
+  min-width: 110px;
+}
+.clock-city {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1d2a56;
+  margin-bottom: 4px;
+}
+.clock-time {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ff8200; 
+  font-variant-numeric: tabular-nums;
+}
+.clock-date {
+  font-size: 0.7rem;
+  color: #666;
+  margin-top: 4px;
+}
 </style>
+
+<div class="clock-container">
+  <!-- US Sites (West to East) -->
+  <div class="clock-card">
+    <div class="clock-city">Los Angeles (PST)</div>
+    <div class="clock-time" id="time-la">--:--:--</div>
+    <div class="clock-date" id="date-la">---</div>
+  </div>
+  
+  <div class="clock-card">
+    <div class="clock-city">Chicago (CST)</div>
+    <div class="clock-time" id="time-chi">--:--:--</div>
+    <div class="clock-date" id="date-chi">---</div>
+  </div>
+
+  <div class="clock-card">
+    <div class="clock-city">Knoxville (EST)</div>
+    <div class="clock-time" id="time-knox">--:--:--</div>
+    <div class="clock-date" id="date-knox">---</div>
+  </div>
+
+  <!-- Europe / Middle East -->
+  <div class="clock-card">
+    <div class="clock-city">London (GMT)</div>
+    <div class="clock-time" id="time-london">--:--:--</div>
+    <div class="clock-date" id="date-london">---</div>
+  </div>
+
+  <div class="clock-card">
+    <div class="clock-city">Berlin (CET)</div>
+    <div class="clock-time" id="time-berlin">--:--:--</div>
+    <div class="clock-date" id="date-berlin">---</div>
+  </div>
+
+  <div class="clock-card">
+    <div class="clock-city">Doha (AST)</div>
+    <div class="clock-time" id="time-doha">--:--:--</div>
+    <div class="clock-date" id="date-doha">---</div>
+  </div>
+
+  <!-- Asia -->
+  <div class="clock-card">
+    <div class="clock-city">New Delhi (IST)</div>
+    <div class="clock-time" id="time-delhi">--:--:--</div>
+    <div class="clock-date" id="date-delhi">---</div>
+  </div>
+
+  <div class="clock-card">
+    <div class="clock-city">Tokyo (JST)</div>
+    <div class="clock-time" id="time-tokyo">--:--:--</div>
+    <div class="clock-date" id="date-tokyo">---</div>
+  </div>
+</div>
+
 
 ## Hackathon 3 Participation Overview
 
 Registration for the AI/ML Microscopy Hackathon 3 is now open.
 
-Currently we received **730 registrations** in total, with participants joining from universities, national laboratories, and industry worldwide.
+Currently we received **815 registrations** in total, with participants joining from universities, national laboratories, and industry worldwide.
 
-- **Online participation:** 293 registered participants  
-- **Local site participation:** 437 participants across multiple host institutions
+- **Online participation:** 315 registered participants  
+- **Local site participation:** 500 participants across 77 host institutions
 
 This page will share live snapshots from the ongoing hackathon, including online sessions and local site activities, and will continue to be updated throughout the event.
 
@@ -158,3 +248,43 @@ This page will share live snapshots from the ongoing hackathon, including online
 })();
 </script>
 
+
+<script>
+function updateClocks() {
+  const now = new Date();
+  
+  // Setup TWO formatting options (12-hour and 24-hour)
+  const timeOptions12 = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
+  const timeOptions24 = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+  const dateOptions = { weekday: 'short', month: 'short', day: 'numeric' };
+
+  // --- 12-HOUR FORMAT CLOCKS (US) ---
+  document.getElementById('time-la').textContent = now.toLocaleTimeString('en-US', { ...timeOptions12, timeZone: 'America/Los_Angeles' });
+  document.getElementById('date-la').textContent = now.toLocaleDateString('en-US', { ...dateOptions, timeZone: 'America/Los_Angeles' });
+
+  document.getElementById('time-chi').textContent = now.toLocaleTimeString('en-US', { ...timeOptions12, timeZone: 'America/Chicago' });
+  document.getElementById('date-chi').textContent = now.toLocaleDateString('en-US', { ...dateOptions, timeZone: 'America/Chicago' });
+
+  document.getElementById('time-knox').textContent = now.toLocaleTimeString('en-US', { ...timeOptions12, timeZone: 'America/New_York' });
+  document.getElementById('date-knox').textContent = now.toLocaleDateString('en-US', { ...dateOptions, timeZone: 'America/New_York' });
+
+  // --- 24-HOUR FORMAT CLOCKS (INTERNATIONAL) ---
+  document.getElementById('time-london').textContent = now.toLocaleTimeString('en-US', { ...timeOptions24, timeZone: 'Europe/London' });
+  document.getElementById('date-london').textContent = now.toLocaleDateString('en-US', { ...dateOptions, timeZone: 'Europe/London' });
+
+  document.getElementById('time-berlin').textContent = now.toLocaleTimeString('en-US', { ...timeOptions24, timeZone: 'Europe/Berlin' });
+  document.getElementById('date-berlin').textContent = now.toLocaleDateString('en-US', { ...dateOptions, timeZone: 'Europe/Berlin' });
+
+  document.getElementById('time-doha').textContent = now.toLocaleTimeString('en-US', { ...timeOptions24, timeZone: 'Asia/Qatar' });
+  document.getElementById('date-doha').textContent = now.toLocaleDateString('en-US', { ...dateOptions, timeZone: 'Asia/Qatar' });
+
+  document.getElementById('time-delhi').textContent = now.toLocaleTimeString('en-US', { ...timeOptions24, timeZone: 'Asia/Kolkata' });
+  document.getElementById('date-delhi').textContent = now.toLocaleDateString('en-US', { ...dateOptions, timeZone: 'Asia/Kolkata' });
+
+  document.getElementById('time-tokyo').textContent = now.toLocaleTimeString('en-US', { ...timeOptions24, timeZone: 'Asia/Tokyo' });
+  document.getElementById('date-tokyo').textContent = now.toLocaleDateString('en-US', { ...dateOptions, timeZone: 'Asia/Tokyo' });
+}
+
+updateClocks();
+setInterval(updateClocks, 1000);
+</script>
