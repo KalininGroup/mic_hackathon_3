@@ -226,6 +226,7 @@ menu_icon: house-door
     <div>AISCIA Informatics, Qatar</div>
     <div>Indian Institute of Science, India</div>
     <div>Indian Institute of Technology Delhi, India</div>
+    <div>Indian Institute of Technology Hyderabad, India</div>
     <div>Indian Institute of Technology Kanpur, India</div>
     <div>Kanazawa University, Japan</div>
     <div>Korea Advanced Institute of Science & Technology (KAIST), Republic of Korea</div>
