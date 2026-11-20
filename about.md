@@ -434,6 +434,7 @@ published: true
     <img src="{{ '/assets/DENS.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/waviks.png' | relative_url }}"  style="max-height:48px;">
     <img src="{{ '/assets/C-Labs.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/msa_stc.png' | relative_url }}"  style="max-height:64px;">
   </div>
 
   <!-- <p style="margin-top:20px;"><strong>Partners</strong></p>

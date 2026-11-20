@@ -238,7 +238,19 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       </td>
       <td>$1,000</td>
       <td>
-        TBA
+        <strong>Outstanding application of AI to microscopy</strong>
+      </td>
+    </tr>
+    <!-- MSA Student Council -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://microscopy.org/the-student-council-stc/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/msa_stc.png' | relative_url }}" alt="MSA Student Council" style="max-height:55px;">
+        </a>
+      </td>
+      <td>$500 + Student registration to <br>MSA 2027 PMC</td>
+      <td>
+        <strong>The best student team</strong>
       </td>
     </tr>
     <!-- University of Illinois Urbana-Champaign - local award -->

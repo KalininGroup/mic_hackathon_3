@@ -61,8 +61,10 @@ published: true
     <a href="https://advanced-em.github.io/TEM-view/"
        target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
        Seeing with Electrons
-    </a><br>
-     A real transmission electron microscope. Find alignment guids and procedures here: 
+    </a>
+     - a real transmission electron microscope. <br>
+     The platform combines realistic microscope controls with Python scripting, MCP connectivity, and agent-based automation, making it a powerful environment for training, digital-twin development, and microscopy AI challenges.<br>
+     Find alignment guids and procedures here: 
     <a href="https://advanced-em.github.io/TEM-view/docs/guides/"
        target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
        Procedures and guides.
@@ -80,6 +82,19 @@ published: true
     </a>
       provides a ready-to-use environment for digital twins, AI agents, workflow automation, and microscopy innovation.<br>
      <em>Availability: The Digital Twin and Playground App are currently under active development. The team is preparing a public release and documentation, with additional details and access information to be shared once available.</em>
+  </p>
+</div>
+
+<div class="section-card">
+  <h2>Virtual SEM Simulator by Diogo Aguiam and Joana D. Santos, International Iberian Nanotechnology Laboratory.</h2>
+  <p>
+    The
+    <a href="https://virtual-sem.bracara-photonics.com/"
+       target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
+       Virtual SEM Simulator
+    </a>
+       is an interactive training platform designed to help researchers learn and practice scanning electron microscopy (SEM) operation in a realistic, risk-free environment.<br>
+       The platform is designed for microscopy education and is being extended as a testbed for AI microscope operators, enabling reproducible evaluation through API-driven challenges, automated scoring, and hidden ground truth.
   </p>
 </div>
 

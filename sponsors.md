@@ -227,9 +227,15 @@ permalink: /sponsors/
   </a>
 
 <!-- NTT DATA -->
-  <a href="nttdataservices.com" class="sponsor-logo-card" target="_blank" rel="noopener" title="NTT DATA">
+  <a href="https://www.nttdata.com/en-us" class="sponsor-logo-card" target="_blank" rel="noopener" title="NTT DATA">
     <img src="{{ '/assets/nttdata.svg' | relative_url }}" alt="NTT DATA">
   </a>
+
+<!-- MSA Student Council -->
+  <a href="https://microscopy.org/the-student-council-stc/" class="sponsor-logo-card" target="_blank" rel="noopener" title="MSA Student Counci">
+    <img src="{{ '/assets/msa_stc.png' | relative_url }}" alt="MSA Student Counci">
+  </a>
+
 
 <!-- COMMAT -->
   <a href="https://www.sciencedirect.com/journal/computational-materials-science" class="sponsor-logo-card" target="_blank" rel="noopener" title="Computational Material Science">
