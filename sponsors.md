@@ -157,9 +157,9 @@ permalink: /sponsors/
   </a>
 
   <!-- Renaissance Philanthropy -->
-  <a href="https://www.renaissancephilanthropy.org/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Renaissance Philanthropy">
+  <!-- <a href="https://www.renaissancephilanthropy.org/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Renaissance Philanthropy">
     <img src="{{ '/assets/renaissance.png' | relative_url }}" alt="Renaissance Philanthropy Logo">
-  </a>
+  </a> -->
 
   <!-- Nanosurf -->
   <a href="https://www.nanosurf.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Nanosurf">

@@ -167,6 +167,7 @@ published: true
     { id:"site-auburn", name:"Auburn University", city:"Auburn, AL, USA", lat:32.598062, lon:-85.494313 },
     { id:"site-iitk", name:"Indian Institute of Technology Kanpur", city:"Kanpur, India", lat:26.512313, lon:80.233312 },
     { id:"site-iith", name:"Indian Institute of Technology Hyderabad", city:"Hyderabad, India", lat:17.594687, lon:78.123063 },
+    { id:"site-tfs", name:"Thermo Fisher Scientific – Eindhoven", city:"Eindhoven, Netherlands", lat:51.469218, lon:5.421370 },
   ]
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -657,9 +658,9 @@ published: true
       <h3>University of Connecticut</h3>
       <img class="site-logo" src="{{ '/assets/uconn.svg' | relative_url }}" alt="University of Connecticut logo" style="max-height:64px;">
       <div class="site-meta">
-        Mansfield, CT • Building/Room: <em>TBA</em><br>
-        Contact: TBA
-        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+        Mansfield, CT • Building/Room: Science 1 Research Center, UConn Storrs, Dec 15: Room 1002, Dec 16–17: Room G01<br>
+        Contact: Meltem Bolluk
+        <br><a href="mailto:meltem.bolluk@uconn.edu">meltem.bolluk@uconn.edu</a>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=University%20of%20Connecticut" target="_blank" rel="noopener">Map</a>
@@ -1166,6 +1167,21 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=Technical%20University%20of%20Darmstadt" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=Technical%20University%20of%20Darmstadt%20-%20Darmstadt,%20Germany" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- Thermo Fisher Scientific – Eindhoven, Neitherlands -->
+    <div class="site-card" id="site-tfs">
+      <span class="badge">Netherlands</span>
+      <h3>Thermo Fisher Scientific – Eindhoven</h3>
+      <img class="site-logo" src="{{ '/assets/tf_logo.png' | relative_url }}" alt="Thermo Fisher Scientific logo" style="max-height:64px;">
+      <div class="site-meta">
+        Eindhoven, Netherlands • Building/Room: <em>TBD</em><br>
+        Contact: <em>TBD</em>
+        <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=Thermo%20Fisher%20Scientific%20Eindhoven" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=Thermo%20Fisher%20Scientific%20-%20Eindhoven,%20Neitherlands" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- Manchester Uni -->

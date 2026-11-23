@@ -60,7 +60,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
 
   <tbody>
     <!-- Renaissance Philanthropy -->
-    <tr>
+    <!-- <tr>
       <td rowspan="1" style="text-align:center; vertical-align:middle;">
         <a href="https://www.renaissancephilanthropy.org" target="_blank" rel="noopener">
           <img src="{{ '/assets/renaissance.png' | relative_url }}" alt="Renaissance Philanthropy" style="max-height:75px;">
@@ -70,7 +70,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       <td>
        TBA
       </td>
-    </tr>
+    </tr> -->
     <!-- Covalent Metrology -->
     <tr>
       <td rowspan="1" style="text-align:center; vertical-align:middle;">
