@@ -168,6 +168,7 @@ published: true
     { id:"site-iitk", name:"Indian Institute of Technology Kanpur", city:"Kanpur, India", lat:26.512313, lon:80.233312 },
     { id:"site-iith", name:"Indian Institute of Technology Hyderabad", city:"Hyderabad, India", lat:17.594687, lon:78.123063 },
     { id:"site-tfs", name:"Thermo Fisher Scientific – Eindhoven", city:"Eindhoven, Netherlands", lat:51.469218, lon:5.421370 },
+    { id:"site-biosense", name:"BioSense Institute", city:"Novi Sad, Serbia", lat:45.244937, lon:19.854312 },
   ]
 
   const map = L.map('worldmap', { scrollWheelZoom: false });
@@ -895,6 +896,21 @@ published: true
       <div class="site-actions">
         <a href="https://maps.google.com/?q=FELMI-ZFE" target="_blank" rel="noopener">Map</a>
         <a href="{{ '/registration/' | relative_url }}?site=Austrian%20Centre%20for%20Electron%20Microscopy%20and%20Nanoanalysis%20(FELMI-ZFE)%20-%20Graz,%20Austria" class="btn-primary">Register</a>
+      </div>
+    </div>
+    <!-- BioSense Institute - Novi Sad, Serbia -->
+    <div class="site-card" id="site-biosense">
+      <span class="badge">Serbia</span>
+      <h3>BioSense Institute</h3>
+      <img class="site-logo" src="{{ '/assets/biosense.png' | relative_url }}" alt="BioSense Institute logo" style="max-height:64px;">
+      <div class="site-meta">
+        Novi Sad, Serbia • Building/Room: <em>TBA</em><br>
+        Contact: Elizaveta Pavlova
+        <br><a href="mailto:elizaveta.pavlova@biosense.rs">elizaveta.pavlova@biosense.rs</a>
+      </div>
+      <div class="site-actions">
+        <a href="https://maps.google.com/?q=BioSense%20Institute%20Novi%20Sad%20Serbia" target="_blank" rel="noopener">Map</a>
+        <a href="{{ '/registration/' | relative_url }}?site=BioSense%20Institute%20-%20Novi%20Sad,%20Serbia" class="btn-primary">Register</a>
       </div>
     </div>
     <!-- Chalmers University of Technology - Gothenburg, Sweden -->

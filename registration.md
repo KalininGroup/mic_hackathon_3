@@ -178,6 +178,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <label><input type="checkbox" name="entry.1753222212" value="Auburn University"> Auburn University</label>
         <label><input type="checkbox" name="entry.1753222212" value="Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria"> Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE) - Graz, Austria</label>
         <label><input type="checkbox" name="entry.1753222212" value="Baylor University"> Baylor University</label>
+        <label><input type="checkbox" name="entry.1753222212" value="BioSense Institute - Novi Sad, Serbia"> BioSense Institute - Novi Sad, Serbia</label>
         <label><input type="checkbox" name="entry.1753222212" value="California Institute of Technology"> California Institute of Technology</label>
         <label><input type="checkbox" name="entry.1753222212" value="California NanoSystems Institute, University of California, Santa Barbara"> California NanoSystems Institute, University of California, Santa Barbara</label>
         <label><input type="checkbox" name="entry.1753222212" value="Center for Integrated Nanotechnologies (CINT)"> Center for Integrated Nanotechnologies (CINT)</label>
@@ -404,6 +405,7 @@ document.addEventListener("DOMContentLoaded", function () {
     'Indian Institute of Technology Kanpur - Kanpur, India',
     'Indian Institute of Technology Hyderabad - Hyderabad, India',
     'Thermo Fisher Scientific - Eindhoven, Neitherlands',
+    'BioSense Institute - Novi Sad, Serbia',
   ];
 
   boxes.forEach(box => {

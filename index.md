@@ -192,6 +192,7 @@ menu_icon: house-door
   <div class="grid-2" style="margin-top:10px;">
     <div>Aarhus University, Denmark</div>
     <div>Austrian Centre for Electron Microscopy and Nanoanalysis (FELMI-ZFE), Austria</div>
+    <div>BioSense Institute, Serbia</div>
     <div>Chalmers University of Technology, Sweden</div>
     <div>Constructor University, Germany</div>
     <div>Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons, Germany</div>
