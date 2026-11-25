@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang='en'><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
@@ -12,14 +12,14 @@
 <link rel="canonical" href="http://localhost:4000/awards/" />
 <meta property="og:url" content="http://localhost:4000/awards/" />
 <meta property="og:site_name" content="Microscopy Hackathon 3" />
-<meta property="og:image" content="http://localhost:4000/assets/advert.png" />
+<meta property="og:image" content="http://localhost:4000/assets/logo.png" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="http://localhost:4000/assets/advert.png" />
+<meta property="twitter:image" content="http://localhost:4000/assets/logo.png" />
 <meta property="twitter:title" content="Awards" />
 <meta name="twitter:site" content="@" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A global multi-site hackathon focused on AI, machine learning, digital twins, and autonomous microscopy. Participants collaborate across universities, national labs, and industry partners to build data-driven solutions for microscopy and materials science.","headline":"Awards","image":"http://localhost:4000/assets/advert.png","url":"http://localhost:4000/awards/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"A global multi-site hackathon focused on AI, machine learning, digital twins, and autonomous microscopy. Participants collaborate across universities, national labs, and industry partners to build data-driven solutions for microscopy and materials science.","headline":"Awards","image":"http://localhost:4000/assets/logo.png","url":"http://localhost:4000/awards/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Microscopy Hackathon 3" /></head>
 <body><header class="site-header" role="banner">
@@ -130,6 +130,23 @@
 .private-banner{
   background:#fff8e1; border:1px solid #ffe58f; border-radius:10px;
   padding:10px 14px; color:#7a5900; font-size:.9rem; margin-top:10px;
+}
+
+.site-logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.site-logo-row img {
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  padding: 8px 14px;
+  border: 1px solid #e6e6e6;
 }
 </style>
 
@@ -257,7 +274,7 @@
       </td>
       <td>$1,000</td>
       <td>
-        TBA
+        <strong>JEOL Award</strong>
       </td>
     </tr>
     <!-- DECTRIS -->
@@ -296,32 +313,6 @@
         TBA
       </td>
     </tr>
-    <!-- Waviks -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://www.waviks.com" target="_blank" rel="noopener">
-          <img src="/assets/waviks.png" alt="Waviks" style="max-height:35px;" />
-        </a>
-      </td>
-      <td>
-       <i>TBA</i>
-      </td>
-      <td>
-       <i>TBA</i>
-      </td>
-    </tr>
-    <!-- DENS Solutions -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://denssolutions.com" target="_blank" rel="noopener">
-          <img src="/assets/DENS.png" alt="DENS Solutions" style="max-height:55px;" />
-        </a>
-      </td>
-      <td>Gin-Situ</td>
-      <td>
-       <strong>Mystery Prize</strong>
-      </td>
-    </tr>
     <!-- Theia Scientific -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -341,9 +332,52 @@
           <img src="/assets/msa_stc.png" alt="MSA Student Council" style="max-height:55px;" />
         </a>
       </td>
-      <td>$500 + Student registration to <br />MSA 2027 PMC</td>
+      <td>$500 + Student registration to <br />MSA 2027 PMC (Pittsburgh)</td>
       <td>
         <strong>The best student team</strong>
+      </td>
+    </tr>
+    <!-- Waviks -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://www.waviks.com" target="_blank" rel="noopener">
+          <img src="/assets/waviks.png" alt="Waviks" style="max-height:35px;" />
+        </a>
+      </td>
+      <td>
+       $500
+      </td>
+      <td>
+       <strong>Waviks Award</strong>
+      </td>
+    </tr>
+    <!-- DENS Solutions -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://denssolutions.com" target="_blank" rel="noopener">
+          <img src="/assets/DENS.png" alt="DENS Solutions" style="max-height:55px;" />
+        </a>
+      </td>
+      <td>Gin-Situ</td>
+      <td>
+       <strong>Mystery Prize</strong>
+      </td>
+    </tr>
+    <!-- EPFL - local award -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <div class="site-logo-row">
+          <a href="https://www.epfl.ch/research/domains/bioengineering/" target="_blank" rel="noopener">
+            <img src="/assets/EPFL_BioEngineering.png" alt="Institute of Bioengineering (IBI) – EPFL" style="max-height:55px;" />
+          </a>
+          <a href="https://www.eurobioimaging.eu/" target="_blank" rel="noopener">
+            <img src="/assets/EPFL_Eurobioimaging.png" alt="Euro Bioimaging" style="max-height:55px;" />
+          </a>
+        </div>  
+      </td>
+      <td>400 CHF</td>
+      <td>
+        <strong>The best solution at EPFL</strong>
       </td>
     </tr>
     <!-- University of Illinois Urbana-Champaign - local award -->

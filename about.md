@@ -415,7 +415,7 @@ published: true
 
   <p><strong>Sponsors</strong></p>
   <p>
-    Our primary sponsors provide critical support for enabling open, collaborative AI-driven microscopy:
+    Our sponsors provide critical support for enabling open, collaborative AI-driven microscopy:
   </p> 
   <div class="logo-row" style="margin-top:10px;">    
     <!-- <img src="{{ '/assets/renaissance.png' | relative_url }}"  style="max-height:64px;"> -->
@@ -423,18 +423,25 @@ published: true
     <img src="{{ '/assets/nttdata.svg' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/QD.svg' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/parksystems.svg' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/nanosurf.svg' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/asylum.png' | relative_url }}"  style="max-height:34px;">
     <img src="{{ '/assets/Jeol.png' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/tf_logo.svg' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/Anthropic.svg' | relative_url }}"  style="max-height:24px;">
+    <img src="{{ '/assets/nanosurf.svg' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/asylum.png' | relative_url }}"  style="max-height:38px;">
+    <img src="{{ '/assets/Anthropic.svg' | relative_url }}"  style="max-height:28px;">
+    <img src="{{ '/assets/TheiaScientific.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/zhinst.svg' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/DECTRIS.png' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/TheiaScientific.png' | relative_url }}"  style="max-height:64px;"><br>
+    <img src="{{ '/assets/waviks.png' | relative_url }}"  style="max-height:44px;">
+    <img src="{{ '/assets/tf_logo.svg' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/DENS.png' | relative_url }}"  style="max-height:64px;">
-    <img src="{{ '/assets/waviks.png' | relative_url }}"  style="max-height:48px;">
     <img src="{{ '/assets/C-Labs.png' | relative_url }}"  style="max-height:64px;">
     <img src="{{ '/assets/msa_stc.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/gatan.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/commat.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/hitachi.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/EPFL_Eurobioimaging.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/EPFL_BioEngineering.png' | relative_url }}"  style="max-height:64px;">
+    <img src="{{ '/assets/EPFL-AI-Center.svg' | relative_url }}"  style="max-height:44px;">
+    <img src="{{ '/assets/EPFL-Center-for-Imaging.svg' | relative_url }}"  style="max-height:64px;">
   </div>
 
   <!-- <p style="margin-top:20px;"><strong>Partners</strong></p>

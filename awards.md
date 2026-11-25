@@ -38,6 +38,23 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
   background:#fff8e1; border:1px solid #ffe58f; border-radius:10px;
   padding:10px 14px; color:#7a5900; font-size:.9rem; margin-top:10px;
 }
+
+.site-logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.site-logo-row img {
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  padding: 8px 14px;
+  border: 1px solid #e6e6e6;
+}
 </style>
 
 <div class="section-card">
@@ -164,7 +181,7 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
       </td>
       <td>$1,000</td>
       <td>
-        TBA
+        <strong>JEOL Award</strong>
       </td>
     </tr>
     <!-- DECTRIS -->
@@ -203,32 +220,6 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
         TBA
       </td>
     </tr>
-    <!-- Waviks -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://www.waviks.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/waviks.png' | relative_url }}" alt="Waviks" style="max-height:35px;">
-        </a>
-      </td>
-      <td>
-       <i>TBA</i>
-      </td>
-      <td>
-       <i>TBA</i>
-      </td>
-    </tr>
-    <!-- DENS Solutions -->
-    <tr>
-      <td style="text-align:center; vertical-align:middle;">
-        <a href="https://denssolutions.com" target="_blank" rel="noopener">
-          <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENS Solutions" style="max-height:55px;">
-        </a>
-      </td>
-      <td>Gin-Situ</td>
-      <td>
-       <strong>Mystery Prize</strong>
-      </td>
-    </tr>
     <!-- Theia Scientific -->
     <tr>
       <td style="text-align:center; vertical-align:middle;">
@@ -248,9 +239,52 @@ nav_order: 40          # adjust position in the menu (lower = earlier)
           <img src="{{ '/assets/msa_stc.png' | relative_url }}" alt="MSA Student Council" style="max-height:55px;">
         </a>
       </td>
-      <td>$500 + Student registration to <br>MSA 2027 PMC</td>
+      <td>$500 + Student registration to <br>MSA 2027 PMC (Pittsburgh)</td>
       <td>
         <strong>The best student team</strong>
+      </td>
+    </tr>
+    <!-- Waviks -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://www.waviks.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/waviks.png' | relative_url }}" alt="Waviks" style="max-height:35px;">
+        </a>
+      </td>
+      <td>
+       $500
+      </td>
+      <td>
+       <strong>Waviks Award</strong>
+      </td>
+    </tr>
+    <!-- DENS Solutions -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <a href="https://denssolutions.com" target="_blank" rel="noopener">
+          <img src="{{ '/assets/DENS.png' | relative_url }}" alt="DENS Solutions" style="max-height:55px;">
+        </a>
+      </td>
+      <td>Gin-Situ</td>
+      <td>
+       <strong>Mystery Prize</strong>
+      </td>
+    </tr>
+    <!-- EPFL - local award -->
+    <tr>
+      <td style="text-align:center; vertical-align:middle;">
+        <div class="site-logo-row">
+          <a href="https://www.epfl.ch/research/domains/bioengineering/" target="_blank" rel="noopener">
+            <img src="{{ '/assets/EPFL_BioEngineering.png' | relative_url }}" alt="Institute of Bioengineering (IBI) – EPFL" style="max-height:55px;">
+          </a>
+          <a href="https://www.eurobioimaging.eu/" target="_blank" rel="noopener">
+            <img src="{{ '/assets/EPFL_Eurobioimaging.png' | relative_url }}" alt="Euro Bioimaging" style="max-height:55px;">
+          </a>
+        </div>  
+      </td>
+      <td>400 CHF</td>
+      <td>
+        <strong>The best solution at EPFL</strong>
       </td>
     </tr>
     <!-- University of Illinois Urbana-Champaign - local award -->

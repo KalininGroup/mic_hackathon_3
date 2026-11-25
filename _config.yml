@@ -67,7 +67,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/advert.png
+      image: /assets/logo.png
   - scope:
       path: ""
       type: "projects"

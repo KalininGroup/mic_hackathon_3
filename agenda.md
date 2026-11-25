@@ -55,11 +55,9 @@ nav_exclude: false
     <li>
       <span class="agenda-time">9:20–9:45 AM EST</span>
       <strong>Sponsor Talks:</strong>
-        <span class="sponsor-pill">PatricK Hays – MSA Student Counci</span>
+        <span class="sponsor-pill">Kamyar Barakati – MSA Student Counci</span>
       <!-- <div class="sponsors">
         <span class="sponsor-pill">John Phipps – Institute for Advanced Materials & Manufacturing, UTK</span>
-        <span class="sponsor-pill">Tom Kalil & Charles Yang – Renaissance Philanthropy</span>
-        <span class="sponsor-pill">Antti Makinen – Office of Naval Research</span>
         <span class="sponsor-pill">Craig Hunter – Covalent</span>
       </div> -->
     </li>

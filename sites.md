@@ -1164,6 +1164,7 @@ published: true
         Lausanne, Switzerland • Building/Room: <em>TBA</em><br>
         Contact: <em>TBA</em>
         <!--<br><a href="mailto:EMAIL">EMAIL</a> -->
+        <br><em>Limited to 50 registered participants.</em>
       </div>
       <div class="site-actions">
         <a href="https://maps.google.com/?q=EPFL" target="_blank" rel="noopener">Map</a>

@@ -48,7 +48,7 @@ permalink: /sponsors/
 /* --- Sponsor Logo Grid --- */
 .sponsor-tier-title {
   text-align: center;
-  margin: 3rem 0 1.5rem;
+  margin: 2.5rem 0 1.25rem;
   color: #1d2a56;
   font-weight: 700;
 }
@@ -57,32 +57,50 @@ permalink: /sponsors/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
-  margin-bottom: 3rem;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .sponsor-logo-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  gap: 8px;
   background: #fff;
   border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 1.5rem;
-  width: 260px;
+  border-radius: 10px;
+  padding: 12px 14px 10px;
+  width: 210px;
   height: 120px;
+  box-sizing: border-box;
+  text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .sponsor-logo-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-decoration: none;
 }
 
 .sponsor-logo-card img {
+  margin: auto 0;
   max-width: 100%;
   max-height: 100%;
+  min-height: 0;
   object-fit: contain;
+}
+
+.sponsor-site-tag {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #475569;
+  background: #f1f5f9;
+  border-radius: 999px;
+  padding: 2px 8px;
+  line-height: 1.2;
+  white-space: nowrap;
 }
 
 /* --- Call to Action Banner --- */
@@ -151,11 +169,6 @@ permalink: /sponsors/
 <h2 class="sponsor-tier-title">Our Generous Sponsors</h2>
 
 <div class="sponsor-grid">
-  <!-- Thermo Fisher -->
-  <a href="https://www.thermofisher.com" class="sponsor-logo-card" target="_blank" rel="noopener" title="Thermo Fisher Scientific">
-    <img src="{{ '/assets/tf_logo.svg' | relative_url }}" alt="Thermo Fisher Scientific Logo">
-  </a>
-
   <!-- Renaissance Philanthropy -->
   <!-- <a href="https://www.renaissancephilanthropy.org/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Renaissance Philanthropy">
     <img src="{{ '/assets/renaissance.png' | relative_url }}" alt="Renaissance Philanthropy Logo">
@@ -236,21 +249,54 @@ permalink: /sponsors/
     <img src="{{ '/assets/msa_stc.png' | relative_url }}" alt="MSA Student Counci">
   </a>
 
-
 <!-- COMMAT -->
   <a href="https://www.sciencedirect.com/journal/computational-materials-science" class="sponsor-logo-card" target="_blank" rel="noopener" title="Computational Material Science">
-    <img src="{{ '/assets/commat.png' | relative_url }}" alt="Computational Material Science">
-  </a>
-  
+    <img src="{{ '/assets/commat.png' | relative_url }}" alt="Computational Material Science">    
+    <span class="sponsor-site-tag">Toronto</span>
+  </a>  
 <!-- Hitachi -->
   <a href="https://www.hitachi-hightech.com/ca/en/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Hitachi High-Tech Canada Inc.">
     <img src="{{ '/assets/hitachi.png' | relative_url }}" alt="Hitachi High-Tech Canada Inc.">
+    <span class="sponsor-site-tag">Toronto</span>
+  </a>
+
+<!-- Thermo Fisher -->
+  <a href="https://www.thermofisher.com" class="sponsor-logo-card" target="_blank" rel="noopener" title="Thermo Fisher Scientific">
+    <img src="{{ '/assets/tf_logo.svg' | relative_url }}" alt="Thermo Fisher Scientific Logo">
+    <div style="display:flex; gap:6px; justify-content:center; flex-wrap:wrap;">
+      <span class="sponsor-site-tag">Eindhoven</span>
+      <span class="sponsor-site-tag">Tokyo</span>
+    </div>
   </a>
 
 <!-- Gatan Ametek -->
   <a href="https://www.gatan.com/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Gatan AMETEK">
-    <img src="{{ '/assets/gatan.png' | relative_url }}" alt="Gatan AMETEK">
+    <img src="{{ '/assets/gatan.png' | relative_url }}" alt="Gatan AMETEK">    
+    <span class="sponsor-site-tag">Tokyo</span>
   </a>
+
+<!-- Euro Bioimaging -->
+  <a href="https://www.eurobioimaging.eu/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Euro Bioimaging">
+    <img src="{{ '/assets/EPFL_Eurobioimaging.png' | relative_url }}" alt="Euro Bioimaging">    
+    <span class="sponsor-site-tag">Lausanne</span>
+  </a>
+<!-- Institute of Bioengineering (IBI) – EPFL -->
+  <a href="https://www.epfl.ch/research/domains/bioengineering/" class="sponsor-logo-card" target="_blank" rel="noopener" title="Institute of Bioengineering (IBI) – EPFL">
+    <img src="{{ '/assets/EPFL_BioEngineering.png' | relative_url }}" alt="Institute of Bioengineering (IBI) – EPFL">    
+    <span class="sponsor-site-tag">Lausanne</span>
+  </a>
+<!-- EPFL AI center -->
+  <a href="https://ai.epfl.ch/" class="sponsor-logo-card" target="_blank" rel="noopener" title="EPFL AI center">
+    <img src="{{ '/assets/EPFL-AI-Center.svg' | relative_url }}" alt="EPFL AI center" style="max-height:35px;">    
+    <span class="sponsor-site-tag">Lausanne</span>
+  </a>
+<!-- EPFL Center for Imaging -->
+  <a href="https://imaging.epfl.ch/" class="sponsor-logo-card" target="_blank" rel="noopener" title="EPFL Center for Imaging">
+    <img src="{{ '/assets/EPFL-Center-for-Imaging.svg' | relative_url }}" alt="EPFL Center for Imaging">    
+    <span class="sponsor-site-tag">Lausanne</span>
+  </a>
+  
+</div>
 
 <div class="cta-banner">
   <h3>More sponsors to be announced soon!</h3>
