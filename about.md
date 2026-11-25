@@ -454,7 +454,7 @@ published: true
     <div>
       <strong>Join the Community</strong><br>
       Connect on Slack, meet collaborators, and find a team.
-      <div style="margin-top:6px;"><a href="https://join.slack.com/t/mic-hackathon/shared_invite/zt-4eca4foub-usW~xHx4PHcQcZC3aDvVvQ">Join the Slack workspace</a></div>
+      <div style="margin-top:6px;"><a href="https://join.slack.com/t/mic-hackathon/shared_invite/zt-4ikv3r6zk-3bv~CIq132fMCQ0kNvct5A">Join the Slack workspace</a></div>
     </div>
     <div>
       <strong>Participate</strong><br>

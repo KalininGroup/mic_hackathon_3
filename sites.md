@@ -1172,7 +1172,7 @@ published: true
     <!-- Thermo Fisher Scientific – Eindhoven, Neitherlands -->
     <div class="site-card" id="site-tfs">
       <span class="badge">Netherlands</span>
-      <h3>Thermo Fisher Scientific – Eindhoven</h3>
+      <h3>Thermo Fisher Scientific - Eindhoven</h3>
       <img class="site-logo" src="{{ '/assets/tf_logo.png' | relative_url }}" alt="Thermo Fisher Scientific logo" style="max-height:64px;">
       <div class="site-meta">
         Eindhoven, Netherlands • Building/Room: <em>TBD</em><br>
